@@ -890,9 +890,240 @@
     "pageTitle": "KINDAI GRAFFITI｜近畿大学",
     "capturedAt": 1792638596621
    },
-   "parts": [],
+   "parts": [
+    {
+     "id": "kindai-graffiti-01",
+     "category": "hero",
+     "also": [
+      "header",
+      "slider",
+      "visual"
+     ],
+     "label": "メインビジュアル（背表紙のように並ぶ記事カード＋ヘッダー＋ハッシュタグ帯）",
+     "note": "中央の大きな記事カードの左右に背表紙のような縦長カードを奥へ向かって並べ、オレンジの吹き出しで記事名を示し、背景の巨大な斜体「KINDAI GRAFFITI」と蛍光イエローの縦帯、下端を流れるハッシュタグのピルで賑やかさを出している。",
+     "file": "captures/kindai-graffiti/parts/01-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 760
+     }
+    },
+    {
+     "id": "kindai-graffiti-02",
+     "category": "pickup",
+     "also": [
+      "slider",
+      "card"
+     ],
+     "label": "RECOMMEND（楕円の線に沿って並ぶおすすめ記事カードのスライダー）",
+     "note": "ハイコントラストなセリフ体の英字見出しの背後に放射線の飾りを置き、縦長の記事カードを細い楕円の線に沿って高さを変えながら並べ、左右に黒丸の矢印ボタンを配している。",
+     "file": "captures/kindai-graffiti/parts/02-pickup.jpg",
+     "rect": {
+      "x": 95,
+      "y": 774,
+      "w": 1250,
+      "h": 532
+     }
+    },
+    {
+     "id": "kindai-graffiti-03",
+     "category": "ranking",
+     "also": [
+      "pickup",
+      "news"
+     ],
+     "label": "人気記事リスト＋流れるコピー帯（RECOMMEND直下）",
+     "note": "「飾らない日常を公開中。」のコピーが流れる帯で区切った水色の面に、影付きの紫の楕円ラベル「人気記事」と、罫線で区切った見出し・説明文・角丸サムネイルのリストを並べ、縦書きの「もっとみる」を添えている。",
+     "file": "captures/kindai-graffiti/parts/03-ranking.jpg",
+     "rect": {
+      "x": 0,
+      "y": 777,
+      "w": 1440,
+      "h": 1155
+     }
+    },
+    {
+     "id": "kindai-graffiti-04",
+     "category": "cta",
+     "also": [
+      "slider"
+     ],
+     "label": "Instagram誘導（Follow @kindai_graffiti の投稿スライダー）",
+     "note": "グレーの帯の上辺にInstagramアイコン付きの太い英字見出しをまたがせ、投稿画像を4枚並べて黒丸の矢印と小さなドットのページャーで送る。",
+     "file": "captures/kindai-graffiti/parts/04-cta.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1931,
+      "w": 1440,
+      "h": 513
+     }
+    },
+    {
+     "id": "kindai-graffiti-05",
+     "category": "slider",
+     "also": [
+      "visual",
+      "card"
+     ],
+     "label": "Kindai-jin SNAP（学生スナップの横スライダー）",
+     "note": "塗りと白抜きを交互に繰り返す巨大な英字見出しの下に、切り抜きの全身写真と手書き風の縦書きコメント、学部・名前・今日のポイント・価格のキャプションを並べている。",
+     "file": "captures/kindai-graffiti/parts/05-slider.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2443,
+      "w": 1440,
+      "h": 935
+     }
+    },
+    {
+     "id": "kindai-graffiti-06",
+     "category": "banner",
+     "also": [
+      "voice"
+     ],
+     "label": "KINDAI VOICE 在学生編バナー",
+     "note": "ホワイトボードに手書きした志望理由を掲げる学生の写真をタイル状に敷き詰め、中央を蛍光イエローの縦帯で抜いて極太の「KINDAI」と斜線模様の「VOICE」を置いている。",
+     "file": "captures/kindai-graffiti/parts/06-banner.jpg",
+     "rect": {
+      "x": 0,
+      "y": 3411,
+      "w": 1440,
+      "h": 473
+     }
+    },
+    {
+     "id": "kindai-graffiti-07",
+     "category": "features",
+     "also": [
+      "visual",
+      "card"
+     ],
+     "label": "KINDAI SELFIE（キャンパスの映えスポット写真コラージュ）",
+     "note": "黄・青・ピンク・緑の色ブロックと星形の飾りの上に、自撮り写真のカードをばらばらの位置とサイズで重ね、黒ラベルのスポット名と丸い矢印、マスコットキャラクターを散らしたコラージュ構成。",
+     "file": "captures/kindai-graffiti/parts/07-features.jpg",
+     "rect": {
+      "x": 0,
+      "y": 3951,
+      "w": 1440,
+      "h": 554
+     }
+    },
+    {
+     "id": "kindai-graffiti-08",
+     "category": "banner",
+     "also": [
+      "visual"
+     ],
+     "label": "時間割＆バッグの中身 大調査！バナー",
+     "note": "方眼紙風の角丸パネルに蛍光イエロー・オレンジ・紫・青の色面をタイル状に組み、切り抜きの学生や小物の写真をはみ出させ、青い三角の連なりで右へ視線を送っている。",
+     "file": "captures/kindai-graffiti/parts/08-banner.jpg",
+     "rect": {
+      "x": 0,
+      "y": 4538,
+      "w": 1440,
+      "h": 474
+     }
+    },
+    {
+     "id": "kindai-graffiti-09",
+     "category": "banner",
+     "also": [
+      "visual"
+     ],
+     "label": "近大人 RooM GALLERY バナー",
+     "note": "左右をピンクと青紫に塗り分け、上下に「コレがリアルな近大生の部屋」の文字を繰り返した帯を入れ、角丸の部屋写真2枚と吹き出し形の番号ラベル、影付きの斜めのロゴを中央に重ねている。",
+     "file": "captures/kindai-graffiti/parts/09-banner.jpg",
+     "rect": {
+      "x": 0,
+      "y": 6039,
+      "w": 1440,
+      "h": 475
+     }
+    },
+    {
+     "id": "kindai-graffiti-10",
+     "category": "voice",
+     "also": [
+      "slider",
+      "card"
+     ],
+     "label": "OB・OGインタビューのカードスライダー（少年少女よ、大志を抱け！）",
+     "note": "アーチ形に切り抜いた写真に手描きの雲やアイコンを落書きのように重ね、パステルカラーの台紙に白帯の社名・氏名と丸い矢印を載せ、ドットのページャーと黒いピル型「もっとみる」ボタンを置いている。",
+     "file": "captures/kindai-graffiti/parts/10-voice.jpg",
+     "rect": {
+      "x": 0,
+      "y": 7589,
+      "w": 1440,
+      "h": 679
+     }
+    },
+    {
+     "id": "kindai-graffiti-11",
+     "category": "card",
+     "also": [
+      "nav"
+     ],
+     "label": "CAMPUS TOUR（6キャンパスへの入口カード）",
+     "note": "ドット柄の帯に立体的な白抜き英字見出しを重ね、キャンパスごとにパステルの地色を変えた6枚のカードに角丸写真・色付きの地名・英字・丸い矢印を揃えている。",
+     "file": "captures/kindai-graffiti/parts/11-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 9306,
+      "w": 1440,
+      "h": 496
+     }
+    },
+    {
+     "id": "kindai-graffiti-12",
+     "category": "banner",
+     "also": [
+      "visual"
+     ],
+     "label": "近大生的 漫画バイブル バナー",
+     "note": "網点の背景に集中線と蛍光イエローの爆発形を使い、コマ割りの中で漫画を手に持つ学生の写真に「ドドッ！」「ゴゴゴ…」などの描き文字を重ねて漫画の誌面のように見せている。",
+     "file": "captures/kindai-graffiti/parts/12-banner.jpg",
+     "rect": {
+      "x": 0,
+      "y": 10854,
+      "w": 1440,
+      "h": 516
+     }
+    },
+    {
+     "id": "kindai-graffiti-13",
+     "category": "nav",
+     "also": [
+      "button",
+      "search"
+     ],
+     "label": "学部から記事を探す（学部別のカラーボタン18個）",
+     "note": "蛍光イエローの地に白抜きの「FACULTY of KINDAI」を繰り返し敷き、学部ごとに色を変えた黒縁のピル型ボタンを4列に並べ、下に二重枠の黒い外部リンクボタンを置いている。",
+     "file": "captures/kindai-graffiti/parts/13-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 12917,
+      "w": 1440,
+      "h": 847
+     }
+    },
+    {
+     "id": "kindai-graffiti-14",
+     "category": "footer",
+     "also": [],
+     "label": "フッター（大学ロゴ・規約リンク・SNSアイコン）",
+     "note": "細い罫線で挟んだ白地に左の大学ロゴ、右の小さなテキストリンクと黒丸のSNSアイコン5つだけを置いた簡潔な構成。",
+     "file": "captures/kindai-graffiti/parts/14-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 13857,
+      "w": 1440,
+      "h": 192
+     }
+    }
+   ],
    "createdAt": 1792638563412,
-   "updatedAt": 1792638596623,
+   "updatedAt": 1792641289029,
    "status": "captured",
    "pages": []
   },
@@ -1484,9 +1715,180 @@
     "pageTitle": "ギズモード・ジャパン | \"みんなで探求する\"テックメディア",
     "capturedAt": 1792638563216
    },
-   "parts": [],
+   "parts": [
+    {
+     "id": "gizmodo-01",
+     "category": "header",
+     "also": [
+      "button"
+     ],
+     "label": "ヘッダー（現在時刻＋ロゴバー＋MENU＋SNS）",
+     "note": "上端の角を大きく丸めたヘッダーに、左に時刻表示、中央に黒いピル型のロゴバー、右に枠線ピルのMENUボタンを置いている。",
+     "file": "captures/gizmodo/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1425,
+      "h": 120
+     }
+    },
+    {
+     "id": "gizmodo-02",
+     "category": "nav",
+     "also": [
+      "modal",
+      "search"
+     ],
+     "label": "メニュー（検索・ハッシュタグ・カテゴリ・コンテンツ一覧）",
+     "note": "白い角丸パネルの左にロゴと検索欄・黄緑のハッシュタグ、中央と右に太いワイド英字の項目と小さな日本語を添えたリンクを罫線で区切って並べている。",
+     "file": "captures/gizmodo/parts/02-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1425,
+      "h": 900
+     }
+    },
+    {
+     "id": "gizmodo-03",
+     "category": "hero",
+     "also": [
+      "pickup"
+     ],
+     "label": "トップ記事（大見出し＋大判写真＋2列の記事）",
+     "note": "大きな太字見出しと幅いっぱいの写真でトップ記事を見せ、太い黒線の下に日付・タイトル・写真の順の2列カードを続けている。",
+     "file": "captures/gizmodo/parts/03-hero.jpg",
+     "rect": {
+      "x": 92,
+      "y": 180,
+      "w": 901,
+      "h": 1340
+     }
+    },
+    {
+     "id": "gizmodo-04",
+     "category": "search",
+     "also": [],
+     "label": "検索ボックス＋注目ハッシュタグ",
+     "note": "黒い円の検索アイコンを左端に組み込んだ太枠ピルの入力欄と、ライムグリーンのピル型ハッシュタグを組み合わせている。",
+     "file": "captures/gizmodo/parts/04-search.jpg",
+     "rect": {
+      "x": 1000,
+      "y": 478,
+      "w": 325,
+      "h": 206
+     }
+    },
+    {
+     "id": "gizmodo-05",
+     "category": "ranking",
+     "also": [
+      "tabs"
+     ],
+     "label": "ランキング（Daily／Weekly／Monthly／Amazonタブ）",
+     "note": "太い黒線で上下を挟み、ワイドな英字見出しと切り替えタブ、番号付きのタイトル・日付・閲覧数のリストを細線で区切っている。",
+     "file": "captures/gizmodo/parts/05-ranking.jpg",
+     "rect": {
+      "x": 1000,
+      "y": 699,
+      "w": 325,
+      "h": 738
+     }
+    },
+    {
+     "id": "gizmodo-06",
+     "category": "news",
+     "also": [
+      "card",
+      "heading"
+     ],
+     "label": "Feature（2列の記事グリッド）",
+     "note": "極太のワイド英字見出しと太い黒線の下に、日付と閲覧数・太字タイトル・写真を縦に積んだカードを2列で並べている。",
+     "file": "captures/gizmodo/parts/06-news.jpg",
+     "rect": {
+      "x": 92,
+      "y": 1639,
+      "w": 901,
+      "h": 1193
+     }
+    },
+    {
+     "id": "gizmodo-07",
+     "category": "news",
+     "also": [
+      "card"
+     ],
+     "label": "Review（BRAVO!!!数バッジ付き記事リスト＋MORE REVIEWS）",
+     "note": "左に写真、右にタイトルを置いた横型リストで、ライムグリーンの円に数字と「BRAVO!!!」を入れたバッジがアクセントになっている。",
+     "file": "captures/gizmodo/parts/07-news.jpg",
+     "rect": {
+      "x": 92,
+      "y": 6506,
+      "w": 901,
+      "h": 2049
+     }
+    },
+    {
+     "id": "gizmodo-08",
+     "category": "news",
+     "also": [],
+     "label": "Digest（サイドバーのまとめ記事）",
+     "note": "太い黒線に挟まれたサイドバー枠に、小さなサムネイルと太字タイトル・日付・閲覧数を並べたコンパクトなリスト。",
+     "file": "captures/gizmodo/parts/08-news.jpg",
+     "rect": {
+      "x": 1000,
+      "y": 4829,
+      "w": 325,
+      "h": 424
+     }
+    },
+    {
+     "id": "gizmodo-09",
+     "category": "button",
+     "also": [],
+     "label": "MORE REVIEWSボタン",
+     "note": "黒い太枠の横長ピル型に、小さなワイド英字のラベルを中央に置いたボタン。",
+     "file": "captures/gizmodo/parts/09-button.jpg",
+     "rect": {
+      "x": 102,
+      "y": 8424,
+      "w": 881,
+      "h": 121
+     }
+    },
+    {
+     "id": "gizmodo-10",
+     "category": "heading",
+     "also": [],
+     "label": "セクション見出し（Feature）",
+     "note": "極太でワイドなグロテスク体の英字見出しの下に、太い黒の横線を引いただけの力強い見出し。",
+     "file": "captures/gizmodo/parts/10-heading.jpg",
+     "rect": {
+      "x": 112,
+      "y": 1729,
+      "w": 861,
+      "h": 140
+     }
+    },
+    {
+     "id": "gizmodo-11",
+     "category": "footer",
+     "also": [
+      "visual"
+     ],
+     "label": "フッター（SNSボタン＋規約リンク＋姉妹メディア＋巨大ロゴ）",
+     "note": "黒地にグレーのピル型SNSアイコンボタンと矢印付きリンクを並べ、最下部に横幅いっぱいの白いGizmodoロゴを大胆に置いている。",
+     "file": "captures/gizmodo/parts/11-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 10062,
+      "w": 1425,
+      "h": 747
+     }
+    }
+   ],
    "createdAt": 1792638521057,
-   "updatedAt": 1792638563218,
+   "updatedAt": 1792641289596,
    "status": "captured",
    "pages": []
   },
@@ -1536,9 +1938,239 @@
     "pageTitle": "SmartHR Mag. - 働く明日が、もっとよくなる",
     "capturedAt": 1792638538666
    },
-   "parts": [],
+   "parts": [
+    {
+     "id": "mag-01",
+     "category": "header",
+     "also": [
+      "nav",
+      "button"
+     ],
+     "label": "ヘッダー（ロゴ＋カテゴリナビ5項目＋お役立ち資料・メルマガ登録ボタン＋検索）",
+     "note": "ナビ項目にドロップダウンを示すティール色の小さな三角を添え、右側に黒いピル型ボタン2つと検索アイコンを並べている。",
+     "file": "captures/mag/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 120
+     }
+    },
+    {
+     "id": "mag-02",
+     "category": "search",
+     "also": [
+      "nav"
+     ],
+     "label": "検索パネル（検索ワード入力＋話題のキーワード）",
+     "note": "ヘッダー下に開くパネルに大きな入力欄と枠線付きの小さなキーワードタグ、点線の区切りと黒いピル型の検索ボタン、下に「閉じる」バーを置いている。",
+     "file": "captures/mag/parts/02-search.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 730
+     }
+    },
+    {
+     "id": "mag-03",
+     "category": "hero",
+     "also": [
+      "slider",
+      "pickup"
+     ],
+     "label": "ピックアップ記事カルーセル",
+     "note": "白いカードの左にアウトラインの大きな日付数字・タイトル・タグ、右に大きなアイキャッチを置き、左右に次のスライドをのぞかせて黒丸の矢印で送る構成。",
+     "file": "captures/mag/parts/03-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 145,
+      "w": 1440,
+      "h": 465
+     }
+    },
+    {
+     "id": "mag-04",
+     "category": "intro",
+     "also": [
+      "button"
+     ],
+     "label": "リード（コンセプトコピー＋SmartHR Mag.についてボタン）",
+     "note": "左に字間を大きく開けた「働く明日が、もっとよくなる」のコピー、右に説明文と黒いピル型ボタンを置いた余白の多い2カラム。",
+     "file": "captures/mag/parts/04-intro.jpg",
+     "rect": {
+      "x": 0,
+      "y": 597,
+      "w": 1440,
+      "h": 440
+     }
+    },
+    {
+     "id": "mag-05",
+     "category": "news",
+     "also": [
+      "card",
+      "heading"
+     ],
+     "label": "最新記事一覧（3列×3行＋記事一覧ボタン）",
+     "note": "左端に縦書きの「最新記事」見出しとティールの丸アイコン、右端に縦書きの更新日を置き、ピル型カテゴリラベル・アウトライン数字の日付・枠線タグ付きのカードを点線で区切って並べている。",
+     "file": "captures/mag/parts/05-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1037,
+      "w": 1440,
+      "h": 1725
+     }
+    },
+    {
+     "id": "mag-06",
+     "category": "banner",
+     "also": [
+      "cta"
+     ],
+     "label": "お役立ち資料バナー（3枚）",
+     "note": "ティールの「資料」ラベルを左上に重ねた正方形に近い資料バナーを、点線の縦罫で区切って3枚並べている。",
+     "file": "captures/mag/parts/06-banner.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2761,
+      "w": 1440,
+      "h": 580
+     }
+    },
+    {
+     "id": "mag-07",
+     "category": "nav",
+     "also": [
+      "search"
+     ],
+     "label": "話題のキーワード（タグ一覧）",
+     "note": "縦書き見出しの横に、白地に細い枠線の四角いキーワードタグを3段に流し込み、下にティールの矢印付き「キーワード一覧」リンクを置いている。",
+     "file": "captures/mag/parts/07-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 3341,
+      "w": 1440,
+      "h": 545
+     }
+    },
+    {
+     "id": "mag-08",
+     "category": "ranking",
+     "also": [
+      "slider"
+     ],
+     "label": "人気の記事（横送りカルーセル）",
+     "note": "白い帯の中に記事カードを横に並べ、右端のカードを途中で切って黒丸の矢印で横送りできることを示している。",
+     "file": "captures/mag/parts/08-ranking.jpg",
+     "rect": {
+      "x": 0,
+      "y": 3885,
+      "w": 1440,
+      "h": 603
+     }
+    },
+    {
+     "id": "mag-09",
+     "category": "voice",
+     "also": [
+      "news",
+      "card"
+     ],
+     "label": "ケーススタディ（機能解説・ユーザーストーリー・ユーザーコミュニティ）",
+     "note": "縦書きのオレンジ丸見出しとリード文の下に、オレンジの点と点線で区切ったサブカテゴリごとに3枚のカードと「もっと見る」ボタンを繰り返している。",
+     "file": "captures/mag/parts/09-voice.jpg",
+     "rect": {
+      "x": 0,
+      "y": 6796,
+      "w": 1440,
+      "h": 2414
+     }
+    },
+    {
+     "id": "mag-10",
+     "category": "pickup",
+     "also": [
+      "card"
+     ],
+     "label": "注目の特集（3枚＋特集一覧ボタン）",
+     "note": "イラストのアイキャッチと太字タイトルだけのシンプルな白カードを3枚並べ、黒いピル型ボタンで特集一覧へ誘導している。",
+     "file": "captures/mag/parts/10-pickup.jpg",
+     "rect": {
+      "x": 0,
+      "y": 9209,
+      "w": 1440,
+      "h": 681
+     }
+    },
+    {
+     "id": "mag-11",
+     "category": "news",
+     "also": [
+      "card"
+     ],
+     "label": "イベント・セミナー（開催日付きカード）",
+     "note": "「オンライン」のピル型ラベルを画像に重ね、グレーの「開催日」表示の下に太字タイトルを置いたカードで、ボタンには外部リンクのアイコンを付けている。",
+     "file": "captures/mag/parts/11-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 9889,
+      "w": 1440,
+      "h": 707
+     }
+    },
+    {
+     "id": "mag-12",
+     "category": "company",
+     "also": [
+      "slider"
+     ],
+     "label": "執筆者のご紹介（円形写真のカルーセル）",
+     "note": "円形に切り抜いた顔写真の下に太字の氏名と小さな肩書きを置いて横に並べ、黒丸の矢印で送るカルーセル。",
+     "file": "captures/mag/parts/12-company.jpg",
+     "rect": {
+      "x": 0,
+      "y": 11274,
+      "w": 1440,
+      "h": 780
+     }
+    },
+    {
+     "id": "mag-13",
+     "category": "cta",
+     "also": [
+      "button",
+      "contact"
+     ],
+     "label": "フッター上部のCTA（メルマガ登録・スタートガイド・お問い合わせ）",
+     "note": "ダーク地に、左に見出しと説明文、右に白いピル型ボタンを置いた行を点線で区切って3段並べている。",
+     "file": "captures/mag/parts/13-cta.jpg",
+     "rect": {
+      "x": 0,
+      "y": 12806,
+      "w": 1440,
+      "h": 820
+     }
+    },
+    {
+     "id": "mag-14",
+     "category": "footer",
+     "also": [
+      "nav"
+     ],
+     "label": "フッター（カテゴリ別サイトマップ＋CTA＋規約リンク）",
+     "note": "ダーク地に色分けした丸アイコン付きのカテゴリ見出しと点線区切りの4列リンクを置き、その下にCTAの行と白いSmartHRロゴの最下段を続けた縦長の構成。",
+     "file": "captures/mag/parts/14-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 12053,
+      "w": 1440,
+      "h": 1763
+     }
+    }
+   ],
    "createdAt": 1792638514846,
-   "updatedAt": 1792638538670,
+   "updatedAt": 1792641289460,
    "status": "captured",
    "pages": []
   },
@@ -1578,9 +2210,182 @@
     "pageTitle": "KIRINto｜キリント",
     "capturedAt": 1792638514637
    },
-   "parts": [],
+   "parts": [
+    {
+     "id": "kirinto-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "ヘッダー（キリンロゴ＋KIRINtoロゴ・タグライン＋TOP/ALL/ABOUT＋JP/EN＋メニュー）",
+     "note": "薄いグレー地を細い縦線でブロックに区切り、グレージュの細い英字ロゴと字間の広い英字ナビを並べた落ち着いたヘッダー。",
+     "file": "captures/kirinto/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 66
+     }
+    },
+    {
+     "id": "kirinto-02",
+     "category": "nav",
+     "also": [
+      "modal"
+     ],
+     "label": "メニュー展開時（SERIES一覧のオーバーレイ）",
+     "note": "グレージュ一色の全面オーバーレイに白い英字見出しと短い下線、連載のサムネイルと説明を2列で並べ、メニューボタンは×に切り替わる。",
+     "file": "captures/kirinto/parts/02-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900
+     }
+    },
+    {
+     "id": "kirinto-03",
+     "category": "hero",
+     "also": [
+      "slider",
+      "pickup"
+     ],
+     "label": "メインビジュアル（記事スライダー＋カウンター＋サムネイルナビ）",
+     "note": "中央の記事写真の左右に前後のスライドをのぞかせ、下に中央揃えの太字タイトル、細い数字の「3 | 6」カウンターと一時停止ボタン、6本のサムネイルナビを置いている。",
+     "file": "captures/kirinto/parts/03-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 65,
+      "w": 1440,
+      "h": 935
+     }
+    },
+    {
+     "id": "kirinto-04",
+     "category": "slider",
+     "also": [
+      "tabs"
+     ],
+     "label": "スライダーのサムネイルナビ（6連載）",
+     "note": "小さな写真の上に細い罫線を引き、表示中の項目だけ太い線で示すシンプルなサムネイル切り替え。",
+     "file": "captures/kirinto/parts/04-slider.jpg",
+     "rect": {
+      "x": 0,
+      "y": 800,
+      "w": 1440,
+      "h": 183
+     }
+    },
+    {
+     "id": "kirinto-05",
+     "category": "nav",
+     "also": [
+      "search"
+     ],
+     "label": "人気のタグ（ピル型タグ一覧）",
+     "note": "少し濃いグレーの帯の中央に、白い角丸のピル型ハッシュタグを中央揃えで2段に並べている。",
+     "file": "captures/kirinto/parts/05-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1062,
+      "w": 1440,
+      "h": 225
+     }
+    },
+    {
+     "id": "kirinto-06",
+     "category": "news",
+     "also": [
+      "card",
+      "heading"
+     ],
+     "label": "新着記事一覧（NEW・3列×2行＋もっと見る）",
+     "note": "独自書体の英字見出し「NEW」の下に短い太線のアクセントを置き、細い縦罫で区切った写真と太字タイトルのカードを3列で並べている。",
+     "file": "captures/kirinto/parts/06-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1286,
+      "w": 1440,
+      "h": 1146
+     }
+    },
+    {
+     "id": "kirinto-07",
+     "category": "card",
+     "also": [],
+     "label": "記事カード（写真＋タイトル）",
+     "note": "横長写真の下に字間を広めにとった太字タイトルを置き、左の縦罫と下の短い横罫だけで区切る装飾の少ないカード。",
+     "file": "captures/kirinto/parts/07-card.jpg",
+     "rect": {
+      "x": 163,
+      "y": 1509,
+      "w": 372,
+      "h": 353
+     }
+    },
+    {
+     "id": "kirinto-08",
+     "category": "button",
+     "also": [],
+     "label": "もっと見るボタン",
+     "note": "グレージュの塗りに白い小さな文字を字間広めに置いた、角のある長方形ボタン。",
+     "file": "captures/kirinto/parts/08-button.jpg",
+     "rect": {
+      "x": 597,
+      "y": 2287,
+      "w": 246,
+      "h": 45
+     }
+    },
+    {
+     "id": "kirinto-09",
+     "category": "pickup",
+     "also": [
+      "news"
+     ],
+     "label": "連載一覧（SERIES・3連載）",
+     "note": "左に写真、中央に連載名と説明文、右に下線付きの「記事一覧」リンクを置き、縦罫と横罫で区切った横長の行を3段積んでいる。",
+     "file": "captures/kirinto/parts/09-pickup.jpg",
+     "rect": {
+      "x": 140,
+      "y": 2395,
+      "w": 1160,
+      "h": 850
+     }
+    },
+    {
+     "id": "kirinto-10",
+     "category": "button",
+     "also": [],
+     "label": "ページトップへ戻るボタン",
+     "note": "グレージュの丸に白い上向き矢印を置き、その下に小さなテキストを添えた中央揃えのボタン。",
+     "file": "captures/kirinto/parts/10-button.jpg",
+     "rect": {
+      "x": 0,
+      "y": 3339,
+      "w": 1440,
+      "h": 144
+     }
+    },
+    {
+     "id": "kirinto-11",
+     "category": "footer",
+     "also": [
+      "banner"
+     ],
+     "label": "フッター（大きなKIRINtoロゴ＋シェア＋外部バナー＋リンク）",
+     "note": "左に大きな細身のKIRINtoロゴとタグライン、右にシェアボタンとお酒の注意書き、下段にKIRIN・noteの白いバナーとリンク、右下にKIRINロゴを置いている。",
+     "file": "captures/kirinto/parts/11-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 3482,
+      "w": 1440,
+      "h": 545
+     }
+    }
+   ],
    "createdAt": 1792638496888,
-   "updatedAt": 1792638514643,
+   "updatedAt": 1792641289331,
    "status": "captured",
    "pages": []
   },
@@ -1615,9 +2420,181 @@
     "pageTitle": "TOP｜トヨタイムズ",
     "capturedAt": 1792638524345
    },
-   "parts": [],
+   "parts": [
+    {
+     "id": "toyotatimes-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "ヘッダー（ロゴ＋グローバルナビ4項目・言語切替・SNS・検索・メニュー）",
+     "note": "赤い太字ロゴを左に置き、右端のメニューボタンだけを縦線で区切った白基調の1行ヘッダー。",
+     "file": "captures/toyotatimes/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 104
+     }
+    },
+    {
+     "id": "toyotatimes-02",
+     "category": "nav",
+     "also": [
+      "header"
+     ],
+     "label": "メガメニュー（カテゴリ別キーワードタグ＋番組リンク）",
+     "note": "経営・スポーツ・クルマなど5カテゴリの下に黒地白文字の小さなタグを並べ、右列には縦線で区切った矢印付きリンクを縦積みした2カラム構成。",
+     "file": "captures/toyotatimes/parts/02-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 630
+     }
+    },
+    {
+     "id": "toyotatimes-03",
+     "category": "hero",
+     "also": [
+      "pickup"
+     ],
+     "label": "ファーストビュー（特集スライダー＋動画番組バナー列＋横長バナー）",
+     "note": "左に大きな写真スライダーと見出し、右に番組ロゴと再生ボタン付きサムネイルを縦に並べ、下に横長のスポーツ特集バナーを敷いた情報量の多い構成。",
+     "file": "captures/toyotatimes/parts/03-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 102,
+      "w": 1440,
+      "h": 871
+     }
+    },
+    {
+     "id": "toyotatimes-04",
+     "category": "slider",
+     "also": [
+      "pickup"
+     ],
+     "label": "特集記事スライダー（ドットインジケーター付き）",
+     "note": "写真の左右に白い矢印、下に赤がアクティブのドットを置き、カテゴリタグ・大きな太字見出し・リード文・ハッシュタグと日付を罫線で区切って縦に並べている。",
+     "file": "captures/toyotatimes/parts/04-slider.jpg",
+     "rect": {
+      "x": 145,
+      "y": 123,
+      "w": 744,
+      "h": 710
+     }
+    },
+    {
+     "id": "toyotatimes-05",
+     "category": "banner",
+     "also": [],
+     "label": "動画番組バナー（ニュース／ビジネス／スポーツ／Podcast）",
+     "note": "赤い番組ロゴと配信曜日を左、赤い再生ボタン付きサムネイルを右に置き、グレー帯の「過去の放送はコチラ」リンクと黒い罫線で区切って縦に積んでいる。",
+     "file": "captures/toyotatimes/parts/05-banner.jpg",
+     "rect": {
+      "x": 905,
+      "y": 113,
+      "w": 405,
+      "h": 729
+     }
+    },
+    {
+     "id": "toyotatimes-06",
+     "category": "banner",
+     "also": [
+      "visual"
+     ],
+     "label": "特集バナー（熱狂しよう／トヨタイムズスポーツ）",
+     "note": "選手写真のコラージュに筆文字風の白い大きなコピーを重ねた、赤と黒の横長バナー。",
+     "file": "captures/toyotatimes/parts/06-banner.jpg",
+     "rect": {
+      "x": 130,
+      "y": 838,
+      "w": 1180,
+      "h": 144
+     }
+    },
+    {
+     "id": "toyotatimes-07",
+     "category": "news",
+     "also": [
+      "card",
+      "button"
+     ],
+     "label": "新着記事一覧（2列×5行＋VIEW MORE）",
+     "note": "薄いグレー地に左サムネイル・右に太字タイトルと右寄せの日付を置いた横型カードを2列に並べ、見出し下の太い黒線と枠線付きのVIEW MOREボタンで締めている。",
+     "file": "captures/toyotatimes/parts/07-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1012,
+      "w": 1440,
+      "h": 1018
+     }
+    },
+    {
+     "id": "toyotatimes-08",
+     "category": "ranking",
+     "also": [],
+     "label": "アクセスランキング（TOP5）",
+     "note": "ダークグレーの箱に白文字で、1〜3位だけ金・銀・銅色の矢羽根形バッジを付け、細い罫線で区切ったリスト。",
+     "file": "captures/toyotatimes/parts/08-ranking.jpg",
+     "rect": {
+      "x": 145,
+      "y": 2089,
+      "w": 1150,
+      "h": 435
+     }
+    },
+    {
+     "id": "toyotatimes-09",
+     "category": "card",
+     "also": [
+      "nav"
+     ],
+     "label": "カテゴリ一覧（4列のサムネイルカード＋VIEW MORE）",
+     "note": "写真やロゴのサムネイルの下にグレー帯のカテゴリ名を付けたカードを4列グリッドで並べ、英字見出しと下線で区切っている。",
+     "file": "captures/toyotatimes/parts/09-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2563,
+      "w": 1440,
+      "h": 684
+     }
+    },
+    {
+     "id": "toyotatimes-10",
+     "category": "banner",
+     "also": [
+      "slider"
+     ],
+     "label": "関連サイトバナーのカルーセル（左右矢印）",
+     "note": "TO YOU TOYOTAやSDGsなどの横長バナーを並べ、両端に細い矢印を置いて横送りできるようにした帯。",
+     "file": "captures/toyotatimes/parts/10-banner.jpg",
+     "rect": {
+      "x": 105,
+      "y": 3306,
+      "w": 1230,
+      "h": 133
+     }
+    },
+    {
+     "id": "toyotatimes-11",
+     "category": "footer",
+     "also": [],
+     "label": "フッター（ロゴ＋サイト内リンク＋関連サイト＋規約）",
+     "note": "薄いグレー地の左に赤いロゴ、右にサイト内リンクと関連サイトリンクを右寄せで2段に並べ、細い罫線の下に規約とコピーライトを置いている。",
+     "file": "captures/toyotatimes/parts/11-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 3500,
+      "w": 1440,
+      "h": 337
+     }
+    }
+   ],
    "createdAt": 1792638495863,
-   "updatedAt": 1792638524348,
+   "updatedAt": 1792641289189,
    "status": "captured",
    "pages": []
   },
@@ -1658,9 +2635,220 @@
     "pageTitle": "Hanako Web – 雑誌Hanako (ハナコ) の公式サイト、Hanako Web (ハナコ ウェブ)",
     "capturedAt": 1792638520887
    },
-   "parts": [],
+   "parts": [
+    {
+     "id": "hanako-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "ヘッダー（手書き風ロゴ＋英日2段のカテゴリナビ10項目）",
+     "note": "中央に手書き風のロゴ、その下に英字のカテゴリ名と「おいしい」「どこ行く？」などの小さな日本語を2段で並べ、右端にメニュー兼検索アイコンを置く。",
+     "file": "captures/hanako/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1,
+      "w": 1440,
+      "h": 124
+     }
+    },
+    {
+     "id": "hanako-02",
+     "category": "nav",
+     "also": [
+      "search",
+      "modal"
+     ],
+     "label": "開閉メニュー（検索・MAGAZINE/MOOK・人気タグ）",
+     "note": "くすんだ水色の面に、下線だけの検索欄、線画アイコンのMAGAZINE/MOOKリンク、白いピル型のハッシュタグを中央寄せで並べる。",
+     "file": "captures/hanako/parts/02-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 450
+     }
+    },
+    {
+     "id": "hanako-03",
+     "category": "hero",
+     "also": [
+      "slider",
+      "pickup"
+     ],
+     "label": "メインビジュアル（縦長写真3枚のスライダー）",
+     "note": "縦長の写真を3枚並べ、下端に角丸の白いキャプションボックスをはみ出させて重ね、その下に薄いグレーの日付を置く。",
+     "file": "captures/hanako/parts/03-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 124,
+      "w": 1440,
+      "h": 762
+     }
+    },
+    {
+     "id": "hanako-04",
+     "category": "news",
+     "also": [
+      "card"
+     ],
+     "label": "新着記事（上段2列＋下段3列の写真グリッド）",
+     "note": "淡い色の背景に、上段2枚・下段3枚とサイズを変えた写真カードを並べ、カテゴリと日付を薄いグレーの欧文で添え、楕円のView Moreボタンで締める。",
+     "file": "captures/hanako/parts/04-news.jpg",
+     "rect": {
+      "x": 88,
+      "y": 899,
+      "w": 884,
+      "h": 1312
+     }
+    },
+    {
+     "id": "hanako-05",
+     "category": "banner",
+     "also": [
+      "visual"
+     ],
+     "label": "最新号の雑誌紹介（Hanako Magazine）",
+     "note": "二重線で上下を挟んだ白いボックスに表紙画像を置き、左下に「LATEST ISSUE」の文字を円形に回したスタンプ風の装飾を重ねる。",
+     "file": "captures/hanako/parts/05-banner.jpg",
+     "rect": {
+      "x": 1012,
+      "y": 1340,
+      "w": 300,
+      "h": 528
+     }
+    },
+    {
+     "id": "hanako-06",
+     "category": "slider",
+     "also": [
+      "visual"
+     ],
+     "label": "動画スライダー（縦長サムネイル）",
+     "note": "グレーの背景に角丸の縦長動画サムネイルを並べ、中央に再生ボタン、下部に白い太字タイトル、右端に丸い次へボタンを置く。",
+     "file": "captures/hanako/parts/06-slider.jpg",
+     "rect": {
+      "x": 104,
+      "y": 2253,
+      "w": 852,
+      "h": 579
+     }
+    },
+    {
+     "id": "hanako-07",
+     "category": "pickup",
+     "also": [
+      "slider",
+      "card"
+     ],
+     "label": "Pick Up（角丸写真の横並びスライダー）",
+     "note": "角丸の正方形写真と太字タイトル・カテゴリ/日付を1単位にして端からはみ出すように横に並べ、左下に白線の楕円View Moreボタンを置く。",
+     "file": "captures/hanako/parts/07-pickup.jpg",
+     "rect": {
+      "x": 104,
+      "y": 2803,
+      "w": 852,
+      "h": 580
+     }
+    },
+    {
+     "id": "hanako-08",
+     "category": "news",
+     "also": [
+      "card",
+      "slider"
+     ],
+     "label": "連載（Series）一覧",
+     "note": "グレー地に角丸の正方形サムネイルと白い太字の連載名を横に並べ、細い線と欧文の見出しで区切る。",
+     "file": "captures/hanako/parts/08-news.jpg",
+     "rect": {
+      "x": 104,
+      "y": 3354,
+      "w": 852,
+      "h": 543
+     }
+    },
+    {
+     "id": "hanako-09",
+     "category": "ranking",
+     "also": [
+      "tabs"
+     ],
+     "label": "ランキング（DAILY/WEEKLY/MONTHLY切替）",
+     "note": "白い角丸カードの中で、黒塗りと枠線のピル型タブで期間を切り替え、写真の左上に白い切り欠きを作って順位の数字を置く。",
+     "file": "captures/hanako/parts/09-ranking.jpg",
+     "rect": {
+      "x": 988,
+      "y": 2491,
+      "w": 348,
+      "h": 859
+     }
+    },
+    {
+     "id": "hanako-10",
+     "category": "cta",
+     "also": [
+      "banner"
+     ],
+     "label": "Instagramフォロー誘導バナー",
+     "note": "器の写真を暗めに敷いた角丸バナーに、Instagramアイコンと細い欧文のロゴ、下線付きの「Follow us!」を白で重ねる。",
+     "file": "captures/hanako/parts/10-cta.jpg",
+     "rect": {
+      "x": 1012,
+      "y": 3140,
+      "w": 300,
+      "h": 191
+     }
+    },
+    {
+     "id": "hanako-11",
+     "category": "banner",
+     "also": [
+      "intro"
+     ],
+     "label": "コミュニティ紹介（Hanako Lab.／Hanako Mama）",
+     "note": "角丸の写真と、リード・欧文タイトル・楕円のView Moreボタンを左右交互に配置し、2段目は淡いピンクの帯で区切る。",
+     "file": "captures/hanako/parts/11-banner.jpg",
+     "rect": {
+      "x": 0,
+      "y": 3925,
+      "w": 1440,
+      "h": 1113
+     }
+    },
+    {
+     "id": "hanako-12",
+     "category": "cta",
+     "also": [
+      "contact"
+     ],
+     "label": "ニュースレター登録（JOIN OUR COMMUNITY）",
+     "note": "グレーブルーのボックスの中央に白い欧文見出しを置き、下線だけのメール入力欄と細い矢印の送信ボタンを組み合わせる。",
+     "file": "captures/hanako/parts/12-cta.jpg",
+     "rect": {
+      "x": 242,
+      "y": 5117,
+      "w": 956,
+      "h": 301
+     }
+    },
+    {
+     "id": "hanako-13",
+     "category": "footer",
+     "also": [],
+     "label": "フッター（ロゴ・SNS・注意書き・系列誌リンク）",
+     "note": "チャコール地に白い手書き風ロゴとSNSアイコン、注意書き、コピーライト、マガジンハウス系列誌のリンクをすべて中央揃えで積む。",
+     "file": "captures/hanako/parts/13-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 5497,
+      "w": 1440,
+      "h": 489
+     }
+    }
+   ],
    "createdAt": 1792638493193,
-   "updatedAt": 1792638520890,
+   "updatedAt": 1792641366431,
    "status": "captured",
    "pages": []
   },
