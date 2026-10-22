@@ -1090,6 +1090,22 @@
    "parts": [
     {
      "id": "kindai-graffiti-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "ヘッダー（大きなGロゴ・中央のロゴタイプ・右上のボタン群）",
+     "note": "左上に縦長の大きな「G KINDAI」ロゴと「近畿大学 大学案内」、中央に小さな斜体のロゴタイプ、右上にInstagramアイコン・黄緑と紺のピル型ボタン・黒丸の検索とメニューボタンを並べ、メインビジュアルの上に背景なしで重ねている。",
+     "file": "captures/kindai-graffiti/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 222
+     }
+    },
+    {
+     "id": "kindai-graffiti-02",
      "category": "hero",
      "also": [
       "header",
@@ -1098,7 +1114,7 @@
      ],
      "label": "メインビジュアル（背表紙のように並ぶ記事カード＋ヘッダー＋ハッシュタグ帯）",
      "note": "中央の大きな記事カードの左右に背表紙のような縦長カードを奥へ向かって並べ、オレンジの吹き出しで記事名を示し、背景の巨大な斜体「KINDAI GRAFFITI」と蛍光イエローの縦帯、下端を流れるハッシュタグのピルで賑やかさを出している。",
-     "file": "captures/kindai-graffiti/parts/01-hero.jpg",
+     "file": "captures/kindai-graffiti/parts/02-hero.jpg",
      "rect": {
       "x": 0,
       "y": 0,
@@ -1107,7 +1123,7 @@
      }
     },
     {
-     "id": "kindai-graffiti-02",
+     "id": "kindai-graffiti-03",
      "category": "pickup",
      "also": [
       "slider",
@@ -1115,7 +1131,7 @@
      ],
      "label": "RECOMMEND（楕円の線に沿って並ぶおすすめ記事カードのスライダー）",
      "note": "ハイコントラストなセリフ体の英字見出しの背後に放射線の飾りを置き、縦長の記事カードを細い楕円の線に沿って高さを変えながら並べ、左右に黒丸の矢印ボタンを配している。",
-     "file": "captures/kindai-graffiti/parts/02-pickup.jpg",
+     "file": "captures/kindai-graffiti/parts/03-pickup.jpg",
      "rect": {
       "x": 95,
       "y": 774,
@@ -1124,7 +1140,7 @@
      }
     },
     {
-     "id": "kindai-graffiti-03",
+     "id": "kindai-graffiti-04",
      "category": "ranking",
      "also": [
       "pickup",
@@ -1132,7 +1148,7 @@
      ],
      "label": "人気記事リスト＋流れるコピー帯（RECOMMEND直下）",
      "note": "「飾らない日常を公開中。」のコピーが流れる帯で区切った水色の面に、影付きの紫の楕円ラベル「人気記事」と、罫線で区切った見出し・説明文・角丸サムネイルのリストを並べ、縦書きの「もっとみる」を添えている。",
-     "file": "captures/kindai-graffiti/parts/03-ranking.jpg",
+     "file": "captures/kindai-graffiti/parts/04-ranking.jpg",
      "rect": {
       "x": 0,
       "y": 777,
@@ -1141,14 +1157,14 @@
      }
     },
     {
-     "id": "kindai-graffiti-04",
+     "id": "kindai-graffiti-05",
      "category": "cta",
      "also": [
       "slider"
      ],
      "label": "Instagram誘導（Follow @kindai_graffiti の投稿スライダー）",
      "note": "グレーの帯の上辺にInstagramアイコン付きの太い英字見出しをまたがせ、投稿画像を4枚並べて黒丸の矢印と小さなドットのページャーで送る。",
-     "file": "captures/kindai-graffiti/parts/04-cta.jpg",
+     "file": "captures/kindai-graffiti/parts/05-cta.jpg",
      "rect": {
       "x": 0,
       "y": 1931,
@@ -1157,31 +1173,31 @@
      }
     },
     {
-     "id": "kindai-graffiti-05",
+     "id": "kindai-graffiti-06",
      "category": "slider",
      "also": [
       "visual",
       "card"
      ],
      "label": "Kindai-jin SNAP（学生スナップの横スライダー）",
-     "note": "塗りと白抜きを交互に繰り返す巨大な英字見出しの下に、切り抜きの全身写真と手書き風の縦書きコメント、学部・名前・今日のポイント・価格のキャプションを並べている。",
-     "file": "captures/kindai-graffiti/parts/05-slider.jpg",
+     "note": "塗りと白抜きを交互に繰り返す巨大な英字見出しの下に、切り抜きの全身写真と手書き風の縦書きコメント、学部・名前・今日のポイント・価格のキャプションを並べ、黒いピル型の「もっとみる」ボタンで締めている。",
+     "file": "captures/kindai-graffiti/parts/06-slider.jpg",
      "rect": {
       "x": 0,
-      "y": 2443,
+      "y": 2444,
       "w": 1440,
-      "h": 935
+      "h": 920
      }
     },
     {
-     "id": "kindai-graffiti-06",
+     "id": "kindai-graffiti-07",
      "category": "banner",
      "also": [
       "voice"
      ],
      "label": "KINDAI VOICE 在学生編バナー",
      "note": "ホワイトボードに手書きした志望理由を掲げる学生の写真をタイル状に敷き詰め、中央を蛍光イエローの縦帯で抜いて極太の「KINDAI」と斜線模様の「VOICE」を置いている。",
-     "file": "captures/kindai-graffiti/parts/06-banner.jpg",
+     "file": "captures/kindai-graffiti/parts/07-banner.jpg",
      "rect": {
       "x": 0,
       "y": 3411,
@@ -1190,7 +1206,7 @@
      }
     },
     {
-     "id": "kindai-graffiti-07",
+     "id": "kindai-graffiti-08",
      "category": "features",
      "also": [
       "visual",
@@ -1198,7 +1214,7 @@
      ],
      "label": "KINDAI SELFIE（キャンパスの映えスポット写真コラージュ）",
      "note": "黄・青・ピンク・緑の色ブロックと星形の飾りの上に、自撮り写真のカードをばらばらの位置とサイズで重ね、黒ラベルのスポット名と丸い矢印、マスコットキャラクターを散らしたコラージュ構成。",
-     "file": "captures/kindai-graffiti/parts/07-features.jpg",
+     "file": "captures/kindai-graffiti/parts/08-features.jpg",
      "rect": {
       "x": 0,
       "y": 3951,
@@ -1207,14 +1223,14 @@
      }
     },
     {
-     "id": "kindai-graffiti-08",
+     "id": "kindai-graffiti-09",
      "category": "banner",
      "also": [
       "visual"
      ],
      "label": "時間割＆バッグの中身 大調査！バナー",
      "note": "方眼紙風の角丸パネルに蛍光イエロー・オレンジ・紫・青の色面をタイル状に組み、切り抜きの学生や小物の写真をはみ出させ、青い三角の連なりで右へ視線を送っている。",
-     "file": "captures/kindai-graffiti/parts/08-banner.jpg",
+     "file": "captures/kindai-graffiti/parts/09-banner.jpg",
      "rect": {
       "x": 0,
       "y": 4538,
@@ -1223,14 +1239,14 @@
      }
     },
     {
-     "id": "kindai-graffiti-09",
+     "id": "kindai-graffiti-10",
      "category": "banner",
      "also": [
       "visual"
      ],
      "label": "近大人 RooM GALLERY バナー",
      "note": "左右をピンクと青紫に塗り分け、上下に「コレがリアルな近大生の部屋」の文字を繰り返した帯を入れ、角丸の部屋写真2枚と吹き出し形の番号ラベル、影付きの斜めのロゴを中央に重ねている。",
-     "file": "captures/kindai-graffiti/parts/09-banner.jpg",
+     "file": "captures/kindai-graffiti/parts/10-banner.jpg",
      "rect": {
       "x": 0,
       "y": 6039,
@@ -1239,7 +1255,23 @@
      }
     },
     {
-     "id": "kindai-graffiti-10",
+     "id": "kindai-graffiti-11",
+     "category": "banner",
+     "also": [
+      "visual"
+     ],
+     "label": "先生のお部屋探訪バナー",
+     "note": "方眼の入ったくすんだピンクとグレーの面を斜めに塗り分け、中央に二重線と筆記体の英字を添えた黒い影付きの白い看板風見出し、左右に紙を重ねたように傾けた研究室の写真と、白抜きの番号・黒いボックスの名前と肩書きを配している。",
+     "file": "captures/kindai-graffiti/parts/11-banner.jpg",
+     "rect": {
+      "x": 0,
+      "y": 6518,
+      "w": 1440,
+      "h": 527
+     }
+    },
+    {
+     "id": "kindai-graffiti-12",
      "category": "voice",
      "also": [
       "slider",
@@ -1247,7 +1279,7 @@
      ],
      "label": "OB・OGインタビューのカードスライダー（少年少女よ、大志を抱け！）",
      "note": "アーチ形に切り抜いた写真に手描きの雲やアイコンを落書きのように重ね、パステルカラーの台紙に白帯の社名・氏名と丸い矢印を載せ、ドットのページャーと黒いピル型「もっとみる」ボタンを置いている。",
-     "file": "captures/kindai-graffiti/parts/10-voice.jpg",
+     "file": "captures/kindai-graffiti/parts/12-voice.jpg",
      "rect": {
       "x": 0,
       "y": 7589,
@@ -1256,14 +1288,14 @@
      }
     },
     {
-     "id": "kindai-graffiti-11",
+     "id": "kindai-graffiti-13",
      "category": "card",
      "also": [
       "nav"
      ],
      "label": "CAMPUS TOUR（6キャンパスへの入口カード）",
      "note": "ドット柄の帯に立体的な白抜き英字見出しを重ね、キャンパスごとにパステルの地色を変えた6枚のカードに角丸写真・色付きの地名・英字・丸い矢印を揃えている。",
-     "file": "captures/kindai-graffiti/parts/11-card.jpg",
+     "file": "captures/kindai-graffiti/parts/13-card.jpg",
      "rect": {
       "x": 0,
       "y": 9306,
@@ -1272,14 +1304,14 @@
      }
     },
     {
-     "id": "kindai-graffiti-12",
+     "id": "kindai-graffiti-14",
      "category": "banner",
      "also": [
       "visual"
      ],
      "label": "近大生的 漫画バイブル バナー",
      "note": "網点の背景に集中線と蛍光イエローの爆発形を使い、コマ割りの中で漫画を手に持つ学生の写真に「ドドッ！」「ゴゴゴ…」などの描き文字を重ねて漫画の誌面のように見せている。",
-     "file": "captures/kindai-graffiti/parts/12-banner.jpg",
+     "file": "captures/kindai-graffiti/parts/14-banner.jpg",
      "rect": {
       "x": 0,
       "y": 10854,
@@ -1288,39 +1320,985 @@
      }
     },
     {
-     "id": "kindai-graffiti-13",
+     "id": "kindai-graffiti-15",
      "category": "nav",
      "also": [
       "button",
-      "search"
+      "search",
+      "heading"
      ],
-     "label": "学部から記事を探す（学部別のカラーボタン18個）",
-     "note": "蛍光イエローの地に白抜きの「FACULTY of KINDAI」を繰り返し敷き、学部ごとに色を変えた黒縁のピル型ボタンを4列に並べ、下に二重枠の黒い外部リンクボタンを置いている。",
-     "file": "captures/kindai-graffiti/parts/13-nav.jpg",
+     "label": "学部から記事を探す（見出し＋学部別のカラーボタン18個）",
+     "note": "黒丸の虫眼鏡を付けたオレンジのピル型見出しを蛍光イエローの帯の上辺にまたがせ、白抜きの「FACULTY of KINDAI」を繰り返し敷いた地に学部ごとに色を変えた黒縁のピル型ボタンを4列に並べ、下に二重枠の黒い外部リンクボタンを置いている。",
+     "file": "captures/kindai-graffiti/parts/15-nav.jpg",
      "rect": {
       "x": 0,
-      "y": 12917,
+      "y": 12835,
       "w": 1440,
-      "h": 847
+      "h": 1011
      }
     },
     {
-     "id": "kindai-graffiti-14",
+     "id": "kindai-graffiti-16",
      "category": "footer",
      "also": [],
      "label": "フッター（大学ロゴ・規約リンク・SNSアイコン）",
      "note": "細い罫線で挟んだ白地に左の大学ロゴ、右の小さなテキストリンクと黒丸のSNSアイコン5つだけを置いた簡潔な構成。",
-     "file": "captures/kindai-graffiti/parts/14-footer.jpg",
+     "file": "captures/kindai-graffiti/parts/16-footer.jpg",
      "rect": {
       "x": 0,
       "y": 13857,
       "w": 1440,
       "h": 192
      }
+    },
+    {
+     "id": "kindai-graffiti-17",
+     "category": "nav",
+     "also": [
+      "modal"
+     ],
+     "label": "ハンバーガーメニュー（全企画へのリンク一覧）",
+     "note": "画面全体に半透明の紺色を重ね、白い罫線で区切った4列のリストに企画名と白丸の矢印、学部やキャンパスの小項目を並べ、右上に細い×の閉じるボタン、左下に白丸のSNSアイコンを置いている。",
+     "file": "captures/kindai-graffiti/parts/17-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900
+     }
+    },
+    {
+     "id": "kindai-graffiti-18",
+     "category": "search",
+     "also": [
+      "modal",
+      "form"
+     ],
+     "label": "検索パネル（フリーワード＋学部・出身校・学年・キャンパスの絞り込み）",
+     "note": "画面全体に半透明の白を重ね、黒枠の検索窓と黒い虫眼鏡ボタンの下に、黄色い縦線付きの黒帯見出しで4つの条件を区切ってチェックボックス・セレクト・ラジオボタンを並べ、黒いピル型の「探す」ボタンとハッシュタグのピルを置いている。",
+     "file": "captures/kindai-graffiti/parts/18-search.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900
+     }
+    },
+    {
+     "id": "kindai-graffiti-19",
+     "category": "hero",
+     "also": [
+      "heading",
+      "visual"
+     ],
+     "label": "近大グラフィティとは のページタイトル（What's KINDAI GRAFFITI !? と大きなGロゴ）",
+     "note": "白抜きと黒の英字タイトルの中央に黄色い大きなGロゴを置き、ロゴを下の青い写真タイルの列まではみ出させて重ねている。",
+     "file": "captures/kindai-graffiti/parts/19-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 630
+     },
+     "page": "about"
+    },
+    {
+     "id": "kindai-graffiti-20",
+     "category": "intro",
+     "also": [
+      "visual"
+     ],
+     "label": "近大グラフィティとは？（写真タイルで囲んだコンセプト文）",
+     "note": "黄色いヘッドホンと白いパーカー姿の学生を青背景で撮った正方形の写真を左右と下に敷き詰め、その中に白い面を抜いて中央揃えのコンセプト文を置いている。",
+     "file": "captures/kindai-graffiti/parts/20-intro.jpg",
+     "rect": {
+      "x": 0,
+      "y": 682,
+      "w": 1440,
+      "h": 1852
+     },
+     "page": "about"
+    },
+    {
+     "id": "kindai-graffiti-21",
+     "category": "heading",
+     "also": [
+      "hero"
+     ],
+     "label": "Kindai-jin SNAP のページタイトル（2段の英字ロゴ）",
+     "note": "「Kindai-jin SNAP」を太字・細字・白抜きで組み替えながら2段に並べ、行を互い違いにずらして下を二重線で区切っている。",
+     "file": "captures/kindai-graffiti/parts/21-heading.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 161
+     },
+     "page": "snap"
+    },
+    {
+     "id": "kindai-graffiti-22",
+     "category": "card",
+     "also": [
+      "nav"
+     ],
+     "label": "学部別スナップの一覧（学部カラーのラベル＋3人の切り抜き写真）",
+     "note": "学部ごとの色で塗ったラベルに2行に折った学部名と細い矢印を置き、隣の白い枠に切り抜きの全身写真を3人ずつ並べて、4列のグリッドに組んでいる。",
+     "file": "captures/kindai-graffiti/parts/22-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 253,
+      "w": 1440,
+      "h": 672
+     },
+     "page": "snap"
+    },
+    {
+     "id": "kindai-graffiti-23",
+     "category": "nav",
+     "also": [
+      "tabs"
+     ],
+     "label": "学部切り替えのテキストリンク（縦線区切り）",
+     "note": "学部名を細い縦線で区切って2行に並べ、選択中の学部だけを紺の塗りで反転させ、上に手書き風の「New」を添えている。",
+     "file": "captures/kindai-graffiti/parts/23-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 245,
+      "w": 1440,
+      "h": 130
+     },
+     "page": "snap-faculty"
+    },
+    {
+     "id": "kindai-graffiti-24",
+     "category": "card",
+     "also": [
+      "heading"
+     ],
+     "label": "学部紹介カード＋教員スナップの写真グリッド",
+     "note": "左に角を1つ斜めに切った細枠のカード（蛍光ペン風の「New」、太字の学部名、黒いピル型ボタン）を置き、縦線で区切った右側に虫眼鏡アイコン付きの縦長写真と、折れ線を添えたキャプションを3列で並べている。",
+     "file": "captures/kindai-graffiti/parts/24-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 395,
+      "w": 1440,
+      "h": 1380
+     },
+     "page": "snap-faculty"
+    },
+    {
+     "id": "kindai-graffiti-25",
+     "category": "modal",
+     "also": [
+      "card"
+     ],
+     "label": "スナップ詳細のポップアップ（拡大写真＋コメント）",
+     "note": "グレーに暗くした画面の上に角を斜めに切り落とした白いカードを重ね、薄い「Kindai-jin SNAP」の文字を斜めに敷いた地に二重枠の拡大写真と折れ線付きのコメントを載せ、右上に細い×を置いている。",
+     "file": "captures/kindai-graffiti/parts/25-modal.jpg",
+     "rect": {
+      "x": 430,
+      "y": 5,
+      "w": 580,
+      "h": 890
+     },
+     "page": "snap-detail"
+    },
+    {
+     "id": "kindai-graffiti-26",
+     "category": "heading",
+     "also": [
+      "hero"
+     ],
+     "label": "KINDAI VOICE 在学生編のページタイトル",
+     "note": "極太の「KINDAI」と斜線で塗った白抜きの「VOICE」を並べ、間に黒枠の白い「在学生編」ラベルを重ねている。",
+     "file": "captures/kindai-graffiti/parts/26-heading.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 161
+     },
+     "page": "voice"
+    },
+    {
+     "id": "kindai-graffiti-27",
+     "category": "card",
+     "also": [
+      "voice",
+      "heading"
+     ],
+     "label": "あなたが『近畿大学』を選んだ理由は？（学部カラーの枠で囲んだ学生写真グリッド）",
+     "note": "矢印線で挟んだ字間の広い「QUESTION」の見出しの下に、ホワイトボードを掲げた学生の写真を学部ごとの色の太い枠で囲み、右の帯に縦書きの学部名を白抜きで入れて隙間なく並べている。",
+     "file": "captures/kindai-graffiti/parts/27-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 303,
+      "w": 1440,
+      "h": 830
+     },
+     "page": "voice"
+    },
+    {
+     "id": "kindai-graffiti-28",
+     "category": "modal",
+     "also": [
+      "card"
+     ],
+     "label": "在学生VOICEの拡大ポップアップ（学部カラーの枠＋閉じるボタン）",
+     "note": "白く霞ませた一覧の上に、上辺に出身校、右の帯に縦書きの学部名を白抜きで入れた緑の太枠で写真を囲んで浮かせ、帯の下端に×の閉じるボタンを組み込んでいる。",
+     "file": "captures/kindai-graffiti/parts/28-modal.jpg",
+     "rect": {
+      "x": 480,
+      "y": 69,
+      "w": 480,
+      "h": 762
+     },
+     "page": "voice-detail"
+    },
+    {
+     "id": "kindai-graffiti-29",
+     "category": "hero",
+     "also": [
+      "visual"
+     ],
+     "label": "KINDAI SELFIE のメインビジュアル（タイトル＋西門の自撮りコラージュ）",
+     "note": "ピンクと黄色に塗り分けた地に黒帯の「映え栄え キャンパス TOUR」とコントラストの強いセリフ体の大きな英字タイトルを置き、斜めに傾けた白地のコピー、自撮り写真、切り抜きの学生やマスコット、星形の「POINT!」バッジを散らしている。",
+     "file": "captures/kindai-graffiti/parts/29-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 1364
+     },
+     "page": "selfie"
+    },
+    {
+     "id": "kindai-graffiti-30",
+     "category": "features",
+     "also": [
+      "card"
+     ],
+     "label": "スポット紹介（esports Arena）",
+     "note": "青紫の地に傾いた白いコピー帯を載せた自撮り写真を置き、緑の同心円をはみ出させた黒帯にスポット名と説明、ピル型の「詳しくはこちら」、黒い星形の「POINT!」付きの解説を並べている。",
+     "file": "captures/kindai-graffiti/parts/30-features.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1415,
+      "w": 1440,
+      "h": 677
+     },
+     "page": "selfie"
+    },
+    {
+     "id": "kindai-graffiti-31",
+     "category": "heading",
+     "also": [
+      "hero"
+     ],
+     "label": "時間割＆バッグの中身 大調査!! のページタイトル",
+     "note": "黒地に黄緑・紫・オレンジの角丸の帯を入れ子状に重ね、中央のオレンジの帯に斜線で挟んだ「学部別」と太字のタイトルを置いている。",
+     "file": "captures/kindai-graffiti/parts/31-heading.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 181
+     },
+     "page": "schedule"
+    },
+    {
+     "id": "kindai-graffiti-32",
+     "category": "nav",
+     "also": [
+      "button"
+     ],
+     "label": "学部別のジャンプボタン（学生の顔写真付き）",
+     "note": "学部ごとに色を変えた太い縁と黒い影のピル型ボタンに、はみ出す学生の切り抜き写真と下向きの矢印を付けて4列に並べ、両脇に縦書きの白抜き英字を置いている。",
+     "file": "captures/kindai-graffiti/parts/32-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 273,
+      "w": 1440,
+      "h": 511
+     },
+     "page": "schedule"
+    },
+    {
+     "id": "kindai-graffiti-33",
+     "category": "card",
+     "also": [
+      "table",
+      "visual"
+     ],
+     "label": "学部ごとの時間割＆持ち物カード（法学部）",
+     "note": "傾けた紫のタブ見出し「#法学部」を楕円の枠に載せ、枠の中に持ち物の切り抜き写真と説明、学部カラーの時間割表、学生の切り抜き写真と縦書きの吹き出しを詰め込んでいる。",
+     "file": "captures/kindai-graffiti/parts/33-card.jpg",
+     "rect": {
+      "x": 135,
+      "y": 850,
+      "w": 1170,
+      "h": 560
+     },
+     "page": "schedule"
+    },
+    {
+     "id": "kindai-graffiti-34",
+     "category": "heading",
+     "also": [
+      "hero"
+     ],
+     "label": "近大美魚図鑑のページタイトル（升目に1字ずつ）",
+     "note": "細い縦線で区切った升目に青い明朝体の漢字を1字ずつ置き、それぞれの右に縦書きのローマ字の読みを小さく添えている。",
+     "file": "captures/kindai-graffiti/parts/34-heading.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 197
+     },
+     "page": "fish"
+    },
+    {
+     "id": "kindai-graffiti-35",
+     "category": "tabs",
+     "also": [
+      "visual",
+      "card"
+     ],
+     "label": "魚のアイコンで切り替える図鑑ページ",
+     "note": "水中写真の背景に番号付きの魚の切り抜きアイコンを8つ横に並べ、その下に紙の質感の見開きの本を置いて、青い罫線の枠に番号・名前・魚の写真・「世界初」の印・DATAとQ&Aを図鑑のように組んでいる。",
+     "file": "captures/kindai-graffiti/parts/35-tabs.jpg",
+     "rect": {
+      "x": 0,
+      "y": 248,
+      "w": 1440,
+      "h": 1374
+     },
+     "page": "fish"
+    },
+    {
+     "id": "kindai-graffiti-36",
+     "category": "hero",
+     "also": [
+      "nav",
+      "heading"
+     ],
+     "label": "近大美容通信のページタイトル＋8人へのアンカーリンク",
+     "note": "紫の明朝体の「近大／美容通信」の間に太細を混ぜた英字「KINDAI BEAUTY CARE NEWS」を挟み、右上にグラデーションの面と円形に回した英字ロゴ、下に斜線の帯の上で縦線で区切った番号付きの名前リンクを並べている。",
+     "file": "captures/kindai-graffiti/parts/36-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 476
+     },
+     "page": "beauty"
+    },
+    {
+     "id": "kindai-graffiti-37",
+     "category": "card",
+     "also": [
+      "voice"
+     ],
+     "label": "学生の美容紹介カード（SPECIAL CARE／MUST ITEM）",
+     "note": "アーチ形に切り抜いた人物写真に紫の丸い番号を重ね、オリーブ色の帯のコピー、丸く切り抜いたアイテム写真、紫からミントへのグラデーションの「MUST ITEM」の枠を並べ、背景にワイヤーフレームの立体やきらめきの飾りを置いている。",
+     "file": "captures/kindai-graffiti/parts/37-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 576,
+      "w": 1440,
+      "h": 611
+     },
+     "page": "beauty"
+    },
+    {
+     "id": "kindai-graffiti-38",
+     "category": "hero",
+     "also": [
+      "card",
+      "visual"
+     ],
+     "label": "1人目の部屋紹介（タイトル・部屋写真・ROOM DATA・MY FAVORITE）",
+     "note": "水色の立体文字のタイトルを部屋の写真に重ね、手描きの落書きや縦書きの吹き出しコピー、ギザギザの吹き出しのPROFILE、間取り図付きのROOM DATAカードを配し、下に写真の形を変えたお気に入りアイテムを3列で並べて、上下を水色の大きな文字の帯で挟んでいる。",
+     "file": "captures/kindai-graffiti/parts/38-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 1982
+     },
+     "page": "room-gallery"
+    },
+    {
+     "id": "kindai-graffiti-39",
+     "category": "hero",
+     "also": [
+      "visual"
+     ],
+     "label": "先生のお部屋探訪のメインビジュアル（看板風タイトル＋研究室の写真）",
+     "note": "方眼のくすんだピンクの地に黒い影付きの白い看板風タイトルを置き、水色の縦書きの短冊でリード文を添え、紙を重ねたような枠の研究室写真に白抜きの大きな「01」、黒帯の問いと答え、黒いボックスの名前と肩書きを重ねている。",
+     "file": "captures/kindai-graffiti/parts/39-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 1200
+     },
+     "page": "teachers"
+    },
+    {
+     "id": "kindai-graffiti-40",
+     "category": "card",
+     "also": [
+      "faq"
+     ],
+     "label": "先生へのQ&Aカード",
+     "note": "右下の角を斜めに切り落とした白いカードに黒いずらした影を付け、オレンジの見出しと細い罫線で4つの質問と答えを区切っている。",
+     "file": "captures/kindai-graffiti/parts/40-card.jpg",
+     "rect": {
+      "x": 931,
+      "y": 1250,
+      "w": 483,
+      "h": 934
+     },
+     "page": "teachers-detail"
+    },
+    {
+     "id": "kindai-graffiti-41",
+     "category": "card",
+     "also": [
+      "visual"
+     ],
+     "label": "PICK UP！研究室のお気に入りアイテム",
+     "note": "黄緑の文字を円形に回した「PICK UP!」の飾りを左上に置き、黒枠の写真と▲付きの見出し・説明を2列で上下にずらして並べている。",
+     "file": "captures/kindai-graffiti/parts/41-card.jpg",
+     "rect": {
+      "x": 40,
+      "y": 1238,
+      "w": 800,
+      "h": 1175
+     },
+     "page": "teachers-detail"
+    },
+    {
+     "id": "kindai-graffiti-42",
+     "category": "hero",
+     "also": [
+      "visual"
+     ],
+     "label": "生駒祭のメインビジュアル（巨大な縦書きタイトル＋空撮写真）",
+     "note": "上端に緑の極太の「西日本最大級の大学祭!!!」を置き、右に縦書きの巨大な「生駒祭」とリード文、左に集合写真と概要を並べ、大学の空撮写真に傾けた緑の帯のコピーと説明ボックスを重ねている。",
+     "file": "captures/kindai-graffiti/parts/42-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 1077
+     },
+     "page": "festival"
+    },
+    {
+     "id": "kindai-graffiti-43",
+     "category": "voice",
+     "also": [
+      "visual"
+     ],
+     "label": "生駒祭 近大生の声（切り抜き写真＋吹き出し）",
+     "note": "緑一色の地に、仮装した学生の切り抜き写真とベージュの手描き風の吹き出しコメント、名前と学部のキャプションを高さをずらして散らしている。",
+     "file": "captures/kindai-graffiti/parts/43-voice.jpg",
+     "rect": {
+      "x": 0,
+      "y": 8466,
+      "w": 1440,
+      "h": 995
+     },
+     "page": "festival"
+    },
+    {
+     "id": "kindai-graffiti-44",
+     "category": "heading",
+     "also": [
+      "hero"
+     ],
+     "label": "OB・OGの少年少女よ、大志を抱け！のページタイトル",
+     "note": "青紫からピンク、黄色へのグラデーションの帯に、白地の小さなリード文、黒い楕円の「OB・OGの」、白抜きの大きなタイトルを並べている。",
+     "file": "captures/kindai-graffiti/parts/44-heading.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 159
+     },
+     "page": "ambition"
+    },
+    {
+     "id": "kindai-graffiti-45",
+     "category": "voice",
+     "also": [
+      "card"
+     ],
+     "label": "OB・OGインタビューの一覧（楕円写真＋子どもの頃の夢）",
+     "note": "罫線で区切った2列の枠に縦書きの名前と学部・卒業年を置き、手描きのイラストを重ねた楕円の写真を色面にまたがせ、手書き文字の「子どもの頃の夢」と白い帯の社名、今の仕事の説明を並べている。",
+     "file": "captures/kindai-graffiti/parts/45-voice.jpg",
+     "rect": {
+      "x": 0,
+      "y": 260,
+      "w": 1440,
+      "h": 725
+     },
+     "page": "ambition"
+    },
+    {
+     "id": "kindai-graffiti-46",
+     "category": "card",
+     "also": [
+      "voice"
+     ],
+     "label": "OB・OGインタビューの1枚（国際学部・日本航空）",
+     "note": "白い上段に縦書きの名前と年齢、オレンジの下段に縦書きの学部・卒業年を置き、手描きの紙飛行機と点線を重ねた縦長の楕円写真を2段にまたがせ、手書き文字の夢と白帯の社名を組み合わせている。",
+     "file": "captures/kindai-graffiti/parts/46-card.jpg",
+     "rect": {
+      "x": 720,
+      "y": 975,
+      "w": 720,
+      "h": 685
+     },
+     "page": "ambition-detail"
+    },
+    {
+     "id": "kindai-graffiti-47",
+     "category": "hero",
+     "also": [
+      "intro",
+      "nav"
+     ],
+     "label": "キンダイの学生起業家 MESSAGE のタイトルと起業支援プログラムの紹介（3社へのページ内リンク付き）",
+     "note": "ベージュ地を白い弧と楕円で大きく抜き、極太セリフ体の「MESSAGE」に白抜きの日本語を重ね、段違いに組んだ写真2枚と紹介文の下に、番号付きの黒いタブ型ページ内リンクを3つ並べている。",
+     "file": "captures/kindai-graffiti/parts/47-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 924
+     },
+     "page": "entrepreneur"
+    },
+    {
+     "id": "kindai-graffiti-48",
+     "category": "voice",
+     "also": [
+      "visual"
+     ],
+     "label": "学生起業家インタビュー（MESSAGE 01 株式会社ピュット）",
+     "note": "台形に傾けた写真とサーモン色の色面を重ね、黒地に手書き文字のキャッチコピーを斜めに貼り、右端に白抜きの縦の「MESSAGE」、下に白い下地の小見出し付きの4問を横一列に並べている。",
+     "file": "captures/kindai-graffiti/parts/48-voice.jpg",
+     "rect": {
+      "x": 0,
+      "y": 975,
+      "w": 1440,
+      "h": 1033
+     },
+     "page": "entrepreneur"
+    },
+    {
+     "id": "kindai-graffiti-49",
+     "category": "hero",
+     "also": [
+      "heading"
+     ],
+     "label": "近大人の BEFORE AFTER のタイトル",
+     "note": "水色の影を付けた白抜きの「BEFORE」と黒い「AFTER」を上下に積み、手描きの線やキラキラ、蛍光イエローの「変化アリ？！ナシ？！」を添え、方眼紙の背景と黒ラベルの「Question」へつないでいる。",
+     "file": "captures/kindai-graffiti/parts/49-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 380
+     },
+     "page": "before-after"
+    },
+    {
+     "id": "kindai-graffiti-50",
+     "category": "card",
+     "also": [
+      "visual"
+     ],
+     "label": "受験時と現在の写真を並べたビフォーアフターのグリッド",
+     "note": "方眼紙の背景に番号付きの2枚組カードを4列で並べ、白枠の受験時の写真から矢印で色付き枠の現在の写真へつなぎ、❶高校生の頃の夢と❷現在の夢、名前と所属を添えている。",
+     "file": "captures/kindai-graffiti/parts/50-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 440,
+      "w": 1440,
+      "h": 752
+     },
+     "page": "before-after"
+    },
+    {
+     "id": "kindai-graffiti-51",
+     "category": "heading",
+     "also": [
+      "hero"
+     ],
+     "label": "CAMPUS TOUR のタイトル帯",
+     "note": "影付きの白抜き英字「CAMPUS TOUR」の左右に、黄色い「Kindai」の旗を持った学生の切り抜き写真を3人ずつ並べている。",
+     "file": "captures/kindai-graffiti/parts/51-heading.jpg",
+     "rect": {
+      "x": 0,
+      "y": 68,
+      "w": 1440,
+      "h": 143
+     },
+     "page": "campus-tour"
+    },
+    {
+     "id": "kindai-graffiti-52",
+     "category": "card",
+     "also": [
+      "nav"
+     ],
+     "label": "6キャンパスへの入口（縦長パネルの横並び）",
+     "note": "キャンパスごとにパステルの地色を変えた縦長のパネルを画面幅いっぱいに6本並べ、角丸の写真に学生を大きく写し、色付きの地名と英字、丸い矢印を下にそろえている。",
+     "file": "captures/kindai-graffiti/parts/52-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 248,
+      "w": 1440,
+      "h": 606
+     },
+     "page": "campus-tour"
+    },
+    {
+     "id": "kindai-graffiti-53",
+     "category": "hero",
+     "also": [
+      "nav",
+      "visual"
+     ],
+     "label": "東大阪キャンパスの俯瞰マップと施設リスト",
+     "note": "白い円にキャンパス名を置いた角丸パネルに立体的なキャンパスの俯瞰図を敷き、番号入りの黒いピンを施設の位置に立て、右に同じ番号の施設名リストとGoogle Mapボタン付きのキャンパス情報を並べている。",
+     "file": "captures/kindai-graffiti/parts/53-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 130,
+      "w": 1440,
+      "h": 707
+     },
+     "page": "campus-detail"
+    },
+    {
+     "id": "kindai-graffiti-54",
+     "category": "features",
+     "also": [
+      "flow",
+      "visual"
+     ],
+     "label": "STARTから順にたどる施設紹介（01 ACADEMIC THEATER・02 BIBLIOTHEATER）",
+     "note": "白い道を背景に通し、旗を持った学生の「START!」から、番号ピン付きの白い説明カードとオレンジの影付き角丸写真を左右交互に組み、蛍光イエローの斜めラベルでひと言を添えている。",
+     "file": "captures/kindai-graffiti/parts/54-features.jpg",
+     "rect": {
+      "x": 0,
+      "y": 870,
+      "w": 1440,
+      "h": 1420
+     },
+     "page": "campus-detail"
+    },
+    {
+     "id": "kindai-graffiti-55",
+     "category": "hero",
+     "also": [
+      "nav",
+      "visual"
+     ],
+     "label": "1000 Answers のメインビジュアルとピックアップ質問",
+     "note": "虹色のグラデーション帯を斜めに走らせ、目玉付きの色の塊や吹き出し、白抜きの「1000」に重ねた「ANSWERS」と学生の切り抜き写真を配し、下に角丸枠で質問6つへのリンクを並べている。",
+     "file": "captures/kindai-graffiti/parts/55-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 735
+     },
+     "page": "answers"
+    },
+    {
+     "id": "kindai-graffiti-56",
+     "category": "numbers",
+     "also": [
+      "visual"
+     ],
+     "label": "アンケート結果のドーナツグラフ（Q.1〜Q.3 アルバイト）",
+     "note": "淡いブルーの地にグラデーションのドーナツグラフを大きさを変えて散らし、最多の回答を極太の数字でグラフに重ね、雲形の設問ラベル（横書き・縦書き）と吹き出しのコメントを添えている。",
+     "file": "captures/kindai-graffiti/parts/56-numbers.jpg",
+     "rect": {
+      "x": 0,
+      "y": 819,
+      "w": 1440,
+      "h": 1610
+     },
+     "page": "answers"
+    },
+    {
+     "id": "kindai-graffiti-57",
+     "category": "hero",
+     "also": [
+      "nav",
+      "visual"
+     ],
+     "label": "ネオ近大人のメインビジュアル（タイトル・4人へのページ内リンク・1人目の写真）",
+     "note": "黒い箱に細い水色の英字を配した「NEO KINDAI JIN」を夜の道頓堀で撮った人物写真の右上に食い込ませ、角を斜めに落とした細線の枠と撮影地のキャプション、4人の名前を並べたページ内リンクを添えている。",
+     "file": "captures/kindai-graffiti/parts/57-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 1172
+     },
+     "page": "neo"
+    },
+    {
+     "id": "kindai-graffiti-58",
+     "category": "voice",
+     "also": [
+      "visual"
+     ],
+     "label": "人物インタビュー（NEO.02 水色の帯に横書きの名前を重ねる型）",
+     "note": "画面左を水色の帯で塗り、新世界の夜景写真に白帯のキャッチコピーと黒地に白・水色の極太の名前を重ね、白い本文パネルと「PROFILE」のボックスを段違いに組んでいる。",
+     "file": "captures/kindai-graffiti/parts/58-voice.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2310,
+      "w": 1440,
+      "h": 1773
+     },
+     "page": "neo"
+    },
+    {
+     "id": "kindai-graffiti-59",
+     "category": "voice",
+     "also": [
+      "visual"
+     ],
+     "label": "人物インタビュー（NEO.03 写真の右に縦書きの名前を置く型）",
+     "note": "角を斜めに落とした細線の枠で写真を囲み、右端に黒地の極太縦書きの名前と水色帯の縦書きキャッチコピーを並べ、下に本文と罫線付きの「PROFILE」を置いている。",
+     "file": "captures/kindai-graffiti/parts/59-voice.jpg",
+     "rect": {
+      "x": 0,
+      "y": 4082,
+      "w": 1440,
+      "h": 1986
+     },
+     "page": "neo-detail"
+    },
+    {
+     "id": "kindai-graffiti-60",
+     "category": "heading",
+     "also": [
+      "hero"
+     ],
+     "label": "近大生的 漫画バイブル のタイトル帯",
+     "note": "集中線を敷いた水色の帯の左右に建物と本棚の写真を置き、蛍光イエローの袋文字「漫画」と紺の極太「バイブル」を組み合わせている。",
+     "file": "captures/kindai-graffiti/parts/60-heading.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 202
+     },
+     "page": "manga"
+    },
+    {
+     "id": "kindai-graffiti-61",
+     "category": "card",
+     "also": [
+      "visual",
+      "voice"
+     ],
+     "label": "漫画のコマ割りで並べたおすすめ漫画の紹介",
+     "note": "網点の背景に傾いた枠のコマを組み、漫画を手にした学生の写真に紺のデータボックスと蛍光イエローの縦書き吹き出しを重ね、「ゴォォォ…」「ドドン」などの描き文字でコマの間をつないでいる。",
+     "file": "captures/kindai-graffiti/parts/61-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 253,
+      "w": 1440,
+      "h": 2560
+     },
+     "page": "manga"
+    },
+    {
+     "id": "kindai-graffiti-62",
+     "category": "hero",
+     "also": [
+      "nav"
+     ],
+     "label": "近大の学食のタイトルと店舗へのページ内ナビ",
+     "note": "料理の切り抜き写真を左右に並べたタイトルの下に、8店舗の名前を枠で区切って横一列に並べ、選択中を蛍光イエローで塗り、それぞれに下向きの三角を添えている。",
+     "file": "captures/kindai-graffiti/parts/62-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 304
+     },
+     "page": "cafeteria"
+    },
+    {
+     "id": "kindai-graffiti-63",
+     "category": "features",
+     "also": [
+      "visual"
+     ],
+     "label": "店舗紹介（CNN Café）",
+     "note": "楕円に切り抜いた真上からの食卓写真を中心に、ピンクと黒の極太コピーや白抜きの英字を四方に散らし、料理の切り抜き、店舗の丸写真、PLACE・TIMEの黒いピル型ラベルを配している。",
+     "file": "captures/kindai-graffiti/parts/63-features.jpg",
+     "rect": {
+      "x": 0,
+      "y": 355,
+      "w": 1440,
+      "h": 651
+     },
+     "page": "cafeteria"
+    },
+    {
+     "id": "kindai-graffiti-64",
+     "category": "modal",
+     "also": [
+      "visual"
+     ],
+     "label": "メニューと価格のポップアップ（写真をクリックで表示）",
+     "note": "白くかすませた画面の上に、蛍光イエローの太枠で囲んだ角丸の料理写真を開き、料理ごとに黒いピル型の品名・価格ラベルを引き出し線で添えている。",
+     "file": "captures/kindai-graffiti/parts/64-modal.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900
+     },
+     "page": "cafeteria"
+    },
+    {
+     "id": "kindai-graffiti-65",
+     "category": "hero",
+     "also": [
+      "visual"
+     ],
+     "label": "贈る言葉のメインビジュアル（教授とゼミ生の集合写真）",
+     "note": "キャンパスで撮った教授とゼミ生の集合写真を全面に敷き、斜めに切った白い紙片の上に明朝体の縦書き「贈る言葉」と赤い筆記体の「Message」を重ねている。",
+     "file": "captures/kindai-graffiti/parts/65-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 848
+     },
+     "page": "message"
+    },
+    {
+     "id": "kindai-graffiti-66",
+     "category": "voice",
+     "also": [],
+     "label": "教授と学生代表が贈り合うメッセージ（金井啓子研究室）",
+     "note": "黒帯の縦書きで学科と研究室名を掲げ、明朝体の見出し「教授から学生たちへ」「学生代表から教授へ」の文章を写真と左右交互に組み、切り抜きの全身写真に名前と所属を添えている。",
+     "file": "captures/kindai-graffiti/parts/66-voice.jpg",
+     "rect": {
+      "x": 0,
+      "y": 905,
+      "w": 1440,
+      "h": 1680
+     },
+     "page": "message-detail"
+    },
+    {
+     "id": "kindai-graffiti-67",
+     "category": "hero",
+     "also": [
+      "nav"
+     ],
+     "label": "近大タイムスリップ写真館のタイトルと年代ナビ",
+     "note": "同心円の線と歪んだ時計を描いた黒い帯に一部を蛍光イエローにしたタイトルを置き、下に「1995⇄2020」のように年を2段に組んだ黒いピル型のページ内リンクを並べている。",
+     "file": "captures/kindai-graffiti/parts/67-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 383
+     },
+     "page": "timeslip"
+    },
+    {
+     "id": "kindai-graffiti-68",
+     "category": "visual",
+     "also": [
+      "slider"
+     ],
+     "label": "昔の写真と今の再現写真を中央のつまみで分けて見比べる比較画像",
+     "note": "昔の写真と同じ構図で撮った今の写真を中央の蛍光イエローのつまみで左右に分けて重ね、上に白抜きと黒の大きな年号と「25年後」の矢印、両脇に縦書きの「TIME SLIP」、下に縦書きの人物紹介とPHOTO DATAを置いている。",
+     "file": "captures/kindai-graffiti/parts/68-visual.jpg",
+     "rect": {
+      "x": 0,
+      "y": 432,
+      "w": 1440,
+      "h": 1358
+     },
+     "page": "timeslip"
+    },
+    {
+     "id": "kindai-graffiti-69",
+     "category": "ranking",
+     "also": [
+      "news",
+      "heading"
+     ],
+     "label": "人気記事一覧（サムネイル付きリスト）",
+     "note": "水色の帯に影付きの紫の楕円ラベル「人気記事」を置き、ベージュの地に紫の罫線で区切った角丸サムネイル・記事名・学部タグ・説明文のリストを並べている。",
+     "file": "captures/kindai-graffiti/parts/69-ranking.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 1240
+     },
+     "page": "ranking"
+    },
+    {
+     "id": "kindai-graffiti-70",
+     "category": "news",
+     "also": [
+      "card"
+     ],
+     "label": "学部別の記事一覧（看護学部）",
+     "note": "「看護学部」の記事という大きな見出しを二重線で区切り、右上に学部サイトへの枠線ボタン、下に細い枠の写真・記事名・罫線・カテゴリ名をそろえたカードを4列に並べた簡素な一覧。",
+     "file": "captures/kindai-graffiti/parts/70-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 1068
+     },
+     "page": "faculty"
+    },
+    {
+     "id": "kindai-graffiti-71",
+     "category": "news",
+     "also": [
+      "card"
+     ],
+     "label": "ハッシュタグ別の記事一覧（#ファッショニスタ）",
+     "note": "字間を広げたハッシュタグの見出しを二重線で区切り、ドット柄の背景に角丸の全身スナップ写真・記事名・タグ名をそろえたカードを4列に並べている。",
+     "file": "captures/kindai-graffiti/parts/71-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 52,
+      "w": 1440,
+      "h": 605
+     },
+     "page": "tag"
     }
    ],
    "createdAt": 1792638563412,
-   "updatedAt": 1792642001202,
+   "updatedAt": 1792643648157,
    "status": "captured",
    "pages": [
     {
