@@ -14,6 +14,12 @@
    "desc": "ファーストビュー。キャッチコピーとメイン画像"
   },
   {
+   "id": "pickup",
+   "group": "section",
+   "name": "特集・ピックアップ",
+   "desc": "トップの注目記事、特集の入口"
+  },
+  {
    "id": "intro",
    "group": "section",
    "name": "導入・コンセプト",
@@ -36,6 +42,12 @@
    "group": "section",
    "name": "商品・ラインナップ",
    "desc": "商品紹介、バリエーション、仕様"
+  },
+  {
+   "id": "result",
+   "group": "section",
+   "name": "結果・診断",
+   "desc": "診断・クイズ・シミュレーションの結果表示"
   },
   {
    "id": "voice",
@@ -78,6 +90,12 @@
    "group": "section",
    "name": "お知らせ・記事一覧",
    "desc": "ニュース、ブログ、活動報告"
+  },
+  {
+   "id": "ranking",
+   "group": "section",
+   "name": "ランキング",
+   "desc": "人気記事・アクセスランキング"
   },
   {
    "id": "company",
@@ -128,6 +146,12 @@
    "desc": "検索バー、フィルター、並び替え"
   },
   {
+   "id": "form",
+   "group": "ui",
+   "name": "フォーム・入力",
+   "desc": "入力欄、テンキー、選択肢ボタン"
+  },
+  {
    "id": "card",
    "group": "ui",
    "name": "カード",
@@ -138,6 +162,12 @@
    "group": "ui",
    "name": "ボタン",
    "desc": "CTAボタン、リンクボタン"
+  },
+  {
+   "id": "banner",
+   "group": "ui",
+   "name": "バナー",
+   "desc": "キャンペーンや特集・関連サービスへの誘導バナー"
   },
   {
    "id": "heading",
@@ -165,6 +195,2218 @@
   }
  ],
  "sites": [
+  {
+   "id": "nedannonai-supermarket",
+   "url": "https://nedannonai-supermarket.maff.go.jp/",
+   "title": "値段のないスーパーマーケット Web体験版：農林水産省",
+   "tags": [
+    "キャンペーン",
+    "体験型",
+    "行政"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 3008,
+    "fullHeight": 3008,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/nedannonai-supermarket/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/nedannonai-supermarket/full-01.jpg",
+      "y": 0,
+      "h": 3008
+     }
+    ],
+    "lp": null,
+    "pageTitle": "値段のないスーパーマーケット Web体験版：農林水産省",
+    "capturedAt": 1792640806947
+   },
+   "parts": [
+    {
+     "id": "nedannonai-supermarket-01",
+     "category": "header",
+     "also": [],
+     "label": "浮いたカード型のヘッダー",
+     "note": "白い角丸のバーを画面の上に浮かせ、中央にロゴ、右にハンバーガーボタン。",
+     "file": "captures/nedannonai-supermarket/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 86
+     }
+    },
+    {
+     "id": "nedannonai-supermarket-02",
+     "category": "hero",
+     "also": [
+      "visual"
+     ],
+     "label": "ファーストビュー（お札と硬貨が浮かぶ背景）",
+     "note": "緑一色の背景に¥マークの札と硬貨を薄く敷き、太い角ゴシックのロゴを大きく置く。",
+     "file": "captures/nedannonai-supermarket/parts/02-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900
+     }
+    },
+    {
+     "id": "nedannonai-supermarket-03",
+     "category": "button",
+     "also": [
+      "cta"
+     ],
+     "label": "追従するCTAボタン（クイズ・入店）",
+     "note": "オレンジと赤の2色で役割を分け、右下に常に表示。",
+     "file": "captures/nedannonai-supermarket/parts/03-button.jpg",
+     "rect": {
+      "x": 845,
+      "y": 736,
+      "w": 540,
+      "h": 142
+     }
+    },
+    {
+     "id": "nedannonai-supermarket-04",
+     "category": "intro",
+     "also": [],
+     "label": "お店のコンセプト（値段をつけるのは「あなた」）",
+     "note": "傾けたロゴの帯を、薄緑のテキストボックスの角にかぶせる。",
+     "file": "captures/nedannonai-supermarket/parts/04-intro.jpg",
+     "rect": {
+      "x": 0,
+      "y": 900,
+      "w": 1440,
+      "h": 748
+     }
+    },
+    {
+     "id": "nedannonai-supermarket-05",
+     "category": "flow",
+     "also": [],
+     "label": "体験の流れ（3ステップ）",
+     "note": "大きな数字とイラストのカードを3枚並べて、体験の手順を見せる。",
+     "file": "captures/nedannonai-supermarket/parts/05-flow.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1794,
+      "w": 1440,
+      "h": 654
+     }
+    },
+    {
+     "id": "nedannonai-supermarket-06",
+     "category": "button",
+     "also": [],
+     "label": "外部リンクのボタン（イベントレポート・プロジェクトサイト）",
+     "note": "濃い緑の横長ボタンを2つ並べ、右上に外部リンクのアイコン。",
+     "file": "captures/nedannonai-supermarket/parts/06-button.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2448,
+      "w": 1440,
+      "h": 494
+     }
+    },
+    {
+     "id": "nedannonai-supermarket-07",
+     "category": "footer",
+     "also": [],
+     "label": "フッター",
+     "note": "薄緑の角丸パネルに、コピーライトと規約リンクだけを置く。",
+     "file": "captures/nedannonai-supermarket/parts/07-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2942,
+      "w": 1440,
+      "h": 66
+     }
+    },
+    {
+     "id": "nedannonai-supermarket-08",
+     "category": "nav",
+     "also": [],
+     "label": "ハンバーガーメニュー（開いた状態）",
+     "note": "濃い緑のパネルが右上から開き、ページ内リンクを階層付きで並べる。",
+     "file": "captures/nedannonai-supermarket/parts/08-nav.jpg",
+     "rect": {
+      "x": 1030,
+      "y": 0,
+      "w": 350,
+      "h": 545
+     },
+     "page": "menu"
+    },
+    {
+     "id": "nedannonai-supermarket-09",
+     "category": "products",
+     "also": [
+      "card"
+     ],
+     "label": "お会計の商品一覧（5品目のカード）",
+     "note": "白いカードに商品のイラストを置き、下に緑の「金額を入力」ボタンを付ける。",
+     "file": "captures/nedannonai-supermarket/parts/09-products.jpg",
+     "rect": {
+      "x": 0,
+      "y": 86,
+      "w": 1440,
+      "h": 780
+     },
+     "page": "register"
+    },
+    {
+     "id": "nedannonai-supermarket-10",
+     "category": "slider",
+     "also": [
+      "card"
+     ],
+     "label": "値段を考えるヒント（カードのスライダー）",
+     "note": "イラスト付きのデータカードを、傾けて重ねながらめくっていく。",
+     "file": "captures/nedannonai-supermarket/parts/10-slider.jpg",
+     "rect": {
+      "x": 0,
+      "y": 86,
+      "w": 1440,
+      "h": 812
+     },
+     "page": "hint"
+    },
+    {
+     "id": "nedannonai-supermarket-11",
+     "category": "form",
+     "also": [],
+     "label": "金額入力のテンキー",
+     "note": "レジを模したテンキーで、3桁の金額を大きな数字で表示する。",
+     "file": "captures/nedannonai-supermarket/parts/11-form.jpg",
+     "rect": {
+      "x": 63,
+      "y": 306,
+      "w": 1314,
+      "h": 384
+     },
+     "page": "keypad"
+    },
+    {
+     "id": "nedannonai-supermarket-12",
+     "category": "modal",
+     "also": [],
+     "label": "金額の確認ダイアログ",
+     "note": "商品と金額を大きく見せ、「一覧へ戻る」と「次の商品へ」の2択にする。",
+     "file": "captures/nedannonai-supermarket/parts/12-modal.jpg",
+     "rect": {
+      "x": 326,
+      "y": 160,
+      "w": 788,
+      "h": 416
+     },
+     "page": "confirm"
+    },
+    {
+     "id": "nedannonai-supermarket-13",
+     "category": "products",
+     "also": [
+      "cta"
+     ],
+     "label": "入力した値段の一覧と決定ボタン",
+     "note": "各カードの下に入力した金額を出し、「もう一度入力」もできるようにする。",
+     "file": "captures/nedannonai-supermarket/parts/13-products.jpg",
+     "rect": {
+      "x": 40,
+      "y": 410,
+      "w": 1360,
+      "h": 450
+     },
+     "page": "register-done"
+    },
+    {
+     "id": "nedannonai-supermarket-14",
+     "category": "result",
+     "also": [],
+     "label": "フェアな値段の判定（品目ごとの高め・低め）",
+     "note": "見出しの中で判定の語だけを反転させ、品目ごとに青いラベルで結果を示す。",
+     "file": "captures/nedannonai-supermarket/parts/14-result.jpg",
+     "rect": {
+      "x": 180,
+      "y": 100,
+      "w": 1080,
+      "h": 600
+     },
+     "page": "result"
+    },
+    {
+     "id": "nedannonai-supermarket-15",
+     "category": "result",
+     "also": [
+      "visual"
+     ],
+     "label": "レシート風の結果と小売価格の比較",
+     "note": "レジから出てくるレシートで自分の値段を見せ、右に実際の平均価格を並べる。",
+     "file": "captures/nedannonai-supermarket/parts/15-result.jpg",
+     "rect": {
+      "x": 230,
+      "y": 100,
+      "w": 1170,
+      "h": 700
+     },
+     "page": "result-2"
+    },
+    {
+     "id": "nedannonai-supermarket-16",
+     "category": "cta",
+     "also": [
+      "result"
+     ],
+     "label": "お会計の終了画面（再挑戦・クイズへの誘導）",
+     "note": "お礼のメッセージの下に、もう一度・TOP・クイズの3つの行き先を並べる。",
+     "file": "captures/nedannonai-supermarket/parts/16-cta.jpg",
+     "rect": {
+      "x": 0,
+      "y": 86,
+      "w": 1440,
+      "h": 640
+     },
+     "page": "result-3"
+    },
+    {
+     "id": "nedannonai-supermarket-17",
+     "category": "form",
+     "also": [
+      "visual"
+     ],
+     "label": "クイズの問題と3択ボタン",
+     "note": "進捗のドットと、イラスト付きの問題カード、緑の3択ボタン。",
+     "file": "captures/nedannonai-supermarket/parts/17-form.jpg",
+     "rect": {
+      "x": 180,
+      "y": 100,
+      "w": 1080,
+      "h": 730
+     },
+     "page": "quiz"
+    },
+    {
+     "id": "nedannonai-supermarket-18",
+     "category": "result",
+     "also": [],
+     "label": "クイズの解説（「残念」のバッジ付き）",
+     "note": "正誤を丸いバッジで示し、イラストと解説文で答えを説明する。",
+     "file": "captures/nedannonai-supermarket/parts/18-result.jpg",
+     "rect": {
+      "x": 180,
+      "y": 100,
+      "w": 1140,
+      "h": 740
+     },
+     "page": "quiz-answer"
+    },
+    {
+     "id": "nedannonai-supermarket-19",
+     "category": "result",
+     "also": [
+      "cta"
+     ],
+     "label": "クイズの結果発表",
+     "note": "正解数を大きく出し、背景に花形と縦書きの励ましの言葉を重ねる。",
+     "file": "captures/nedannonai-supermarket/parts/19-result.jpg",
+     "rect": {
+      "x": 40,
+      "y": 120,
+      "w": 1360,
+      "h": 650
+     },
+     "page": "quiz-result"
+    }
+   ],
+   "createdAt": 1792639077066,
+   "updatedAt": 1792641119293,
+   "status": "captured",
+   "pages": [
+    {
+     "id": "menu",
+     "label": "メニューを開いた状態",
+     "url": "https://nedannonai-supermarket.maff.go.jp/",
+     "capture": {
+      "width": 1440,
+      "height": 3008,
+      "fullHeight": 3008,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/nedannonai-supermarket/pages/menu/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/nedannonai-supermarket/pages/menu/full-01.jpg",
+        "y": 0,
+        "h": 3008
+       }
+      ],
+      "lp": null,
+      "pageTitle": "値段のないスーパーマーケット Web体験版：農林水産省",
+      "capturedAt": 1792641000287
+     },
+     "status": "captured"
+    },
+    {
+     "id": "register",
+     "label": "お会計（商品一覧）",
+     "url": "https://nedannonai-supermarket.maff.go.jp/register/",
+     "capture": {
+      "width": 1440,
+      "height": 963,
+      "fullHeight": 963,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/nedannonai-supermarket/pages/register/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/nedannonai-supermarket/pages/register/full-01.jpg",
+        "y": 0,
+        "h": 963
+       }
+      ],
+      "lp": null,
+      "pageTitle": "お会計 | 値段のないスーパーマーケット Web体験版：農林水産省",
+      "capturedAt": 1792639092366
+     },
+     "status": "captured"
+    },
+    {
+     "id": "hint",
+     "label": "値段を考えるヒント",
+     "url": "https://nedannonai-supermarket.maff.go.jp/register/",
+     "capture": {
+      "width": 1440,
+      "height": 958,
+      "fullHeight": 958,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/nedannonai-supermarket/pages/hint/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/nedannonai-supermarket/pages/hint/full-01.jpg",
+        "y": 0,
+        "h": 958
+       }
+      ],
+      "lp": null,
+      "pageTitle": "お会計 | 値段のないスーパーマーケット Web体験版：農林水産省",
+      "capturedAt": 1792639102901
+     },
+     "status": "captured"
+    },
+    {
+     "id": "keypad",
+     "label": "金額入力（テンキー）",
+     "url": "https://nedannonai-supermarket.maff.go.jp/register/",
+     "capture": {
+      "width": 1440,
+      "height": 900,
+      "fullHeight": 900,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/nedannonai-supermarket/pages/keypad/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/nedannonai-supermarket/pages/keypad/full-01.jpg",
+        "y": 0,
+        "h": 900
+       }
+      ],
+      "lp": null,
+      "pageTitle": "お会計 | 値段のないスーパーマーケット Web体験版：農林水産省",
+      "capturedAt": 1792639116979
+     },
+     "status": "captured"
+    },
+    {
+     "id": "confirm",
+     "label": "確認ダイアログ",
+     "url": "https://nedannonai-supermarket.maff.go.jp/register/",
+     "capture": {
+      "width": 1440,
+      "height": 900,
+      "fullHeight": 900,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/nedannonai-supermarket/pages/confirm/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/nedannonai-supermarket/pages/confirm/full-01.jpg",
+        "y": 0,
+        "h": 900
+       }
+      ],
+      "lp": null,
+      "pageTitle": "お会計 | 値段のないスーパーマーケット Web体験版：農林水産省",
+      "capturedAt": 1792640658656
+     },
+     "status": "captured"
+    },
+    {
+     "id": "register-done",
+     "label": "入力後の一覧",
+     "url": "https://nedannonai-supermarket.maff.go.jp/register/",
+     "capture": {
+      "width": 1440,
+      "height": 967,
+      "fullHeight": 967,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/nedannonai-supermarket/pages/register-done/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/nedannonai-supermarket/pages/register-done/full-01.jpg",
+        "y": 0,
+        "h": 967
+       }
+      ],
+      "lp": null,
+      "pageTitle": "お会計 | 値段のないスーパーマーケット Web体験版：農林水産省",
+      "capturedAt": 1792639186073
+     },
+     "status": "captured"
+    },
+    {
+     "id": "result",
+     "label": "お会計の結果",
+     "url": "https://nedannonai-supermarket.maff.go.jp/register/",
+     "capture": {
+      "width": 1440,
+      "height": 900,
+      "fullHeight": 900,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/nedannonai-supermarket/pages/result/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/nedannonai-supermarket/pages/result/full-01.jpg",
+        "y": 0,
+        "h": 900
+       }
+      ],
+      "lp": null,
+      "pageTitle": "お会計 | 値段のないスーパーマーケット Web体験版：農林水産省",
+      "capturedAt": 1792639243480
+     },
+     "status": "captured"
+    },
+    {
+     "id": "result-2",
+     "label": "お会計の結果（レシート）",
+     "url": "https://nedannonai-supermarket.maff.go.jp/register/",
+     "capture": {
+      "width": 1440,
+      "height": 957,
+      "fullHeight": 957,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/nedannonai-supermarket/pages/result-2/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/nedannonai-supermarket/pages/result-2/full-01.jpg",
+        "y": 0,
+        "h": 957
+       }
+      ],
+      "lp": null,
+      "pageTitle": "あなたの考えるみんなにとってフェアな値段 | 値段のないスーパーマーケット Web体験版：農林水産省",
+      "capturedAt": 1792640889417
+     },
+     "status": "captured"
+    },
+    {
+     "id": "result-3",
+     "label": "お会計の終了画面",
+     "url": "https://nedannonai-supermarket.maff.go.jp/register/",
+     "capture": {
+      "width": 1440,
+      "height": 900,
+      "fullHeight": 900,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/nedannonai-supermarket/pages/result-3/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/nedannonai-supermarket/pages/result-3/full-01.jpg",
+        "y": 0,
+        "h": 900
+       }
+      ],
+      "lp": null,
+      "pageTitle": "お会計終了 | 値段のないスーパーマーケット Web体験版：農林水産省",
+      "capturedAt": 1792640952643
+     },
+     "status": "captured"
+    },
+    {
+     "id": "quiz",
+     "label": "クイズ（問題）",
+     "url": "https://nedannonai-supermarket.maff.go.jp/quiz/",
+     "capture": {
+      "width": 1440,
+      "height": 978,
+      "fullHeight": 978,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/nedannonai-supermarket/pages/quiz/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/nedannonai-supermarket/pages/quiz/full-01.jpg",
+        "y": 0,
+        "h": 978
+       }
+      ],
+      "lp": null,
+      "pageTitle": "フェアプライスクイズ | 値段のないスーパーマーケット Web体験版：農林水産省",
+      "capturedAt": 1792639251591
+     },
+     "status": "captured"
+    },
+    {
+     "id": "quiz-answer",
+     "label": "クイズ（解説）",
+     "url": "https://nedannonai-supermarket.maff.go.jp/quiz/",
+     "capture": {
+      "width": 1440,
+      "height": 987,
+      "fullHeight": 987,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/nedannonai-supermarket/pages/quiz-answer/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/nedannonai-supermarket/pages/quiz-answer/full-01.jpg",
+        "y": 0,
+        "h": 987
+       }
+      ],
+      "lp": null,
+      "pageTitle": "フェアプライスクイズ | 値段のないスーパーマーケット Web体験版：農林水産省",
+      "capturedAt": 1792639262429
+     },
+     "status": "captured"
+    },
+    {
+     "id": "quiz-result",
+     "label": "クイズの結果",
+     "url": "https://nedannonai-supermarket.maff.go.jp/quiz/",
+     "capture": {
+      "width": 1440,
+      "height": 900,
+      "fullHeight": 900,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/nedannonai-supermarket/pages/quiz-result/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/nedannonai-supermarket/pages/quiz-result/full-01.jpg",
+        "y": 0,
+        "h": 900
+       }
+      ],
+      "lp": null,
+      "pageTitle": "フェアプライスクイズ 結果発表 | 値段のないスーパーマーケット Web体験版：農林水産省",
+      "capturedAt": 1792639291344
+     },
+     "status": "captured"
+    }
+   ]
+  },
+  {
+   "id": "kindai-graffiti",
+   "url": "https://kindai-graffiti.kindai.ac.jp/",
+   "title": "KINDAI GRAFFITI｜近畿大学",
+   "tags": [
+    "大学案内"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 14048,
+    "fullHeight": 14048,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/kindai-graffiti/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/kindai-graffiti/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/kindai-graffiti/full-02.jpg",
+      "y": 4000,
+      "h": 4000
+     },
+     {
+      "file": "captures/kindai-graffiti/full-03.jpg",
+      "y": 8000,
+      "h": 4000
+     },
+     {
+      "file": "captures/kindai-graffiti/full-04.jpg",
+      "y": 12000,
+      "h": 2048
+     }
+    ],
+    "lp": null,
+    "pageTitle": "KINDAI GRAFFITI｜近畿大学",
+    "capturedAt": 1792638596621
+   },
+   "parts": [],
+   "createdAt": 1792638563412,
+   "updatedAt": 1792638596623,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "ginzamag",
+   "url": "https://ginzamag.com/",
+   "title": "【GINZA】東京発信の最新ファッション＆カルチャー情報",
+   "tags": [
+    "Webマガジン",
+    "雑誌",
+    "ファッション"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 16000,
+    "fullHeight": 17806,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/ginzamag/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/ginzamag/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/ginzamag/full-02.jpg",
+      "y": 4000,
+      "h": 4000
+     },
+     {
+      "file": "captures/ginzamag/full-03.jpg",
+      "y": 8000,
+      "h": 4000
+     },
+     {
+      "file": "captures/ginzamag/full-04.jpg",
+      "y": 12000,
+      "h": 4000
+     }
+    ],
+    "lp": null,
+    "pageTitle": "【GINZA】東京発信の最新ファッション＆カルチャー情報",
+    "capturedAt": 1792638581586
+   },
+   "parts": [
+    {
+     "id": "ginzamag-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "追従ヘッダー（縮小ロゴ＋カテゴリ7項目＋メニュー・検索アイコン）",
+     "note": "スクロール後は筆で描いたような「G」ロゴが小さくなって左上に残り、白い帯の中央にピンクのカテゴリ名、右端に三本線と虫眼鏡を組み合わせたアイコンを置いている。",
+     "file": "captures/ginzamag/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 8005,
+      "w": 1440,
+      "h": 112
+     }
+    },
+    {
+     "id": "ginzamag-02",
+     "category": "hero",
+     "also": [
+      "header",
+      "slider"
+     ],
+     "label": "メインビジュアル（大きな「G」ロゴ＋記事スライダー）",
+     "note": "筆描き風の大きな「G」ロゴを写真に重ね、左端にピンクの縦書きコピー、右端にピンクの「Magazine」タブを置き、3枚組の写真のスライドに白文字の見出しと丸囲みのページ番号を載せている。",
+     "file": "captures/ginzamag/parts/02-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 772
+     }
+    },
+    {
+     "id": "ginzamag-03",
+     "category": "nav",
+     "also": [
+      "modal",
+      "search"
+     ],
+     "label": "全画面メニュー（カテゴリ14項目・検索・SNS・最新号）",
+     "note": "ピンク一色の全画面に大きな英字カテゴリをスラッシュ区切りで流し込み、上に下線だけの検索欄、下にSNSアイコンとニュースレター登録、右列に最新号の表紙を配置している。",
+     "file": "captures/ginzamag/parts/03-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900
+     }
+    },
+    {
+     "id": "ginzamag-04",
+     "category": "heading",
+     "also": [],
+     "label": "セクション見出し（Latest Articles／最新記事）",
+     "note": "細身の幾何学サンセリフの大きな英字に、二重の縦線で挟んだ小さな和文と手描きの動物イラストを横一列で添えている。",
+     "file": "captures/ginzamag/parts/04-heading.jpg",
+     "rect": {
+      "x": 0,
+      "y": 780,
+      "w": 900,
+      "h": 115
+     }
+    },
+    {
+     "id": "ginzamag-05",
+     "category": "news",
+     "also": [
+      "card"
+     ],
+     "label": "最新記事一覧（4列のマソンリーグリッド）",
+     "note": "サイズの違う写真を4列に段違いで詰め、ピンクのカテゴリ名・太字の見出し・サブタイトル・欧文セリフの日付を添え、写真の右下に白地の「New!」ラベルを付けている。",
+     "file": "captures/ginzamag/parts/05-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 775,
+      "w": 1440,
+      "h": 3290
+     }
+    },
+    {
+     "id": "ginzamag-06",
+     "category": "slider",
+     "also": [
+      "card"
+     ],
+     "label": "ショート動画の横スライダー（Shorts）",
+     "note": "ビビッドピンクの背景に縦長の動画サムネイルを並べ、中央に再生ボタン、下端に白い四角の「See More」ボタン、右端に丸い次へ矢印を重ねている。",
+     "file": "captures/ginzamag/parts/06-slider.jpg",
+     "rect": {
+      "x": 0,
+      "y": 5072,
+      "w": 1440,
+      "h": 495
+     }
+    },
+    {
+     "id": "ginzamag-07",
+     "category": "slider",
+     "also": [
+      "card",
+      "products"
+     ],
+     "label": "G's Charm（編集部おすすめアイテムのカードスライダー）",
+     "note": "淡いグリーン地に白いカードで白背景の物撮り写真と中央揃えの小さな見出し・日付を並べ、下に細い線の左右矢印と白い「記事一覧を見る」ボタンを置いている。",
+     "file": "captures/ginzamag/parts/07-slider.jpg",
+     "rect": {
+      "x": 0,
+      "y": 5721,
+      "w": 1440,
+      "h": 848
+     }
+    },
+    {
+     "id": "ginzamag-08",
+     "category": "slider",
+     "also": [
+      "pickup",
+      "card"
+     ],
+     "label": "Special（おすすめ記事の横スライダー）",
+     "note": "縦長写真のカードを細い縦罫で区切って横に並べ、右端のカードを途中で切って続きがあることを示し、ピンクの「PROMOTION」ラベルで種別を見せている。",
+     "file": "captures/ginzamag/parts/08-slider.jpg",
+     "rect": {
+      "x": 0,
+      "y": 6568,
+      "w": 1440,
+      "h": 968
+     }
+    },
+    {
+     "id": "ginzamag-09",
+     "category": "pickup",
+     "also": [
+      "card",
+      "slider"
+     ],
+     "label": "Regulars（人気連載3本のパネル）",
+     "note": "「Regular 1〜3」の縦書きインデックスタブが付いたファイルのような3分割パネルを連載ごとに色を変えて並べ、スクロールすると次のパネルが前のパネルの上に重なっていく。",
+     "file": "captures/ginzamag/parts/09-pickup.jpg",
+     "rect": {
+      "x": 0,
+      "y": 7535,
+      "w": 1440,
+      "h": 2684
+     }
+    },
+    {
+     "id": "ginzamag-10",
+     "category": "news",
+     "also": [
+      "card"
+     ],
+     "label": "カテゴリ別記事ブロック（Beauty：大1＋小5）",
+     "note": "左に大きな縦長写真の主記事、右に横長写真の記事を2列で並べ、空いた枠には手描きの猫のイラストを置いて余白を遊ばせている。",
+     "file": "captures/ginzamag/parts/10-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 12430,
+      "w": 1440,
+      "h": 1696
+     }
+    },
+    {
+     "id": "ginzamag-11",
+     "category": "ranking",
+     "also": [],
+     "label": "今日の人気記事ランキング（1〜10位）",
+     "note": "タブ状の「Articles」見出しが付いた角丸の枠の左に1位を大きな数字と画像で、右に2〜10位を小さなサムネイルと数字の3列リストで並べている。",
+     "file": "captures/ginzamag/parts/11-ranking.jpg",
+     "rect": {
+      "x": 0,
+      "y": 16298,
+      "w": 1440,
+      "h": 542
+     }
+    },
+    {
+     "id": "ginzamag-12",
+     "category": "cta",
+     "also": [
+      "footer"
+     ],
+     "label": "ニュースレター登録フォーム",
+     "note": "黒地に白い細枠の入力欄と白い「登録」ボタンをつないだ一本の帯にし、左に案内文と下線付きの「メルマガ解除」リンクを置いている。",
+     "file": "captures/ginzamag/parts/12-cta.jpg",
+     "rect": {
+      "x": 0,
+      "y": 17496,
+      "w": 1069,
+      "h": 200
+     }
+    },
+    {
+     "id": "ginzamag-13",
+     "category": "footer",
+     "also": [
+      "nav",
+      "cta"
+     ],
+     "label": "フッター（カテゴリ帯・SNS・連載リンク・リール・最新号）",
+     "note": "黒地の最上段にカテゴリを縦罫区切りで並べた帯を置き、SNSアイコンと連載リンク、リール動画のスライダー、右列の最新号と「購入はこちら」ボタンを細い罫線で区切っている。",
+     "file": "captures/ginzamag/parts/13-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 16943,
+      "w": 1440,
+      "h": 864
+     }
+    }
+   ],
+   "createdAt": 1792638538850,
+   "updatedAt": 1792640892111,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "brutus",
+   "url": "https://brutus.jp/",
+   "title": "ブルータス| BRUTUS.jp",
+   "tags": [
+    "Webマガジン",
+    "雑誌"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 13658,
+    "fullHeight": 13658,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/brutus/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/brutus/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/brutus/full-02.jpg",
+      "y": 4000,
+      "h": 4000
+     },
+     {
+      "file": "captures/brutus/full-03.jpg",
+      "y": 8000,
+      "h": 4000
+     },
+     {
+      "file": "captures/brutus/full-04.jpg",
+      "y": 12000,
+      "h": 1658
+     }
+    ],
+    "lp": null,
+    "pageTitle": "ブルータス| BRUTUS.jp",
+    "capturedAt": 1792638574143
+   },
+   "parts": [
+    {
+     "id": "brutus-01",
+     "category": "header",
+     "also": [
+      "nav",
+      "search"
+     ],
+     "label": "追従ヘッダー（ロゴ＋ナビ7項目＋キーワード検索）",
+     "note": "スクロール後に上部へ現れる白い細帯に、太いロゴ・英字大文字のナビ・枠線だけのピル型検索窓を横一列に並べたシンプルな構成。",
+     "file": "captures/brutus/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 12498,
+      "w": 1440,
+      "h": 80
+     }
+    },
+    {
+     "id": "brutus-02",
+     "category": "hero",
+     "also": [
+      "slider",
+      "visual"
+     ],
+     "label": "メインビジュアル（最新号連動ムービーのスライダー）",
+     "note": "ベージュ地に白い角丸パネルで映像を見せ、上端に大きな白抜きロゴ、右端に切り込みの入ったペナント形と円に沿って並ぶ「NEW PERSPECTIVE FOR ALL」の文字を重ねた遊びのある構成。",
+     "file": "captures/brutus/parts/02-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 942
+     }
+    },
+    {
+     "id": "brutus-03",
+     "category": "heading",
+     "also": [],
+     "label": "セクション見出し（WHAT'S NEW／新着記事）",
+     "note": "極太の幾何学的サンセリフ英字の下に小さな和文を添えて細い罫線で区切り、セクションの境目の上辺中央に前のセクション色の小さな尖りを付けている。",
+     "file": "captures/brutus/parts/03-heading.jpg",
+     "rect": {
+      "x": 0,
+      "y": 942,
+      "w": 1440,
+      "h": 262
+     }
+    },
+    {
+     "id": "brutus-04",
+     "category": "news",
+     "also": [
+      "slider",
+      "visual"
+     ],
+     "label": "新着トピックのティッカー（横に流れるテキスト帯）",
+     "note": "上下の太い黒罫と左端のジグザグの切り込みでリボン状にした帯の中を、縦棒で区切った記事見出しが横へ流れていく。",
+     "file": "captures/brutus/parts/04-news.jpg",
+     "rect": {
+      "x": 40,
+      "y": 1215,
+      "w": 910,
+      "h": 97
+     }
+    },
+    {
+     "id": "brutus-05",
+     "category": "news",
+     "also": [
+      "card",
+      "banner"
+     ],
+     "label": "新着記事一覧（2列リスト＋ページ送り＋最新号ボックス）",
+     "note": "正方形サムネイルに見出し・日付・色付きドットのカテゴリを添えて2列×4段で並べ、下に丸い矢印ボタンと「01／02」のページ送り、右に星形の「NEW!」バッジ付き最新号を置いている。",
+     "file": "captures/brutus/parts/05-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 942,
+      "w": 1440,
+      "h": 1121
+     }
+    },
+    {
+     "id": "brutus-06",
+     "category": "news",
+     "also": [
+      "card",
+      "button"
+     ],
+     "label": "カテゴリ別記事ブロック（FASHION：大1＋小2）",
+     "note": "左に大きな正方形写真の主記事、右に小さなサムネイル付き記事2本と枠線だけのピル型「一覧を見る」ボタンを置いた非対称のレイアウト。",
+     "file": "captures/brutus/parts/06-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2063,
+      "w": 1440,
+      "h": 1142
+     }
+    },
+    {
+     "id": "brutus-07",
+     "category": "news",
+     "also": [
+      "card"
+     ],
+     "label": "カテゴリ別記事ブロック（WATCHES：黒背景版）",
+     "note": "FASHIONと同じ大1＋小2の型を黒地・白文字に反転させ、白いピル型ボタンでカテゴリごとに雰囲気を切り替えている。",
+     "file": "captures/brutus/parts/07-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 3204,
+      "w": 1440,
+      "h": 1142
+     }
+    },
+    {
+     "id": "brutus-08",
+     "category": "pickup",
+     "also": [
+      "slider",
+      "card"
+     ],
+     "label": "注目コンテンツ（記事5列＋動画2列のカルーセル）",
+     "note": "グレージュの大きな角丸パネルの右上に王冠のようなギザギザの白いタブを付け、ARTICLES／MOVIESの小見出しごとに丸い左右矢印で送るカルーセルを2段重ねている。",
+     "file": "captures/brutus/parts/08-pickup.jpg",
+     "rect": {
+      "x": 0,
+      "y": 5287,
+      "w": 1440,
+      "h": 1305
+     }
+    },
+    {
+     "id": "brutus-09",
+     "category": "slider",
+     "also": [
+      "card"
+     ],
+     "label": "連載カードの横スクロール（REGULARS）",
+     "note": "正方形サムネイルと見出しだけの小さなカードを画面の左右端まではみ出させて並べ、横に続くことを見せている。",
+     "file": "captures/brutus/parts/09-slider.jpg",
+     "rect": {
+      "x": 0,
+      "y": 6591,
+      "w": 1440,
+      "h": 847
+     }
+    },
+    {
+     "id": "brutus-10",
+     "category": "card",
+     "also": [
+      "news",
+      "button"
+     ],
+     "label": "記事グリッド（CONTENTS：大小混在のマソンリー）",
+     "note": "4列グリッドに縦長・2列分の大判カードを混ぜて誌面のようなリズムを作り、最後に黒いピル型の「記事一覧を見る」ボタンで締めている。",
+     "file": "captures/brutus/parts/10-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 7437,
+      "w": 1440,
+      "h": 3259
+     }
+    },
+    {
+     "id": "brutus-11",
+     "category": "products",
+     "also": [
+      "card"
+     ],
+     "label": "マガジン（最新号＋バックナンバー12冊）",
+     "note": "グレージュの帯の左に星形「NEW!」バッジ付きの最新号を大きく、右に過去号の表紙を6冊×2段の書棚のように並べている。",
+     "file": "captures/brutus/parts/11-products.jpg",
+     "rect": {
+      "x": 0,
+      "y": 10695,
+      "w": 1440,
+      "h": 808
+     }
+    },
+    {
+     "id": "brutus-12",
+     "category": "banner",
+     "also": [],
+     "label": "特設サイトへのバナー3枚（SPECIAL）",
+     "note": "黒い細枠の角丸バナーを3等分で並べ、写真・アプリ画面・線画とそれぞれ違う表現でロゴ入りの特設サイトへ誘導している。",
+     "file": "captures/brutus/parts/12-banner.jpg",
+     "rect": {
+      "x": 0,
+      "y": 11502,
+      "w": 1440,
+      "h": 594
+     }
+    },
+    {
+     "id": "brutus-13",
+     "category": "cta",
+     "also": [
+      "footer"
+     ],
+     "label": "メルマガ登録フォーム＋公式SNSアイコン",
+     "note": "黒地に大きなピル型のメール入力欄と矢印の送信・「配信停止」リンクを一体化し、右には中央に小さな切り欠きのある罫線の下に白い丸のSNSアイコンを8つ並べている。",
+     "file": "captures/brutus/parts/13-cta.jpg",
+     "rect": {
+      "x": 0,
+      "y": 12239,
+      "w": 1440,
+      "h": 254
+     }
+    },
+    {
+     "id": "brutus-14",
+     "category": "footer",
+     "also": [
+      "nav",
+      "cta"
+     ],
+     "label": "フッター（カテゴリ・連載リンク、最新号、姉妹誌リンク）",
+     "note": "黒地に英字＋小さな和訳のカテゴリリンクと2列の連載リスト、右に最新号ボックスを置き、最下部に濃いグレーの巨大ロゴを敷いて締めている。",
+     "file": "captures/brutus/parts/14-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 12239,
+      "w": 1440,
+      "h": 1419
+     }
+    }
+   ],
+   "createdAt": 1792638524497,
+   "updatedAt": 1792639130848,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "gizmodo",
+   "url": "https://www.gizmodo.jp/",
+   "title": "ギズモード・ジャパン | \"みんなで探求する\"テックメディア",
+   "tags": [
+    "Webマガジン"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 10808,
+    "fullHeight": 10808,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/gizmodo/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/gizmodo/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/gizmodo/full-02.jpg",
+      "y": 4000,
+      "h": 4000
+     },
+     {
+      "file": "captures/gizmodo/full-03.jpg",
+      "y": 8000,
+      "h": 2808
+     }
+    ],
+    "lp": null,
+    "pageTitle": "ギズモード・ジャパン | \"みんなで探求する\"テックメディア",
+    "capturedAt": 1792638563216
+   },
+   "parts": [],
+   "createdAt": 1792638521057,
+   "updatedAt": 1792638563218,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "mag",
+   "url": "https://mag.smarthr.jp/",
+   "title": "SmartHR Mag. - 働く明日が、もっとよくなる",
+   "tags": [
+    "オウンドメディア"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 13815,
+    "fullHeight": 13815,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/mag/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/mag/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/mag/full-02.jpg",
+      "y": 4000,
+      "h": 4000
+     },
+     {
+      "file": "captures/mag/full-03.jpg",
+      "y": 8000,
+      "h": 4000
+     },
+     {
+      "file": "captures/mag/full-04.jpg",
+      "y": 12000,
+      "h": 1815
+     }
+    ],
+    "lp": null,
+    "pageTitle": "SmartHR Mag. - 働く明日が、もっとよくなる",
+    "capturedAt": 1792638538666
+   },
+   "parts": [],
+   "createdAt": 1792638514846,
+   "updatedAt": 1792638538670,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "kirinto",
+   "url": "https://kirinto.kirin.co.jp/",
+   "title": "KIRINto｜キリント",
+   "tags": [
+    "オウンドメディア"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 4026,
+    "fullHeight": 4026,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/kirinto/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/kirinto/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/kirinto/full-02.jpg",
+      "y": 4000,
+      "h": 26
+     }
+    ],
+    "lp": null,
+    "pageTitle": "KIRINto｜キリント",
+    "capturedAt": 1792638514637
+   },
+   "parts": [],
+   "createdAt": 1792638496888,
+   "updatedAt": 1792638514643,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "toyotatimes",
+   "url": "https://toyotatimes.jp/",
+   "title": "TOP｜トヨタイムズ",
+   "tags": [
+    "オウンドメディア"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 3836,
+    "fullHeight": 3836,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/toyotatimes/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/toyotatimes/full-01.jpg",
+      "y": 0,
+      "h": 3836
+     }
+    ],
+    "lp": null,
+    "pageTitle": "TOP｜トヨタイムズ",
+    "capturedAt": 1792638524345
+   },
+   "parts": [],
+   "createdAt": 1792638495863,
+   "updatedAt": 1792638524348,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "hanako",
+   "url": "https://hanako.tokyo/",
+   "title": "Hanako Web – 雑誌Hanako (ハナコ) の公式サイト、Hanako Web (ハナコ ウェブ)",
+   "tags": [
+    "Webマガジン",
+    "雑誌"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 5985,
+    "fullHeight": 5985,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/hanako/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/hanako/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/hanako/full-02.jpg",
+      "y": 4000,
+      "h": 1985
+     }
+    ],
+    "lp": null,
+    "pageTitle": "Hanako Web – 雑誌Hanako (ハナコ) の公式サイト、Hanako Web (ハナコ ウェブ)",
+    "capturedAt": 1792638520887
+   },
+   "parts": [],
+   "createdAt": 1792638493193,
+   "updatedAt": 1792638520890,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "tarzanweb",
+   "url": "https://tarzanweb.jp/",
+   "title": "Tarzan Web | ターザンウェブ",
+   "tags": [
+    "Webマガジン",
+    "雑誌"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 7411,
+    "fullHeight": 7411,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/tarzanweb/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/tarzanweb/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/tarzanweb/full-02.jpg",
+      "y": 4000,
+      "h": 3411
+     }
+    ],
+    "lp": null,
+    "pageTitle": "Tarzan Web | ターザンウェブ",
+    "capturedAt": 1792638493013
+   },
+   "parts": [
+    {
+     "id": "tarzanweb-01",
+     "category": "header",
+     "also": [],
+     "label": "ヘッダー（中央の楕円ロゴ＋メニューボタン）",
+     "note": "紫の二重線で縁取った白い楕円ロゴをページ中央上部に浮かせ、右上には小さなメニュー・検索アイコンだけを置く。",
+     "file": "captures/tarzanweb/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 175
+     }
+    },
+    {
+     "id": "tarzanweb-02",
+     "category": "nav",
+     "also": [
+      "modal",
+      "search"
+     ],
+     "label": "全画面メニュー（検索・人気タグ・カテゴリ・連載・ニュースレター）",
+     "note": "薄いグレーの全画面に黒い楕円ロゴ、横長の検索枠、#付きの人気タグ、楕円ボタンのカテゴリ、2列の連載リストを罫線見出しで整理している。",
+     "file": "captures/tarzanweb/parts/02-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900
+     }
+    },
+    {
+     "id": "tarzanweb-03",
+     "category": "hero",
+     "also": [
+      "visual",
+      "pickup"
+     ],
+     "label": "キービジュアル（拡大写真＋縦長写真の重ね）",
+     "note": "同じ写真を背景いっぱいに大きく拡大し、中央に縦長の写真を重ね、左に白文字でタグ・タイトル・日付を置く。",
+     "file": "captures/tarzanweb/parts/03-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 876
+     }
+    },
+    {
+     "id": "tarzanweb-04",
+     "category": "news",
+     "also": [
+      "visual"
+     ],
+     "label": "記事タイトルのティッカー（マーキー）",
+     "note": "白い帯の上に紫の文字で記事タイトルを横一列に流し続ける。",
+     "file": "captures/tarzanweb/parts/04-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 814,
+      "w": 1440,
+      "h": 62
+     }
+    },
+    {
+     "id": "tarzanweb-05",
+     "category": "pickup",
+     "also": [
+      "visual"
+     ],
+     "label": "Weekly Watch List＋連載ピックアップの3カラム",
+     "note": "紫の細い罫線で3分割し、左は点線区切りの週間リストと楕円ボタン、中央は「Eternal Style Icon」の文字を円形に配置、右は連載の写真記事を置く。",
+     "file": "captures/tarzanweb/parts/05-pickup.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1690,
+      "w": 1440,
+      "h": 635
+     }
+    },
+    {
+     "id": "tarzanweb-06",
+     "category": "pickup",
+     "also": [
+      "card",
+      "heading"
+     ],
+     "label": "おすすめ特集（横並び3記事）",
+     "note": "Garamond系のセリフ体の英字見出しに小さな和文を添え、紫の罫線で区切ったマスに写真とテキストを横並びで収める。",
+     "file": "captures/tarzanweb/parts/06-pickup.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2325,
+      "w": 1440,
+      "h": 467
+     }
+    },
+    {
+     "id": "tarzanweb-07",
+     "category": "news",
+     "also": [
+      "card"
+     ],
+     "label": "新着記事（2列グリッド＋サイドバー）",
+     "note": "紫の罫線で区切った2列の記事マスの右に、最新号・SNS・連載・ニュースレターのサイドバーを並べた誌面のような格子レイアウト。",
+     "file": "captures/tarzanweb/parts/07-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2791,
+      "w": 1440,
+      "h": 2788
+     }
+    },
+    {
+     "id": "tarzanweb-08",
+     "category": "card",
+     "also": [],
+     "label": "記事カード単体（楕円タグ＋タイトル＋日付）",
+     "note": "写真の下に紫の線で縁取った楕円のカテゴリタグ、紫のタイトルと日付を置き、文字色を紫1色に絞っている。",
+     "file": "captures/tarzanweb/parts/08-card.jpg",
+     "rect": {
+      "x": 1,
+      "y": 2901,
+      "w": 481,
+      "h": 537
+     }
+    },
+    {
+     "id": "tarzanweb-09",
+     "category": "button",
+     "also": [],
+     "label": "「View More Articles」ボタン（楕円）",
+     "note": "紫の塗りの横長楕円に白文字を載せた、ロゴの楕円と形をそろえたボタン。",
+     "file": "captures/tarzanweb/parts/09-button.jpg",
+     "rect": {
+      "x": 1,
+      "y": 5414,
+      "w": 959,
+      "h": 165
+     }
+    },
+    {
+     "id": "tarzanweb-10",
+     "category": "banner",
+     "also": [
+      "cta"
+     ],
+     "label": "最新号の告知＋SNSアイコングリッド",
+     "note": "雑誌の表紙画像の横に楕円枠の「最新号 No.936」、下に紫のSNSアイコンを罫線で区切った4×2マスに並べる。",
+     "file": "captures/tarzanweb/parts/10-banner.jpg",
+     "rect": {
+      "x": 960,
+      "y": 2902,
+      "w": 480,
+      "h": 488
+     }
+    },
+    {
+     "id": "tarzanweb-11",
+     "category": "news",
+     "also": [
+      "card"
+     ],
+     "label": "サイドバーの連載リスト",
+     "note": "下線付きの連載名と写真・切り抜き画像を左右に配置し、余白を大きく取った誌面風の並び。",
+     "file": "captures/tarzanweb/parts/11-news.jpg",
+     "rect": {
+      "x": 960,
+      "y": 3389,
+      "w": 479,
+      "h": 1490
+     }
+    },
+    {
+     "id": "tarzanweb-12",
+     "category": "cta",
+     "also": [
+      "contact"
+     ],
+     "label": "ニュースレター登録フォーム",
+     "note": "セリフ体の大きな見出しの下に、点線枠のメール入力欄と紫の塗りの登録ボタンを横につなげて置く。",
+     "file": "captures/tarzanweb/parts/12-cta.jpg",
+     "rect": {
+      "x": 960,
+      "y": 4938,
+      "w": 479,
+      "h": 316
+     }
+    },
+    {
+     "id": "tarzanweb-13",
+     "category": "slider",
+     "also": [
+      "card"
+     ],
+     "label": "注目の記事スライダー（Special）",
+     "note": "6記事を横に並べ、画面の左右端に紫の四角い矢印ボタンを置いたカルーセルで、写真の縦横比は記事ごとに異なる。",
+     "file": "captures/tarzanweb/parts/13-slider.jpg",
+     "rect": {
+      "x": 0,
+      "y": 5577,
+      "w": 1440,
+      "h": 576
+     }
+    },
+    {
+     "id": "tarzanweb-14",
+     "category": "footer",
+     "also": [
+      "nav"
+     ],
+     "label": "フッター（カテゴリ・連載・ニュースレター・最新号）",
+     "note": "グレー地に楕円ボタンのカテゴリ、2列の連載リスト、ニュースレター欄と最新号を3カラムで並べ、下部に黒のSNSアイコン、系列誌リンク、大きな黒ロゴを置く。",
+     "file": "captures/tarzanweb/parts/14-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 6152,
+      "w": 1440,
+      "h": 1259
+     }
+    }
+   ],
+   "createdAt": 1792638472185,
+   "updatedAt": 1792640827903,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "global-discover",
+   "url": "https://global.honda/jp/discover/",
+   "title": "Discover Honda | Honda 企業情報サイト",
+   "tags": [
+    "オウンドメディア"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 4529,
+    "fullHeight": 4529,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/global-discover/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/global-discover/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/global-discover/full-02.jpg",
+      "y": 4000,
+      "h": 529
+     }
+    ],
+    "lp": null,
+    "pageTitle": "Discover Honda | Honda 企業情報サイト",
+    "capturedAt": 1792638495729
+   },
+   "parts": [
+    {
+     "id": "global-discover-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "Honda共通ヘッダー（2段ナビ＋JP/EN切替＋検索）",
+     "note": "白地に赤いHONDAロゴとタグラインを置き、右側を小さなサブナビと、下向き三角付きのメインナビの2段に分ける端正な構成。",
+     "file": "captures/global-discover/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 120
+     }
+    },
+    {
+     "id": "global-discover-02",
+     "category": "nav",
+     "also": [],
+     "label": "メガメニュー（企業情報）",
+     "note": "ナビ項目の下に濃いグレーの帯を全幅で広げ、白文字で「トップ」リンクと下層項目を横一列に並べ、右端に閉じるボタンを置く。",
+     "file": "captures/global-discover/parts/02-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 280
+     }
+    },
+    {
+     "id": "global-discover-03",
+     "category": "hero",
+     "also": [
+      "pickup"
+     ],
+     "label": "メインビジュアル（特集記事＋Discover Hondaロゴ）",
+     "note": "大きな記事写真に白いタイトルボックスを重ね、オレンジのグラデーション帯と角に置いたオレンジの四角・白い線枠で奥行きを出す。",
+     "file": "captures/global-discover/parts/03-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 120,
+      "w": 1440,
+      "h": 645
+     }
+    },
+    {
+     "id": "global-discover-04",
+     "category": "pickup",
+     "also": [
+      "card"
+     ],
+     "label": "ピックアップ記事2件（横長カード）",
+     "note": "写真の左上にオレンジの四角を少しずらして重ね、媒体名の枠付きラベル・タイトル・カテゴリ色の四角と日付を右側に並べる。",
+     "file": "captures/global-discover/parts/04-pickup.jpg",
+     "rect": {
+      "x": 0,
+      "y": 765,
+      "w": 1440,
+      "h": 291
+     }
+    },
+    {
+     "id": "global-discover-05",
+     "category": "tabs",
+     "also": [
+      "search"
+     ],
+     "label": "カテゴリ絞り込みタブ（7カテゴリ）",
+     "note": "カテゴリごとの色の四角アイコンをラベルの前に置き、選択中のタブだけ赤い太線の下線で示す。",
+     "file": "captures/global-discover/parts/05-tabs.jpg",
+     "rect": {
+      "x": 44,
+      "y": 1091,
+      "w": 1352,
+      "h": 104
+     }
+    },
+    {
+     "id": "global-discover-06",
+     "category": "news",
+     "also": [
+      "card",
+      "tabs"
+     ],
+     "label": "新着記事一覧（タブ＋3列グリッド＋もっと見る）",
+     "note": "白地に3列の写真カードを並べ、媒体名の枠付きラベルとカテゴリ色の小さな四角で記事の出どころと分野を見分けられるようにしている。",
+     "file": "captures/global-discover/parts/06-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1051,
+      "w": 1440,
+      "h": 1625
+     }
+    },
+    {
+     "id": "global-discover-07",
+     "category": "card",
+     "also": [],
+     "label": "記事カード単体",
+     "note": "写真・媒体名の枠付きラベル・2行のタイトル・カテゴリ色の四角と日付を縦に積む、装飾を抑えたカード。",
+     "file": "captures/global-discover/parts/07-card.jpg",
+     "rect": {
+      "x": 44,
+      "y": 1321,
+      "w": 456,
+      "h": 391
+     }
+    },
+    {
+     "id": "global-discover-08",
+     "category": "button",
+     "also": [],
+     "label": "「記事をもっと見る」ボタン（＋アイコン）",
+     "note": "細い黒線の長方形ボタンに、右端の＋で追加読み込みであることを示す。",
+     "file": "captures/global-discover/parts/08-button.jpg",
+     "rect": {
+      "x": 558,
+      "y": 2538,
+      "w": 324,
+      "h": 89
+     }
+    },
+    {
+     "id": "global-discover-09",
+     "category": "pickup",
+     "also": [
+      "card"
+     ],
+     "label": "特集（2カラムの大きなカード）",
+     "note": "薄いグレー地に白いカードを2枚並べ、写真の下にタイトルと罫線・矢印、リード文を置き、下に一覧ボタンを添える。",
+     "file": "captures/global-discover/parts/09-pickup.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2692,
+      "w": 1440,
+      "h": 925
+     }
+    },
+    {
+     "id": "global-discover-10",
+     "category": "banner",
+     "also": [
+      "intro"
+     ],
+     "label": "運営メディアのロゴ一覧（Discover Hondaについて）",
+     "note": "1行の説明文の下に、Honda StoriesやHRCなど運営メディアのロゴを横一列に等間隔で並べる。",
+     "file": "captures/global-discover/parts/10-banner.jpg",
+     "rect": {
+      "x": 0,
+      "y": 3596,
+      "w": 1440,
+      "h": 217
+     }
+    },
+    {
+     "id": "global-discover-11",
+     "category": "footer",
+     "also": [],
+     "label": "フッター（SNS・サイトリンク・統合報告書バナー）",
+     "note": "濃いチャコール地にSNSアイコン、2列のテキストリンク、右側に統合報告書の写真バナーを置き、黒い帯に規約リンクとコピーライトをまとめる。",
+     "file": "captures/global-discover/parts/11-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 3965,
+      "w": 1440,
+      "h": 543
+     }
+    }
+   ],
+   "createdAt": 1792638472178,
+   "updatedAt": 1792640628094,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "spark-journal",
+   "url": "https://spark-journal.kddi.com/",
+   "title": "Spark Journal by KDDI",
+   "tags": [
+    "オウンドメディア"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 10800,
+    "fullHeight": 10800,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/spark-journal/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/spark-journal/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/spark-journal/full-02.jpg",
+      "y": 4000,
+      "h": 4000
+     },
+     {
+      "file": "captures/spark-journal/full-03.jpg",
+      "y": 8000,
+      "h": 2800
+     }
+    ],
+    "lp": null,
+    "pageTitle": "Spark Journal by KDDI",
+    "capturedAt": 1792638496567
+   },
+   "parts": [
+    {
+     "id": "spark-journal-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "ヘッダー（ロゴ＋テキストナビ4項目＋AIナビ・検索・メニュー）",
+     "note": "星マーク付きのロゴの横に「動きを停止」ボタン、右側にテキストナビとピル型のAIナビ・検索ボタンを並べ、濃紺の楕円ハンバーガーで締める。",
+     "file": "captures/spark-journal/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 101
+     }
+    },
+    {
+     "id": "spark-journal-02",
+     "category": "nav",
+     "also": [
+      "modal"
+     ],
+     "label": "ハンバーガーメニュー（右上のパネル）",
+     "note": "背景を白く霞ませ、右側の角丸パネルに一覧リンクと色違いの星アイコン付きカテゴリを罫線区切りで並べる。",
+     "file": "captures/spark-journal/parts/02-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900
+     }
+    },
+    {
+     "id": "spark-journal-03",
+     "category": "hero",
+     "also": [
+      "slider",
+      "pickup"
+     ],
+     "label": "ピックアップ記事カルーセル（ファーストビュー）",
+     "note": "中央の大きな角丸記事カードの左右に前後のスライドをはみ出させ、背景にオレンジ〜ピンクの大きな光線状シェイプを敷いた、ページ送り（2/4）付きのカルーセル。",
+     "file": "captures/spark-journal/parts/03-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 804
+     }
+    },
+    {
+     "id": "spark-journal-04",
+     "category": "nav",
+     "also": [
+      "visual"
+     ],
+     "label": "キーワードタグ帯（絵文字付き）",
+     "note": "絵文字アイコン付きの白いピル型タグを、方眼背景の上に横一列で繰り返し並べたキーワード帯。",
+     "file": "captures/spark-journal/parts/04-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 724,
+      "w": 1440,
+      "h": 80
+     }
+    },
+    {
+     "id": "spark-journal-05",
+     "category": "intro",
+     "also": [],
+     "label": "ブランドメディア紹介（ときめきが見つかる、KDDIのブランドメディア）",
+     "note": "方眼紙のような薄いグリッド背景に、左に濃紺の太い見出し、右にリード文とピル型の「Spark Journalとは」ボタンを置いた2カラム。",
+     "file": "captures/spark-journal/parts/05-intro.jpg",
+     "rect": {
+      "x": 0,
+      "y": 803,
+      "w": 1440,
+      "h": 421
+     }
+    },
+    {
+     "id": "spark-journal-06",
+     "category": "pickup",
+     "also": [
+      "card"
+     ],
+     "label": "特集（縦書きタイトルの3枠）",
+     "note": "方眼背景の枠内に3つの特集を段違いに配置し、角丸写真の横に縦書きの大きなタイトルと点線縁の「特集」バッジを添える。",
+     "file": "captures/spark-journal/parts/06-pickup.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1223,
+      "w": 1440,
+      "h": 822
+     }
+    },
+    {
+     "id": "spark-journal-07",
+     "category": "news",
+     "also": [
+      "card"
+     ],
+     "label": "新着記事（3カラムカード）",
+     "note": "左端に縦書きの英字ラベルと濃紺ピルの見出し、右端に縦書きの「記事一覧」リンクを置く枠組みで、細い濃紺線の角丸カードを3枚並べる。",
+     "file": "captures/spark-journal/parts/07-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2045,
+      "w": 1440,
+      "h": 456
+     }
+    },
+    {
+     "id": "spark-journal-08",
+     "category": "news",
+     "also": [
+      "card",
+      "visual"
+     ],
+     "label": "カテゴリ別記事一覧（つなぐ）",
+     "note": "カテゴリごとにグラデーション背景とフラットなイラストを持たせ、大きな1記事＋小カード2×2で構成する（テクノロジー・暮らし・みらいも同じ型の色違い）。",
+     "file": "captures/spark-journal/parts/08-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2500,
+      "w": 1440,
+      "h": 1278
+     }
+    },
+    {
+     "id": "spark-journal-09",
+     "category": "pickup",
+     "also": [
+      "visual"
+     ],
+     "label": "おすすめ動画（大型サムネイル＋再生ボタン）",
+     "note": "方眼の枠いっぱいに大きな動画サムネイルを置き、中央に濃紺の丸い再生ボタン、下に日付とタイトルを添える。",
+     "file": "captures/spark-journal/parts/09-pickup.jpg",
+     "rect": {
+      "x": 0,
+      "y": 7670,
+      "w": 1440,
+      "h": 898
+     }
+    },
+    {
+     "id": "spark-journal-10",
+     "category": "ranking",
+     "also": [],
+     "label": "人気記事ランキング（1位大＋2〜5位）",
+     "note": "1位を横長で大きく、2〜5位を2列のタイルにして各タイルをカテゴリ色のグラデーションで塗り分け、点線縁の楕円に順位数字を入れる。",
+     "file": "captures/spark-journal/parts/10-ranking.jpg",
+     "rect": {
+      "x": 0,
+      "y": 8567,
+      "w": 1440,
+      "h": 726
+     }
+    },
+    {
+     "id": "spark-journal-11",
+     "category": "slider",
+     "also": [
+      "pickup"
+     ],
+     "label": "連載スライダー（夢中キックオフ）",
+     "note": "中央に傾けた写真を重ねたスクエアのキービジュアル、左にバッジ・タイトル・ページ送り、右に説明文を置いた3分割レイアウト。",
+     "file": "captures/spark-journal/parts/11-slider.jpg",
+     "rect": {
+      "x": 0,
+      "y": 9293,
+      "w": 1440,
+      "h": 643
+     }
+    },
+    {
+     "id": "spark-journal-12",
+     "category": "banner",
+     "also": [
+      "slider"
+     ],
+     "label": "関連サイトバナーのカルーセル",
+     "note": "KDDIの関連メディアやイベントの横長バナーを画面端まで並べ、下にピル型の前後ボタンを置く。",
+     "file": "captures/spark-journal/parts/12-banner.jpg",
+     "rect": {
+      "x": 0,
+      "y": 9936,
+      "w": 1440,
+      "h": 279
+     }
+    },
+    {
+     "id": "spark-journal-13",
+     "category": "cta",
+     "also": [],
+     "label": "SNSフォロー誘導（Follow us）",
+     "note": "方眼背景の細枠ボックスに、アウトライン文字の「Follow us」とX・Facebook・YouTubeのアイコンを横一列に並べる。",
+     "file": "captures/spark-journal/parts/13-cta.jpg",
+     "rect": {
+      "x": 56,
+      "y": 10271,
+      "w": 1328,
+      "h": 231
+     }
+    },
+    {
+     "id": "spark-journal-14",
+     "category": "footer",
+     "also": [],
+     "label": "フッター（SNS誘導＋規約リンク2列＋KDDIロゴ）",
+     "note": "白地に外部リンクアイコン付きの小さなテキストリンクを2列に並べ、右にタグライン付きのKDDIロゴとコピーライトを置く簡潔な構成。",
+     "file": "captures/spark-journal/parts/14-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 10214,
+      "w": 1440,
+      "h": 586
+     }
+    }
+   ],
+   "createdAt": 1792638472172,
+   "updatedAt": 1792638977349,
+   "status": "captured",
+   "pages": []
+  },
   {
    "id": "nationaldex",
    "url": "https://www.nationaldex.app/",
@@ -303,7 +2545,8 @@
    ],
    "createdAt": 1792633050178,
    "updatedAt": 1792633745416,
-   "status": "captured"
+   "status": "captured",
+   "pages": []
   },
   {
    "id": "felissimo-crowdfunding-fc",
@@ -754,7 +2997,8 @@
    ],
    "createdAt": 1792633002315,
    "updatedAt": 1792636443056,
-   "status": "captured"
+   "status": "captured",
+   "pages": []
   }
  ]
 }

@@ -198,11 +198,11 @@ function siteThumb(site) {
 }
 
 function statusBadge(site) {
-  if (READ_ONLY) return site.parts?.length ? h('span', { class: 'badge' }, `パーツ ${site.parts.length}`) : null;
+  if (READ_ONLY) return site.parts?.length ? h('span', { class: 'badge' }, `パーツ ${site.parts.length}${site.pages?.length ? `・${site.pages.length + 1}画面` : ''}`) : null;
   if (site.status === 'capturing') return h('span', { class: 'badge is-busy' }, '撮影中…');
   if (site.status === 'error') return h('span', { class: 'badge is-error', title: site.error ?? '' }, '撮影に失敗');
   if (site.status === 'pending') return h('span', { class: 'badge' }, '撮影待ち');
-  if (site.parts?.length) return h('span', { class: 'badge' }, `パーツ ${site.parts.length}`);
+  if (site.parts?.length) return h('span', { class: 'badge' }, `パーツ ${site.parts.length}${site.pages?.length ? `・${site.pages.length + 1}画面` : ''}`);
   if (site.capture) return h('span', { class: 'badge is-todo' }, 'パーツ分け待ち');
   return null;
 }
@@ -496,8 +496,16 @@ function inColumn(rect, lp) {
   return rect.x >= lp.x - 8 && rect.x + rect.w <= lp.x + lp.w + 8;
 }
 
-function lpView(site, mode) {
-  const cap = site.capture;
+// トップ（page なし）と、遷移先・操作後の別画面（site.pages）
+function sitePages(site) {
+  return [
+    { id: null, label: 'トップ', capture: site.capture, status: site.status, error: site.error },
+    ...(site.pages ?? []),
+  ];
+}
+const pageLabel = (site, pid) => (pid ? site.pages?.find((p) => p.id === pid)?.label ?? pid : 'トップ');
+
+function lpView(cap, mode) {
   const isLp = mode === 'lp' && cap.lp;
   const segs = isLp ? cap.lp.segments : cap.segments;
   const refW = isLp ? cap.lp.w : cap.width;
@@ -520,7 +528,7 @@ function focusPartInLp(scroller, view, rect) {
     class: 'lp-hl',
     style: `left:${(rect.x - view.offX) * scale}px;top:${rect.y * scale}px;width:${rect.w * scale}px;height:${rect.h * scale}px`,
   }));
-  scroller.scrollTo({ top: Math.max(0, rect.y * scale - 48), behavior: 'smooth' });
+  scroller.scrollTo({ top: Math.max(0, rect.y * scale - 56), behavior: 'smooth' });
 }
 
 function showDetail(id, { focus } = {}) {
@@ -531,46 +539,75 @@ function showDetail(id, { focus } = {}) {
 
   const list = visibleSites();
   const index = list.findIndex((s) => s.id === id);
-  const cap = site.capture;
+  const pages = sitePages(site);
+  const hasPages = pages.length > 1;
   const parts = (site.parts ?? []).map((p, order) => ({ ...p, site, order }));
   const focusPart = parts.find((p) => p.id === focus);
-  let mode = cap?.lp ? state.lpMode : 'full';
-  if (focusPart && cap?.lp && !inColumn(focusPart.rect, cap.lp)) mode = 'full';
 
   const scroller = h('div', { class: 'detail-media lp-scroll' });
   let view = null;
   let currentFocus = focusPart;
+  let pageId = null;
+  let cap = null;
+  let mode = 'full';
+  const pickPage = (pid) => {
+    pageId = pid;
+    cap = pages.find((p) => p.id === pid)?.capture ?? null;
+    mode = cap?.lp ? state.lpMode : 'full';
+  };
+  pickPage(focusPart?.page ?? null);
+  if (focusPart && cap?.lp && !inColumn(focusPart.rect, cap.lp)) mode = 'full';
+
+  const markCurrent = () => els.detail.querySelectorAll('.dpart').forEach((b) =>
+    b.classList.toggle('is-current', b.dataset.id === currentFocus?.id));
+  const refocus = () => {
+    if (view && currentFocus && (currentFocus.page ?? null) === pageId) {
+      requestAnimationFrame(() => focusPartInLp(scroller, view, currentFocus.rect));
+    }
+  };
 
   const drawMedia = () => {
+    const pg = pages.find((p) => p.id === pageId);
+    const bar = h('div', { class: 'lp-toolbar' },
+      hasPages ? h('div', { class: 'lp-pages segmented' }, pages.map((p) => h('label', {},
+        h('input', {
+          type: 'radio',
+          name: 'lp-page',
+          checked: p.id === pageId,
+          onchange: () => { pickPage(p.id); drawMedia(); scroller.scrollTop = 0; refocus(); },
+        }),
+        h('span', {}, p.label)))) : null,
+      cap?.lp ? h('div', { class: 'lp-switch segmented' }, ['lp', 'full'].map((m) => h('label', {},
+        h('input', {
+          type: 'radio',
+          name: 'lp-mode',
+          checked: mode === m,
+          onchange: () => { mode = m; state.lpMode = m; drawMedia(); refocus(); },
+        }),
+        h('span', {}, m === 'lp' ? 'LP本体' : 'PC表示全体')))) : null);
+    const toolbar = bar.children.length ? bar : null;
     if (!cap) {
-      scroller.replaceChildren(h('div', { class: 'lp-empty' },
+      view = null;
+      scroller.replaceChildren(...kids(toolbar, h('div', { class: 'lp-empty' },
         siteThumb(site),
-        h('p', {}, site.status === 'capturing' ? 'ページ全体を撮影しています…（30秒〜1分ほど）'
-          : site.status === 'error' ? `撮影に失敗しました：${site.error ?? ''}` : 'まだ撮影していません')));
+        h('p', {}, pg?.status === 'capturing' ? 'ページ全体を撮影しています…（30秒〜1分ほど）'
+          : pg?.status === 'error' ? `撮影に失敗しました：${pg.error ?? ''}` : 'まだ撮影していません'))));
       return;
     }
-    view = lpView(site, mode);
-    scroller.replaceChildren(...kids(
-      cap.lp ? h('div', { class: 'lp-switch segmented' },
-        ['lp', 'full'].map((m) => h('label', {},
-          h('input', {
-            type: 'radio',
-            name: 'lp-mode',
-            value: m,
-            checked: mode === m,
-            onchange: () => { mode = m; state.lpMode = m; drawMedia(); if (currentFocus) requestAnimationFrame(() => focusPartInLp(scroller, view, currentFocus.rect)); },
-          }),
-          h('span', {}, m === 'lp' ? 'LP本体' : 'PC表示全体')))) : null,
-      view.stack));
+    view = lpView(cap, mode);
+    scroller.replaceChildren(...kids(toolbar, view.stack));
   };
 
   const focusOn = (part) => {
     currentFocus = part;
+    const pid = part.page ?? null;
+    if (pid !== pageId) { pickPage(pid); drawMedia(); }
     if (cap?.lp && mode === 'lp' && !inColumn(part.rect, cap.lp)) { mode = 'full'; drawMedia(); }
-    requestAnimationFrame(() => focusPartInLp(scroller, view, part.rect));
-    els.detail.querySelectorAll('.dpart').forEach((b) => b.classList.toggle('is-current', b.dataset.id === part.id));
+    markCurrent();
+    refocus();
   };
 
+  const top = site.capture;
   const date = new Date(site.createdAt).toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' });
   const order = new Map(state.categories.map((c, i) => [c.id, i]));
   const groups = [...new Set(parts.map((p) => p.category))].sort((a, b) => (order.get(a) ?? 99) - (order.get(b) ?? 99));
@@ -588,7 +625,8 @@ function showDetail(id, { focus } = {}) {
         : null,
       site.memo ? h('p', { class: 'detail-memo' }, site.memo) : null,
       h('p', { class: 'detail-date' }, `${date} に追加`,
-        cap ? `・${new Date(cap.capturedAt).toLocaleDateString('ja-JP')} に撮影（${cap.width}×${cap.height}px）` : ''),
+        top ? `・${new Date(top.capturedAt).toLocaleDateString('ja-JP')} に撮影` : '',
+        hasPages ? `・${pages.length} 画面` : ''),
       h('div', { class: 'detail-actions' },
         h('a', { class: 'btn btn-primary', href: site.url, target: '_blank', rel: 'noopener noreferrer' }, 'サイトを開く', icon('external')),
         READ_ONLY ? null : [
@@ -613,11 +651,12 @@ function showDetail(id, { focus } = {}) {
               h('h4', {}, catName(g)),
               h('div', { class: 'dparts-list' }, parts.filter((p) => p.category === g).map((p) =>
                 h('div', { class: 'dpart', 'data-id': p.id },
-                  h('button', { class: 'dpart-main', type: 'button', title: 'LP内の位置を表示', onclick: () => focusOn(p) },
+                  h('button', { class: 'dpart-main', type: 'button', title: 'ページ内の位置を表示', onclick: () => focusOn(p) },
                     partImage(p, 'dpart-img'),
-                    h('span', { class: 'dpart-label' }, p.label || catName(p.category))),
+                    h('span', { class: 'dpart-label' }, p.label || catName(p.category)),
+                    hasPages ? h('span', { class: 'dpart-page' }, pageLabel(site, p.page)) : null),
                   h('button', { class: 'dpart-zoom icon-btn', type: 'button', title: '大きく見る', 'aria-label': '大きく見る', onclick: () => showPart(p.id) }, icon('expand')))))))
-          : h('p', { class: 'dparts-empty' }, READ_ONLY ? 'このサイトはまだパーツに分けていません。' : cap
+          : h('p', { class: 'dparts-empty' }, READ_ONLY ? 'このサイトはまだパーツに分けていません。' : top
             ? 'まだパーツに分けていません。Claude に「パーツ分けして」と頼むと、この画面を切り分けて登録します。'
             : '撮影が終わると、ここにパーツが並びます。'))),
   );
@@ -660,14 +699,14 @@ function showPart(id) {
         }, catName(c)))),
       h('h2', { class: 'detail-title' }, part.label || catName(part.category)),
       part.note ? h('p', { class: 'detail-memo' }, part.note) : null,
-      h('p', { class: 'detail-date' }, `${part.rect.w}×${part.rect.h}px`),
+      h('p', { class: 'detail-date' }, part.page ? `${pageLabel(site, part.page)}の画面・` : '', `${part.rect.w}×${part.rect.h}px`),
       h('button', { class: 'part-source', type: 'button', onclick: () => showDetail(site.id, { focus: part.id }) },
         siteThumb(site),
         h('span', {},
           h('span', { class: 'part-source-title' }, displayTitle(site)),
           h('span', { class: 'part-source-host' }, hostOf(site.url)))),
       h('div', { class: 'detail-actions' },
-        h('button', { class: 'btn btn-primary', type: 'button', onclick: () => showDetail(site.id, { focus: part.id }) }, icon('locate'), 'LP内の位置を見る'),
+        h('button', { class: 'btn btn-primary', type: 'button', onclick: () => showDetail(site.id, { focus: part.id }) }, icon('locate'), 'ページ内の位置を見る'),
         h('a', { class: 'btn', href: site.url, target: '_blank', rel: 'noopener noreferrer' }, 'サイトを開く', icon('external')))),
   );
   if (!els.partDialog.open) els.partDialog.showModal();

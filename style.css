@@ -632,8 +632,22 @@ textarea.input { min-height: 80px; resize: vertical; line-height: 1.7; }
 .detail--site, .detail--part { height: min(940px, calc(100dvh - 48px)); grid-template-rows: minmax(0, 1fr); }
 .detail--site .detail-media, .detail--part .detail-media { height: 100%; max-height: none; }
 .lp-scroll { position: relative; padding-bottom: 32px; overflow: auto; overscroll-behavior: contain; }
-.lp-switch { position: sticky; top: 12px; z-index: 3; display: flex; width: max-content; margin: 12px auto; background: var(--surface); box-shadow: var(--shadow-md); }
-.lp-switch input:checked + span { background: var(--accent); color: var(--on-accent); box-shadow: none; }
+.lp-toolbar {
+  position: sticky;
+  top: 12px;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 12px auto;
+  padding: 0 12px;
+  pointer-events: none;
+}
+.lp-toolbar > * { pointer-events: auto; }
+.lp-switch, .lp-pages { display: flex; flex-wrap: wrap; width: max-content; max-width: 100%; background: var(--surface); box-shadow: var(--shadow-md); }
+.lp-switch input:checked + span, .lp-pages input:checked + span { background: var(--accent); color: var(--on-accent); box-shadow: none; }
+.dpart-page { font-size: 11px; color: var(--muted); }
 .lp-stack { position: relative; }
 .lp-stack.is-column { max-width: 430px; margin: 0 auto; box-shadow: var(--shadow-md); }
 .lp-stack img { display: block; width: 100%; height: auto; background: var(--surface); }
