@@ -226,7 +226,36 @@
     ],
     "lp": null,
     "pageTitle": "値段のないスーパーマーケット Web体験版：農林水産省",
-    "capturedAt": 1792640806947
+    "capturedAt": 1792640806947,
+    "sp": {
+     "width": 390,
+     "height": 4172,
+     "fullHeight": 4172,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/nedannonai-supermarket/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/nedannonai-supermarket/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/nedannonai-supermarket/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/nedannonai-supermarket/sp/full-03.jpg",
+       "y": 4000,
+       "h": 172
+      }
+     ],
+     "capturedAt": 1792641670431
+    }
    },
    "parts": [
     {
@@ -527,7 +556,7 @@
     }
    ],
    "createdAt": 1792639077066,
-   "updatedAt": 1792641119293,
+   "updatedAt": 1792641696974,
    "status": "captured",
    "pages": [
     {
@@ -552,7 +581,36 @@
       ],
       "lp": null,
       "pageTitle": "値段のないスーパーマーケット Web体験版：農林水産省",
-      "capturedAt": 1792641000287
+      "capturedAt": 1792641000287,
+      "sp": {
+       "width": 390,
+       "height": 4172,
+       "fullHeight": 4172,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/nedannonai-supermarket/pages/menu/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/nedannonai-supermarket/pages/menu/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/nedannonai-supermarket/pages/menu/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/nedannonai-supermarket/pages/menu/sp/full-03.jpg",
+         "y": 4000,
+         "h": 172
+        }
+       ],
+       "capturedAt": 1792641676491
+      }
      },
      "status": "captured"
     },
@@ -578,7 +636,26 @@
       ],
       "lp": null,
       "pageTitle": "お会計 | 値段のないスーパーマーケット Web体験版：農林水産省",
-      "capturedAt": 1792639092366
+      "capturedAt": 1792639092366,
+      "sp": {
+       "width": 390,
+       "height": 1524,
+       "fullHeight": 1524,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/nedannonai-supermarket/pages/register/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/nedannonai-supermarket/pages/register/sp/full-01.jpg",
+         "y": 0,
+         "h": 1524
+        }
+       ],
+       "capturedAt": 1792641679909
+      }
      },
      "status": "captured"
     },
@@ -604,7 +681,26 @@
       ],
       "lp": null,
       "pageTitle": "お会計 | 値段のないスーパーマーケット Web体験版：農林水産省",
-      "capturedAt": 1792639102901
+      "capturedAt": 1792639102901,
+      "sp": {
+       "width": 390,
+       "height": 1319,
+       "fullHeight": 1319,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/nedannonai-supermarket/pages/hint/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/nedannonai-supermarket/pages/hint/sp/full-01.jpg",
+         "y": 0,
+         "h": 1319
+        }
+       ],
+       "capturedAt": 1792641682795
+      }
      },
      "status": "captured"
     },
@@ -630,7 +726,26 @@
       ],
       "lp": null,
       "pageTitle": "お会計 | 値段のないスーパーマーケット Web体験版：農林水産省",
-      "capturedAt": 1792639116979
+      "capturedAt": 1792639116979,
+      "sp": {
+       "width": 390,
+       "height": 1211,
+       "fullHeight": 1211,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/nedannonai-supermarket/pages/keypad/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/nedannonai-supermarket/pages/keypad/sp/full-01.jpg",
+         "y": 0,
+         "h": 1211
+        }
+       ],
+       "capturedAt": 1792641690839
+      }
      },
      "status": "captured"
     },
@@ -656,7 +771,26 @@
       ],
       "lp": null,
       "pageTitle": "お会計 | 値段のないスーパーマーケット Web体験版：農林水産省",
-      "capturedAt": 1792640658656
+      "capturedAt": 1792640658656,
+      "sp": {
+       "width": 390,
+       "height": 1211,
+       "fullHeight": 1211,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/nedannonai-supermarket/pages/confirm/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/nedannonai-supermarket/pages/confirm/sp/full-01.jpg",
+         "y": 0,
+         "h": 1211
+        }
+       ],
+       "capturedAt": 1792641696972
+      }
      },
      "status": "captured"
     },
@@ -786,7 +920,26 @@
       ],
       "lp": null,
       "pageTitle": "フェアプライスクイズ | 値段のないスーパーマーケット Web体験版：農林水産省",
-      "capturedAt": 1792639251591
+      "capturedAt": 1792639251591,
+      "sp": {
+       "width": 390,
+       "height": 1412,
+       "fullHeight": 1412,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/nedannonai-supermarket/pages/quiz/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/nedannonai-supermarket/pages/quiz/sp/full-01.jpg",
+         "y": 0,
+         "h": 1412
+        }
+       ],
+       "capturedAt": 1792641691867
+      }
      },
      "status": "captured"
     },
@@ -888,7 +1041,51 @@
     ],
     "lp": null,
     "pageTitle": "KINDAI GRAFFITI｜近畿大学",
-    "capturedAt": 1792638596621
+    "capturedAt": 1792638596621,
+    "sp": {
+     "width": 390,
+     "height": 10343,
+     "fullHeight": 10343,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/kindai-graffiti/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/kindai-graffiti/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/kindai-graffiti/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/kindai-graffiti/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/kindai-graffiti/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/kindai-graffiti/sp/full-05.jpg",
+       "y": 8000,
+       "h": 2000
+      },
+      {
+       "file": "captures/kindai-graffiti/sp/full-06.jpg",
+       "y": 10000,
+       "h": 343
+      }
+     ],
+     "capturedAt": 1792641665074
+    }
    },
    "parts": [
     {
@@ -1123,9 +1320,1901 @@
     }
    ],
    "createdAt": 1792638563412,
-   "updatedAt": 1792641289029,
+   "updatedAt": 1792642001202,
    "status": "captured",
-   "pages": []
+   "pages": [
+    {
+     "id": "snap-faculty",
+     "label": "Kindai-jin SNAP（学部別）",
+     "url": "https://kindai-graffiti.kindai.ac.jp/snap/nursing",
+     "capture": {
+      "width": 1440,
+      "height": 2217,
+      "fullHeight": 2217,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/snap-faculty/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/snap-faculty/full-01.jpg",
+        "y": 0,
+        "h": 2217
+       }
+      ],
+      "lp": null,
+      "pageTitle": "看護学部｜Kindai-jin SNAP｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641757320,
+      "sp": {
+       "width": 390,
+       "height": 3024,
+       "fullHeight": 3024,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/snap-faculty/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/snap-faculty/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/snap-faculty/sp/full-02.jpg",
+         "y": 2000,
+         "h": 1024
+        }
+       ],
+       "capturedAt": 1792641766514
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "about",
+     "label": "近大グラフィティとは",
+     "url": "https://kindai-graffiti.kindai.ac.jp/about",
+     "capture": {
+      "width": 1440,
+      "height": 2856,
+      "fullHeight": 2856,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/about/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/about/full-01.jpg",
+        "y": 0,
+        "h": 2856
+       }
+      ],
+      "lp": null,
+      "pageTitle": "近大グラフィティとは｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641757467,
+      "sp": {
+       "width": 390,
+       "height": 2231,
+       "fullHeight": 2231,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/about/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/about/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/about/sp/full-02.jpg",
+         "y": 2000,
+         "h": 231
+        }
+       ],
+       "capturedAt": 1792641766388
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "snap",
+     "label": "Kindai-jin SNAP（一覧）",
+     "url": "https://kindai-graffiti.kindai.ac.jp/snap",
+     "capture": {
+      "width": 1440,
+      "height": 1246,
+      "fullHeight": 1246,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/snap/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/snap/full-01.jpg",
+        "y": 0,
+        "h": 1246
+       }
+      ],
+      "lp": null,
+      "pageTitle": "Kindai-jin SNAP｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641756000,
+      "sp": {
+       "width": 390,
+       "height": 1316,
+       "fullHeight": 1316,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/snap/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/snap/sp/full-01.jpg",
+         "y": 0,
+         "h": 1316
+        }
+       ],
+       "capturedAt": 1792641763374
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "snap-detail",
+     "label": "Kindai-jin SNAP（詳細）",
+     "url": "https://kindai-graffiti.kindai.ac.jp/snap/nursing?id=182",
+     "capture": {
+      "width": 1440,
+      "height": 2217,
+      "fullHeight": 2217,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/snap-detail/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/snap-detail/full-01.jpg",
+        "y": 0,
+        "h": 2217
+       }
+      ],
+      "lp": null,
+      "pageTitle": "看護学部・教授 上硲 俊法｜看護学部｜Kindai-jin SNAP｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641772879,
+      "sp": {
+       "width": 390,
+       "height": 3024,
+       "fullHeight": 3024,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/snap-detail/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/snap-detail/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/snap-detail/sp/full-02.jpg",
+         "y": 2000,
+         "h": 1024
+        }
+       ],
+       "capturedAt": 1792641780954
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "voice",
+     "label": "KINDAI VOICE 在学生編（一覧）",
+     "url": "https://kindai-graffiti.kindai.ac.jp/voice-student",
+     "capture": {
+      "width": 1440,
+      "height": 2797,
+      "fullHeight": 2797,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/voice/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/voice/full-01.jpg",
+        "y": 0,
+        "h": 2797
+       }
+      ],
+      "lp": null,
+      "pageTitle": "VOICE在学生編｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641776604,
+      "sp": {
+       "width": 390,
+       "height": 5414,
+       "fullHeight": 5414,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/voice/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/voice/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/voice/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/voice/sp/full-03.jpg",
+         "y": 4000,
+         "h": 1414
+        }
+       ],
+       "capturedAt": 1792641786118
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "voice-detail",
+     "label": "KINDAI VOICE 在学生編（記事）",
+     "url": "https://kindai-graffiti.kindai.ac.jp/voice-student?id=415",
+     "capture": {
+      "width": 1440,
+      "height": 2797,
+      "fullHeight": 2797,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/voice-detail/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/voice-detail/full-01.jpg",
+        "y": 0,
+        "h": 2797
+       }
+      ],
+      "lp": null,
+      "pageTitle": "工学部 大阪府・近畿大学附属高等学校出身｜VOICE在学生編｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641777965,
+      "sp": {
+       "width": 390,
+       "height": 5414,
+       "fullHeight": 5414,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/voice-detail/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/voice-detail/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/voice-detail/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/voice-detail/sp/full-03.jpg",
+         "y": 4000,
+         "h": 1414
+        }
+       ],
+       "capturedAt": 1792641787980
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "selfie",
+     "label": "近大セルフィー",
+     "url": "https://kindai-graffiti.kindai.ac.jp/selfie",
+     "capture": {
+      "width": 1440,
+      "height": 5831,
+      "fullHeight": 5831,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/selfie/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/selfie/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/selfie/full-02.jpg",
+        "y": 4000,
+        "h": 1831
+       }
+      ],
+      "lp": null,
+      "pageTitle": "近大セルフィー｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641793102,
+      "sp": {
+       "width": 390,
+       "height": 5949,
+       "fullHeight": 5949,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/selfie/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/selfie/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/selfie/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/selfie/sp/full-03.jpg",
+         "y": 4000,
+         "h": 1949
+        }
+       ],
+       "capturedAt": 1792641802567
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "schedule",
+     "label": "時間割＆バッグの中身大調査！",
+     "url": "https://kindai-graffiti.kindai.ac.jp/schedule",
+     "capture": {
+      "width": 1440,
+      "height": 11648,
+      "fullHeight": 11648,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/schedule/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/schedule/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/schedule/full-02.jpg",
+        "y": 4000,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/schedule/full-03.jpg",
+        "y": 8000,
+        "h": 3648
+       }
+      ],
+      "lp": null,
+      "pageTitle": "時間割&バッグの中身大調査！｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641802375,
+      "sp": {
+       "width": 390,
+       "height": 15891,
+       "fullHeight": 15891,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/schedule/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/schedule/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/schedule/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/schedule/sp/full-03.jpg",
+         "y": 4000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/schedule/sp/full-04.jpg",
+         "y": 6000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/schedule/sp/full-05.jpg",
+         "y": 8000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/schedule/sp/full-06.jpg",
+         "y": 10000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/schedule/sp/full-07.jpg",
+         "y": 12000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/schedule/sp/full-08.jpg",
+         "y": 14000,
+         "h": 1891
+        }
+       ],
+       "capturedAt": 1792641818237
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "fish",
+     "label": "近大美魚図鑑",
+     "url": "https://kindai-graffiti.kindai.ac.jp/fish",
+     "capture": {
+      "width": 1440,
+      "height": 1941,
+      "fullHeight": 1941,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/fish/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/fish/full-01.jpg",
+        "y": 0,
+        "h": 1941
+       }
+      ],
+      "lp": null,
+      "pageTitle": "近大美魚図鑑｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641797838,
+      "sp": {
+       "width": 390,
+       "height": 1750,
+       "fullHeight": 1750,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/fish/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/fish/sp/full-01.jpg",
+         "y": 0,
+         "h": 1750
+        }
+       ],
+       "capturedAt": 1792641806024
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "beauty",
+     "label": "近大美容通信",
+     "url": "https://kindai-graffiti.kindai.ac.jp/beauty",
+     "capture": {
+      "width": 1440,
+      "height": 6904,
+      "fullHeight": 6904,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/beauty/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/beauty/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/beauty/full-02.jpg",
+        "y": 4000,
+        "h": 2904
+       }
+      ],
+      "lp": null,
+      "pageTitle": "近大美容通信｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641816430,
+      "sp": {
+       "width": 390,
+       "height": 6930,
+       "fullHeight": 6930,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/beauty/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/beauty/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/beauty/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/beauty/sp/full-03.jpg",
+         "y": 4000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/beauty/sp/full-04.jpg",
+         "y": 6000,
+         "h": 930
+        }
+       ],
+       "capturedAt": 1792641827065
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "room-gallery",
+     "label": "近大人 ROOM GALLERY",
+     "url": "https://kindai-graffiti.kindai.ac.jp/room-gallery",
+     "capture": {
+      "width": 1440,
+      "height": 4308,
+      "fullHeight": 4308,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/room-gallery/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/room-gallery/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/room-gallery/full-02.jpg",
+        "y": 4000,
+        "h": 308
+       }
+      ],
+      "lp": null,
+      "pageTitle": "近大人ROOM GALLERY｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641820945,
+      "sp": {
+       "width": 390,
+       "height": 3690,
+       "fullHeight": 3690,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/room-gallery/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/room-gallery/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/room-gallery/sp/full-02.jpg",
+         "y": 2000,
+         "h": 1690
+        }
+       ],
+       "capturedAt": 1792641829590
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "teachers",
+     "label": "先生のお部屋探訪（一覧）",
+     "url": "https://kindai-graffiti.kindai.ac.jp/teachers-room",
+     "capture": {
+      "width": 1440,
+      "height": 5046,
+      "fullHeight": 5046,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/teachers/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/teachers/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/teachers/full-02.jpg",
+        "y": 4000,
+        "h": 1046
+       }
+      ],
+      "lp": null,
+      "pageTitle": "先生のお部屋探訪｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641829867,
+      "sp": {
+       "width": 390,
+       "height": 4581,
+       "fullHeight": 4581,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/teachers/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/teachers/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/teachers/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/teachers/sp/full-03.jpg",
+         "y": 4000,
+         "h": 581
+        }
+       ],
+       "capturedAt": 1792641839279
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "teachers-detail",
+     "label": "先生のお部屋探訪（記事）",
+     "url": "https://kindai-graffiti.kindai.ac.jp/teachers-room?id=408",
+     "capture": {
+      "width": 1440,
+      "height": 5046,
+      "fullHeight": 5046,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/teachers-detail/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/teachers-detail/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/teachers-detail/full-02.jpg",
+        "y": 4000,
+        "h": 1046
+       }
+      ],
+      "lp": null,
+      "pageTitle": "岡本 健先生｜先生のお部屋探訪｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641838310,
+      "sp": {
+       "width": 390,
+       "height": 4581,
+       "fullHeight": 4581,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/teachers-detail/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/teachers-detail/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/teachers-detail/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/teachers-detail/sp/full-03.jpg",
+         "y": 4000,
+         "h": 581
+        }
+       ],
+       "capturedAt": 1792641847558
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "festival",
+     "label": "生駒祭で何してるんですか？",
+     "url": "https://kindai-graffiti.kindai.ac.jp/festival",
+     "capture": {
+      "width": 1440,
+      "height": 9784,
+      "fullHeight": 9784,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/festival/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/festival/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/festival/full-02.jpg",
+        "y": 4000,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/festival/full-03.jpg",
+        "y": 8000,
+        "h": 1784
+       }
+      ],
+      "lp": null,
+      "pageTitle": "生駒祭｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641847504,
+      "sp": {
+       "width": 390,
+       "height": 9522,
+       "fullHeight": 9522,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/festival/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/festival/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/festival/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/festival/sp/full-03.jpg",
+         "y": 4000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/festival/sp/full-04.jpg",
+         "y": 6000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/festival/sp/full-05.jpg",
+         "y": 8000,
+         "h": 1522
+        }
+       ],
+       "capturedAt": 1792641861688
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "ambition",
+     "label": "OB・OG 少年少女よ、大志を抱け！（一覧）",
+     "url": "https://kindai-graffiti.kindai.ac.jp/ambition",
+     "capture": {
+      "width": 1440,
+      "height": 4058,
+      "fullHeight": 4058,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/ambition/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/ambition/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/ambition/full-02.jpg",
+        "y": 4000,
+        "h": 58
+       }
+      ],
+      "lp": null,
+      "pageTitle": "OB・OGの少年少女よ大志を抱け｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641850696,
+      "sp": {
+       "width": 390,
+       "height": 5494,
+       "fullHeight": 5494,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/ambition/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/ambition/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/ambition/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/ambition/sp/full-03.jpg",
+         "y": 4000,
+         "h": 1494
+        }
+       ],
+       "capturedAt": 1792641863328
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "ambition-detail",
+     "label": "OB・OG 少年少女よ、大志を抱け！（記事）",
+     "url": "https://kindai-graffiti.kindai.ac.jp/ambition?id=362",
+     "capture": {
+      "width": 1440,
+      "height": 4058,
+      "fullHeight": 4058,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/ambition-detail/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/ambition-detail/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/ambition-detail/full-02.jpg",
+        "y": 4000,
+        "h": 58
+       }
+      ],
+      "lp": null,
+      "pageTitle": "北口 夏美（28） 日本航空株式会社｜OB・OGの少年少女よ大志を抱け｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641859368,
+      "sp": {
+       "width": 390,
+       "height": 5494,
+       "fullHeight": 5494,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/ambition-detail/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/ambition-detail/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/ambition-detail/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/ambition-detail/sp/full-03.jpg",
+         "y": 4000,
+         "h": 1494
+        }
+       ],
+       "capturedAt": 1792641869905
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "entrepreneur",
+     "label": "キンダイの学生起業家 MESSAGE",
+     "url": "https://kindai-graffiti.kindai.ac.jp/entrepreneur",
+     "capture": {
+      "width": 1440,
+      "height": 4586,
+      "fullHeight": 4586,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/entrepreneur/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/entrepreneur/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/entrepreneur/full-02.jpg",
+        "y": 4000,
+        "h": 586
+       }
+      ],
+      "lp": null,
+      "pageTitle": "学生起業家MESSAGE｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641883936,
+      "sp": {
+       "width": 390,
+       "height": 5348,
+       "fullHeight": 5348,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/entrepreneur/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/entrepreneur/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/entrepreneur/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/entrepreneur/sp/full-03.jpg",
+         "y": 4000,
+         "h": 1348
+        }
+       ],
+       "capturedAt": 1792641894948
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "before-after",
+     "label": "近大人の BEFORE AFTER",
+     "url": "https://kindai-graffiti.kindai.ac.jp/before-after",
+     "capture": {
+      "width": 1440,
+      "height": 4586,
+      "fullHeight": 4586,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/before-after/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/before-after/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/before-after/full-02.jpg",
+        "y": 4000,
+        "h": 586
+       }
+      ],
+      "lp": null,
+      "pageTitle": "近大人BEFORE AFTER｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641875311,
+      "sp": {
+       "width": 390,
+       "height": 11252,
+       "fullHeight": 11252,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/before-after/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/before-after/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/before-after/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/before-after/sp/full-03.jpg",
+         "y": 4000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/before-after/sp/full-04.jpg",
+         "y": 6000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/before-after/sp/full-05.jpg",
+         "y": 8000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/before-after/sp/full-06.jpg",
+         "y": 10000,
+         "h": 1252
+        }
+       ],
+       "capturedAt": 1792641889018
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "campus-tour",
+     "label": "CAMPUS TOUR（一覧）",
+     "url": "https://kindai-graffiti.kindai.ac.jp/campus-tour",
+     "capture": {
+      "width": 1440,
+      "height": 1175,
+      "fullHeight": 1175,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/campus-tour/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/campus-tour/full-01.jpg",
+        "y": 0,
+        "h": 1175
+       }
+      ],
+      "lp": null,
+      "pageTitle": "CAMPUS TOUR｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641878521,
+      "sp": {
+       "width": 390,
+       "height": 1248,
+       "fullHeight": 1248,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/campus-tour/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/campus-tour/sp/full-01.jpg",
+         "y": 0,
+         "h": 1248
+        }
+       ],
+       "capturedAt": 1792641886024
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "campus-detail",
+     "label": "CAMPUS TOUR（東大阪）",
+     "url": "https://kindai-graffiti.kindai.ac.jp/campus-tour/higashiosaka",
+     "capture": {
+      "width": 1440,
+      "height": 6322,
+      "fullHeight": 6322,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/campus-detail/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/campus-detail/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/campus-detail/full-02.jpg",
+        "y": 4000,
+        "h": 2322
+       }
+      ],
+      "lp": null,
+      "pageTitle": "東大阪キャンパス｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641901206,
+      "sp": {
+       "width": 390,
+       "height": 6071,
+       "fullHeight": 6071,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/campus-detail/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/campus-detail/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/campus-detail/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/campus-detail/sp/full-03.jpg",
+         "y": 4000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/campus-detail/sp/full-04.jpg",
+         "y": 6000,
+         "h": 71
+        }
+       ],
+       "capturedAt": 1792641916498
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "answers",
+     "label": "1000 Answers",
+     "url": "https://kindai-graffiti.kindai.ac.jp/1000answers",
+     "capture": {
+      "width": 1440,
+      "height": 15124,
+      "fullHeight": 15124,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/answers/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/answers/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/answers/full-02.jpg",
+        "y": 4000,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/answers/full-03.jpg",
+        "y": 8000,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/answers/full-04.jpg",
+        "y": 12000,
+        "h": 3124
+       }
+      ],
+      "lp": null,
+      "pageTitle": "1000ANSWERS　近大生のヘイキン｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641907608,
+      "sp": {
+       "width": 390,
+       "height": 11645,
+       "fullHeight": 11645,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/answers/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/answers/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/answers/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/answers/sp/full-03.jpg",
+         "y": 4000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/answers/sp/full-04.jpg",
+         "y": 6000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/answers/sp/full-05.jpg",
+         "y": 8000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/answers/sp/full-06.jpg",
+         "y": 10000,
+         "h": 1645
+        }
+       ],
+       "capturedAt": 1792641922734
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "neo",
+     "label": "ネオ近大人（一覧）",
+     "url": "https://kindai-graffiti.kindai.ac.jp/neo",
+     "capture": {
+      "width": 1440,
+      "height": 8418,
+      "fullHeight": 8418,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/neo/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/neo/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/neo/full-02.jpg",
+        "y": 4000,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/neo/full-03.jpg",
+        "y": 8000,
+        "h": 418
+       }
+      ],
+      "lp": null,
+      "pageTitle": "ネオ近大人｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641912800,
+      "sp": {
+       "width": 390,
+       "height": 7815,
+       "fullHeight": 7815,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/neo/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/neo/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/neo/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/neo/sp/full-03.jpg",
+         "y": 4000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/neo/sp/full-04.jpg",
+         "y": 6000,
+         "h": 1815
+        }
+       ],
+       "capturedAt": 1792641924872
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "neo-detail",
+     "label": "ネオ近大人（記事）",
+     "url": "https://kindai-graffiti.kindai.ac.jp/neo?id=10",
+     "capture": {
+      "width": 1440,
+      "height": 8418,
+      "fullHeight": 8418,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/neo-detail/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/neo-detail/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/neo-detail/full-02.jpg",
+        "y": 4000,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/neo-detail/full-03.jpg",
+        "y": 8000,
+        "h": 418
+       }
+      ],
+      "lp": null,
+      "pageTitle": "法学部 法律学科 4年徳島県立富岡西高等学校出身｜ネオ近大人｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641931538,
+      "sp": {
+       "width": 390,
+       "height": 7815,
+       "fullHeight": 7815,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/neo-detail/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/neo-detail/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/neo-detail/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/neo-detail/sp/full-03.jpg",
+         "y": 4000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/neo-detail/sp/full-04.jpg",
+         "y": 6000,
+         "h": 1815
+        }
+       ],
+       "capturedAt": 1792641952656
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "manga",
+     "label": "近大生的 漫画バイブル",
+     "url": "https://kindai-graffiti.kindai.ac.jp/manga",
+     "capture": {
+      "width": 1440,
+      "height": 3134,
+      "fullHeight": 3134,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/manga/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/manga/full-01.jpg",
+        "y": 0,
+        "h": 3134
+       }
+      ],
+      "lp": null,
+      "pageTitle": "漫画バイブル｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641934839,
+      "sp": {
+       "width": 390,
+       "height": 5104,
+       "fullHeight": 5104,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/manga/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/manga/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/manga/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/manga/sp/full-03.jpg",
+         "y": 4000,
+         "h": 1104
+        }
+       ],
+       "capturedAt": 1792641945170
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "cafeteria",
+     "label": "近大の学食",
+     "url": "https://kindai-graffiti.kindai.ac.jp/cafeteria",
+     "capture": {
+      "width": 1440,
+      "height": 5905,
+      "fullHeight": 5905,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/cafeteria/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/cafeteria/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/cafeteria/full-02.jpg",
+        "y": 4000,
+        "h": 1905
+       }
+      ],
+      "lp": null,
+      "pageTitle": "近大の学食｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641938798,
+      "sp": {
+       "width": 390,
+       "height": 5714,
+       "fullHeight": 5714,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/cafeteria/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/cafeteria/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/cafeteria/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/cafeteria/sp/full-03.jpg",
+         "y": 4000,
+         "h": 1714
+        }
+       ],
+       "capturedAt": 1792641949824
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "message",
+     "label": "贈る言葉（一覧）",
+     "url": "https://kindai-graffiti.kindai.ac.jp/message",
+     "capture": {
+      "width": 1440,
+      "height": 5821,
+      "fullHeight": 5821,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/message/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/message/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/message/full-02.jpg",
+        "y": 4000,
+        "h": 1821
+       }
+      ],
+      "lp": null,
+      "pageTitle": "贈る言葉｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641957723,
+      "sp": {
+       "width": 390,
+       "height": 6883,
+       "fullHeight": 6883,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/message/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/message/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/message/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/message/sp/full-03.jpg",
+         "y": 4000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/message/sp/full-04.jpg",
+         "y": 6000,
+         "h": 883
+        }
+       ],
+       "capturedAt": 1792641968018
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "message-detail",
+     "label": "贈る言葉（記事）",
+     "url": "https://kindai-graffiti.kindai.ac.jp/message?id=433",
+     "capture": {
+      "width": 1440,
+      "height": 5821,
+      "fullHeight": 5821,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/message-detail/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/message-detail/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/message-detail/full-02.jpg",
+        "y": 4000,
+        "h": 1821
+       }
+      ],
+      "lp": null,
+      "pageTitle": "金井 啓子先生｜贈る言葉｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641961723,
+      "sp": {
+       "width": 390,
+       "height": 6883,
+       "fullHeight": 6883,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/message-detail/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/message-detail/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/message-detail/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/message-detail/sp/full-03.jpg",
+         "y": 4000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/message-detail/sp/full-04.jpg",
+         "y": 6000,
+         "h": 883
+        }
+       ],
+       "capturedAt": 1792641972482
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "timeslip",
+     "label": "近大タイムスリップ写真館",
+     "url": "https://kindai-graffiti.kindai.ac.jp/timeslip",
+     "capture": {
+      "width": 1440,
+      "height": 10582,
+      "fullHeight": 10582,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/timeslip/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/timeslip/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/timeslip/full-02.jpg",
+        "y": 4000,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/timeslip/full-03.jpg",
+        "y": 8000,
+        "h": 2582
+       }
+      ],
+      "lp": null,
+      "pageTitle": "タイムスリップ写真館｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641969367,
+      "sp": {
+       "width": 390,
+       "height": 7268,
+       "fullHeight": 7268,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/timeslip/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/timeslip/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/timeslip/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/timeslip/sp/full-03.jpg",
+         "y": 4000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/timeslip/sp/full-04.jpg",
+         "y": 6000,
+         "h": 1268
+        }
+       ],
+       "capturedAt": 1792641980509
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "ranking",
+     "label": "ランキング",
+     "url": "https://kindai-graffiti.kindai.ac.jp/ranking",
+     "capture": {
+      "width": 1440,
+      "height": 2342,
+      "fullHeight": 2342,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/ranking/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/ranking/full-01.jpg",
+        "y": 0,
+        "h": 2342
+       }
+      ],
+      "lp": {
+       "x": 281,
+       "w": 878,
+       "scale": 2,
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/ranking/lp-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/ranking/lp-02.jpg",
+         "y": 2000,
+         "h": 342
+        }
+       ]
+      },
+      "pageTitle": "人気記事｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641977679,
+      "sp": {
+       "width": 390,
+       "height": 2047,
+       "fullHeight": 2047,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/ranking/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/ranking/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/ranking/sp/full-02.jpg",
+         "y": 2000,
+         "h": 47
+        }
+       ],
+       "capturedAt": 1792641985863
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "faculty",
+     "label": "学部から探す（看護学部）",
+     "url": "https://kindai-graffiti.kindai.ac.jp/faculty/nursing",
+     "capture": {
+      "width": 1440,
+      "height": 1583,
+      "fullHeight": 1583,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/faculty/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/faculty/full-01.jpg",
+        "y": 0,
+        "h": 1583
+       }
+      ],
+      "lp": null,
+      "pageTitle": "看護学部｜学部から記事を探す｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641982499,
+      "sp": {
+       "width": 390,
+       "height": 1537,
+       "fullHeight": 1537,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/faculty/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/faculty/sp/full-01.jpg",
+         "y": 0,
+         "h": 1537
+        }
+       ],
+       "capturedAt": 1792641990031
+      }
+     },
+     "status": "captured"
+    },
+    {
+     "id": "tag",
+     "label": "タグ（#ファッショニスタ）",
+     "url": "https://kindai-graffiti.kindai.ac.jp/tags/fashionista",
+     "capture": {
+      "width": 1440,
+      "height": 4163,
+      "fullHeight": 4163,
+      "viewport": [
+       1440,
+       900
+      ],
+      "thumb": "captures/kindai-graffiti/pages/tag/thumb.jpg",
+      "segments": [
+       {
+        "file": "captures/kindai-graffiti/pages/tag/full-01.jpg",
+        "y": 0,
+        "h": 4000
+       },
+       {
+        "file": "captures/kindai-graffiti/pages/tag/full-02.jpg",
+        "y": 4000,
+        "h": 163
+       }
+      ],
+      "lp": null,
+      "pageTitle": "#ファッショニスタ｜KINDAI GRAFFITI｜近畿大学",
+      "capturedAt": 1792641991718,
+      "sp": {
+       "width": 390,
+       "height": 5181,
+       "fullHeight": 5181,
+       "viewport": [
+        390,
+        844
+       ],
+       "scale": 2,
+       "thumb": "captures/kindai-graffiti/pages/tag/sp/thumb.jpg",
+       "segments": [
+        {
+         "file": "captures/kindai-graffiti/pages/tag/sp/full-01.jpg",
+         "y": 0,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/tag/sp/full-02.jpg",
+         "y": 2000,
+         "h": 2000
+        },
+        {
+         "file": "captures/kindai-graffiti/pages/tag/sp/full-03.jpg",
+         "y": 4000,
+         "h": 1181
+        }
+       ],
+       "capturedAt": 1792642001200
+      }
+     },
+     "status": "captured"
+    }
+   ]
   },
   {
    "id": "ginzamag",
@@ -1173,7 +3262,61 @@
     ],
     "lp": null,
     "pageTitle": "【GINZA】東京発信の最新ファッション＆カルチャー情報",
-    "capturedAt": 1792638581586
+    "capturedAt": 1792638581586,
+    "sp": {
+     "width": 390,
+     "height": 16000,
+     "fullHeight": 25369,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/ginzamag/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/ginzamag/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/ginzamag/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/ginzamag/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/ginzamag/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/ginzamag/sp/full-05.jpg",
+       "y": 8000,
+       "h": 2000
+      },
+      {
+       "file": "captures/ginzamag/sp/full-06.jpg",
+       "y": 10000,
+       "h": 2000
+      },
+      {
+       "file": "captures/ginzamag/sp/full-07.jpg",
+       "y": 12000,
+       "h": 2000
+      },
+      {
+       "file": "captures/ginzamag/sp/full-08.jpg",
+       "y": 14000,
+       "h": 2000
+      }
+     ],
+     "capturedAt": 1792641669981
+    }
    },
    "parts": [
     {
@@ -1388,7 +3531,7 @@
     }
    ],
    "createdAt": 1792638538850,
-   "updatedAt": 1792640892111,
+   "updatedAt": 1792641669983,
    "status": "captured",
    "pages": []
   },
@@ -1437,7 +3580,61 @@
     ],
     "lp": null,
     "pageTitle": "ブルータス| BRUTUS.jp",
-    "capturedAt": 1792638574143
+    "capturedAt": 1792638574143,
+    "sp": {
+     "width": 390,
+     "height": 14856,
+     "fullHeight": 14856,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/brutus/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/brutus/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/brutus/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/brutus/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/brutus/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/brutus/sp/full-05.jpg",
+       "y": 8000,
+       "h": 2000
+      },
+      {
+       "file": "captures/brutus/sp/full-06.jpg",
+       "y": 10000,
+       "h": 2000
+      },
+      {
+       "file": "captures/brutus/sp/full-07.jpg",
+       "y": 12000,
+       "h": 2000
+      },
+      {
+       "file": "captures/brutus/sp/full-08.jpg",
+       "y": 14000,
+       "h": 856
+      }
+     ],
+     "capturedAt": 1792641658837
+    }
    },
    "parts": [
     {
@@ -1670,7 +3867,7 @@
     }
    ],
    "createdAt": 1792638524497,
-   "updatedAt": 1792639130848,
+   "updatedAt": 1792641658838,
    "status": "captured",
    "pages": []
   },
@@ -1687,8 +3884,8 @@
    "image": null,
    "capture": {
     "width": 1440,
-    "height": 10808,
-    "fullHeight": 10808,
+    "height": 11711,
+    "fullHeight": 11711,
     "viewport": [
      1440,
      900
@@ -1708,12 +3905,66 @@
      {
       "file": "captures/gizmodo/full-03.jpg",
       "y": 8000,
-      "h": 2808
+      "h": 3711
      }
     ],
     "lp": null,
     "pageTitle": "ギズモード・ジャパン | \"みんなで探求する\"テックメディア",
-    "capturedAt": 1792638563216
+    "capturedAt": 1792641907660,
+    "sp": {
+     "width": 390,
+     "height": 16000,
+     "fullHeight": 17632,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/gizmodo/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/gizmodo/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/gizmodo/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/gizmodo/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/gizmodo/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/gizmodo/sp/full-05.jpg",
+       "y": 8000,
+       "h": 2000
+      },
+      {
+       "file": "captures/gizmodo/sp/full-06.jpg",
+       "y": 10000,
+       "h": 2000
+      },
+      {
+       "file": "captures/gizmodo/sp/full-07.jpg",
+       "y": 12000,
+       "h": 2000
+      },
+      {
+       "file": "captures/gizmodo/sp/full-08.jpg",
+       "y": 14000,
+       "h": 2000
+      }
+     ],
+     "capturedAt": 1792641930711
+    }
    },
    "parts": [
     {
@@ -1888,7 +4139,7 @@
     }
    ],
    "createdAt": 1792638521057,
-   "updatedAt": 1792641289596,
+   "updatedAt": 1792641930714,
    "status": "captured",
    "pages": []
   },
@@ -1936,7 +4187,61 @@
     ],
     "lp": null,
     "pageTitle": "SmartHR Mag. - 働く明日が、もっとよくなる",
-    "capturedAt": 1792638538666
+    "capturedAt": 1792638538666,
+    "sp": {
+     "width": 390,
+     "height": 16000,
+     "fullHeight": 16986,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/mag/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/mag/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/mag/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/mag/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/mag/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/mag/sp/full-05.jpg",
+       "y": 8000,
+       "h": 2000
+      },
+      {
+       "file": "captures/mag/sp/full-06.jpg",
+       "y": 10000,
+       "h": 2000
+      },
+      {
+       "file": "captures/mag/sp/full-07.jpg",
+       "y": 12000,
+       "h": 2000
+      },
+      {
+       "file": "captures/mag/sp/full-08.jpg",
+       "y": 14000,
+       "h": 2000
+      }
+     ],
+     "capturedAt": 1792641641240
+    }
    },
    "parts": [
     {
@@ -2170,7 +4475,7 @@
     }
    ],
    "createdAt": 1792638514846,
-   "updatedAt": 1792641289460,
+   "updatedAt": 1792641641247,
    "status": "captured",
    "pages": []
   },
@@ -2208,7 +4513,31 @@
     ],
     "lp": null,
     "pageTitle": "KIRINto｜キリント",
-    "capturedAt": 1792638514637
+    "capturedAt": 1792638514637,
+    "sp": {
+     "width": 390,
+     "height": 3814,
+     "fullHeight": 3814,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/kirinto/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/kirinto/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/kirinto/sp/full-02.jpg",
+       "y": 2000,
+       "h": 1814
+      }
+     ],
+     "capturedAt": 1792641628413
+    }
    },
    "parts": [
     {
@@ -2385,7 +4714,7 @@
     }
    ],
    "createdAt": 1792638496888,
-   "updatedAt": 1792641289331,
+   "updatedAt": 1792641628416,
    "status": "captured",
    "pages": []
   },
@@ -2418,7 +4747,36 @@
     ],
     "lp": null,
     "pageTitle": "TOP｜トヨタイムズ",
-    "capturedAt": 1792638524345
+    "capturedAt": 1792638524345,
+    "sp": {
+     "width": 390,
+     "height": 4449,
+     "fullHeight": 4449,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/toyotatimes/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/toyotatimes/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/toyotatimes/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/toyotatimes/sp/full-03.jpg",
+       "y": 4000,
+       "h": 449
+      }
+     ],
+     "capturedAt": 1792641623045
+    }
    },
    "parts": [
     {
@@ -2594,7 +4952,7 @@
     }
    ],
    "createdAt": 1792638495863,
-   "updatedAt": 1792641289189,
+   "updatedAt": 1792641623050,
    "status": "captured",
    "pages": []
   },
@@ -2633,7 +4991,41 @@
     ],
     "lp": null,
     "pageTitle": "Hanako Web – 雑誌Hanako (ハナコ) の公式サイト、Hanako Web (ハナコ ウェブ)",
-    "capturedAt": 1792638520887
+    "capturedAt": 1792638520887,
+    "sp": {
+     "width": 390,
+     "height": 7321,
+     "fullHeight": 7321,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/hanako/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/hanako/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/hanako/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/hanako/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/hanako/sp/full-04.jpg",
+       "y": 6000,
+       "h": 1321
+      }
+     ],
+     "capturedAt": 1792641623025
+    }
    },
    "parts": [
     {
@@ -2848,7 +5240,7 @@
     }
    ],
    "createdAt": 1792638493193,
-   "updatedAt": 1792641366431,
+   "updatedAt": 1792641623026,
    "status": "captured",
    "pages": []
   },
@@ -2887,7 +5279,56 @@
     ],
     "lp": null,
     "pageTitle": "Tarzan Web | ターザンウェブ",
-    "capturedAt": 1792638493013
+    "capturedAt": 1792638493013,
+    "sp": {
+     "width": 390,
+     "height": 12534,
+     "fullHeight": 12534,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/tarzanweb/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/tarzanweb/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/tarzanweb/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/tarzanweb/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/tarzanweb/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/tarzanweb/sp/full-05.jpg",
+       "y": 8000,
+       "h": 2000
+      },
+      {
+       "file": "captures/tarzanweb/sp/full-06.jpg",
+       "y": 10000,
+       "h": 2000
+      },
+      {
+       "file": "captures/tarzanweb/sp/full-07.jpg",
+       "y": 12000,
+       "h": 534
+      }
+     ],
+     "capturedAt": 1792641615006
+    }
    },
    "parts": [
     {
@@ -3113,7 +5554,7 @@
     }
    ],
    "createdAt": 1792638472185,
-   "updatedAt": 1792640827903,
+   "updatedAt": 1792641615012,
    "status": "captured",
    "pages": []
   },
@@ -3151,7 +5592,36 @@
     ],
     "lp": null,
     "pageTitle": "Discover Honda | Honda 企業情報サイト",
-    "capturedAt": 1792638495729
+    "capturedAt": 1792638495729,
+    "sp": {
+     "width": 390,
+     "height": 4593,
+     "fullHeight": 4593,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/global-discover/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/global-discover/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/global-discover/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/global-discover/sp/full-03.jpg",
+       "y": 4000,
+       "h": 593
+      }
+     ],
+     "capturedAt": 1792641606404
+    }
    },
    "parts": [
     {
@@ -3325,7 +5795,7 @@
     }
    ],
    "createdAt": 1792638472178,
-   "updatedAt": 1792640628094,
+   "updatedAt": 1792641606407,
    "status": "captured",
    "pages": []
   },
@@ -3368,7 +5838,51 @@
     ],
     "lp": null,
     "pageTitle": "Spark Journal by KDDI",
-    "capturedAt": 1792638496567
+    "capturedAt": 1792638496567,
+    "sp": {
+     "width": 390,
+     "height": 11824,
+     "fullHeight": 11824,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/spark-journal/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/spark-journal/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/spark-journal/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/spark-journal/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/spark-journal/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/spark-journal/sp/full-05.jpg",
+       "y": 8000,
+       "h": 2000
+      },
+      {
+       "file": "captures/spark-journal/sp/full-06.jpg",
+       "y": 10000,
+       "h": 1824
+      }
+     ],
+     "capturedAt": 1792641607669
+    }
    },
    "parts": [
     {
@@ -3591,7 +6105,7 @@
     }
    ],
    "createdAt": 1792638472172,
-   "updatedAt": 1792638977349,
+   "updatedAt": 1792641607670,
    "status": "captured",
    "pages": []
   },
@@ -3625,7 +6139,26 @@
      }
     ],
     "pageTitle": "NationalDex — Every Generation, Indexed",
-    "capturedAt": 1792633057539
+    "capturedAt": 1792633057539,
+    "sp": {
+     "width": 390,
+     "height": 844,
+     "fullHeight": 844,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/nationaldex/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/nationaldex/sp/full-01.jpg",
+       "y": 0,
+       "h": 844
+      }
+     ],
+     "capturedAt": 1792641600181
+    }
    },
    "parts": [
     {
@@ -3732,7 +6265,7 @@
     }
    ],
    "createdAt": 1792633050178,
-   "updatedAt": 1792633745416,
+   "updatedAt": 1792641600182,
    "status": "captured",
    "pages": []
   },
@@ -3829,7 +6362,61 @@
      ]
     },
     "pageTitle": "フェリシモクラファン｜フェリシモ",
-    "capturedAt": 1792633289650
+    "capturedAt": 1792633289650,
+    "sp": {
+     "width": 390,
+     "height": 14545,
+     "fullHeight": 14545,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/felissimo-crowdfunding-fc/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/felissimo-crowdfunding-fc/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/felissimo-crowdfunding-fc/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/felissimo-crowdfunding-fc/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/felissimo-crowdfunding-fc/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/felissimo-crowdfunding-fc/sp/full-05.jpg",
+       "y": 8000,
+       "h": 2000
+      },
+      {
+       "file": "captures/felissimo-crowdfunding-fc/sp/full-06.jpg",
+       "y": 10000,
+       "h": 2000
+      },
+      {
+       "file": "captures/felissimo-crowdfunding-fc/sp/full-07.jpg",
+       "y": 12000,
+       "h": 2000
+      },
+      {
+       "file": "captures/felissimo-crowdfunding-fc/sp/full-08.jpg",
+       "y": 14000,
+       "h": 545
+      }
+     ],
+     "capturedAt": 1792641568032
+    }
    },
    "parts": [
     {
@@ -4184,7 +6771,7 @@
     }
    ],
    "createdAt": 1792633002315,
-   "updatedAt": 1792636443056,
+   "updatedAt": 1792641568033,
    "status": "captured",
    "pages": []
   }

@@ -414,6 +414,8 @@ main { padding: 0 var(--gutter) 96px; }
   transition: opacity .45s, transform .7s cubic-bezier(.2, .7, .2, 1);
 }
 .thumb.is-loaded img { opacity: 1; }
+.thumb--sp { aspect-ratio: 9 / 16; }
+.grid.is-sp { grid-template-columns: repeat(auto-fill, minmax(min(210px, 100%), 1fr)); gap: 32px 22px; }
 .card:hover .thumb img { transform: scale(1.03); }
 
 .ph {
@@ -648,8 +650,17 @@ textarea.input { min-height: 80px; resize: vertical; line-height: 1.7; }
 .lp-switch, .lp-pages { display: flex; flex-wrap: wrap; width: max-content; max-width: 100%; background: var(--surface); box-shadow: var(--shadow-md); }
 .lp-switch input:checked + span, .lp-pages input:checked + span { background: var(--accent); color: var(--on-accent); box-shadow: none; }
 .dpart-page { font-size: 11px; color: var(--muted); }
+.detail-foot { margin: 10px 0 0; padding-top: 14px; border-top: 1px solid var(--line); font-size: 11px; color: var(--muted); }
+.device-switch button { padding: 0 14px; }
 .lp-stack { position: relative; }
 .lp-stack.is-column { max-width: 430px; margin: 0 auto; box-shadow: var(--shadow-md); }
+.lp-stack.is-phone {
+  max-width: 390px;
+  margin: 0 auto;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 0 0 8px #1d1d1b, var(--shadow-md);
+}
 .lp-stack img { display: block; width: 100%; height: auto; background: var(--surface); }
 .lp-hl {
   position: absolute;

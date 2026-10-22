@@ -111,6 +111,7 @@ const state = {
   tag: null,
   cat: null,
   sort: 'new',
+  device: 'pc',
   detailId: null,
   partId: null,
   lpMode: 'lp',
@@ -132,6 +133,7 @@ const els = {
   count: $('#count'),
   countSites: $('#count-sites'),
   countParts: $('#count-parts'),
+  deviceSwitch: $('#device-switch'),
   sort: $('#sort'),
   search: $('#search'),
   editDialog: $('#edit-dialog'),
@@ -179,13 +181,14 @@ function placeholder(site) {
 }
 
 function siteThumbSrc(site) {
+  if (state.device === 'sp' && site.capture?.sp?.thumb) return asset(site.capture.sp.thumb, site.capture.sp.capturedAt);
   if (site.thumb === 'upload' && site.image) return asset(site.image, site.updatedAt);
   if (site.thumb !== 'none' && site.capture?.thumb) return asset(site.capture.thumb, site.capture.capturedAt);
   return null;
 }
 
-function siteThumb(site) {
-  const wrap = h('div', { class: 'thumb', style: `--hue:${hashHue(hostOf(site.url))}` }, placeholder(site));
+function siteThumb(site, { device = 'pc' } = {}) {
+  const wrap = h('div', { class: device === 'sp' ? 'thumb thumb--sp' : 'thumb', style: `--hue:${hashHue(hostOf(site.url))}` }, placeholder(site));
   const src = siteThumbSrc(site);
   if (src) {
     const img = h('img', { alt: '', loading: 'lazy', decoding: 'async' });
@@ -281,7 +284,7 @@ function siteCard(site) {
         type: 'button',
         'aria-label': `${displayTitle(site)} の詳細を見る`,
         onclick: () => showDetail(site.id),
-      }, siteThumb(site)),
+      }, siteThumb(site, { device: state.device })),
       h('div', { class: 'card-badges' }, statusBadge(site)),
       READ_ONLY ? null : h('button', {
         class: 'fav',
@@ -306,7 +309,7 @@ function siteCard(site) {
 
 // 検索のたびに画像を読み直さないよう、カードは使い回す
 function getSiteCard(site) {
-  const key = `${site.updatedAt}|${site.status}`;
+  const key = `${site.updatedAt}|${site.status}|${state.device}`;
   let hit = cardCache.get(site.id);
   if (!hit || hit.key !== key) {
     hit = { key, el: siteCard(site) };
@@ -395,6 +398,10 @@ function render() {
 
   els.grid.hidden = isParts;
   els.partsGrid.hidden = !isParts;
+  els.grid.classList.toggle('is-sp', state.device === 'sp');
+  els.deviceSwitch.hidden = isParts;
+  els.deviceSwitch.querySelectorAll('[data-device]').forEach((b) =>
+    b.setAttribute('aria-selected', String(b.dataset.device === state.device)));
 
   let shown;
   if (isParts) {
@@ -417,6 +424,14 @@ function render() {
   els.noResult.textContent = isParts && partTotal === 0
     ? (READ_ONLY ? 'まだパーツがありません' : 'まだパーツがありません。Claude に「パーツ分けして」と頼むと、撮影した画面を切り分けて登録します。')
     : '条件に合うものはありません';
+}
+
+function setDevice(device) {
+  if (state.device === device) return;
+  state.device = device;
+  state.lpMode = device === 'sp' ? 'sp' : 'lp';
+  try { localStorage.setItem('wg-device', device); } catch {}
+  render();
 }
 
 function setView(view) {
@@ -505,14 +520,28 @@ function sitePages(site) {
 }
 const pageLabel = (site, pid) => (pid ? site.pages?.find((p) => p.id === pid)?.label ?? pid : 'トップ');
 
+// 表示モード：lp（中央のLP本体）／full（PC表示全体）／sp（スマホ版）
+function viewModes(cap) {
+  return [...(cap?.lp ? ['lp', 'full'] : ['full']), ...(cap?.sp ? ['sp'] : [])];
+}
+function defaultMode(cap) {
+  const modes = viewModes(cap);
+  if (state.lpMode === 'sp' && modes.includes('sp')) return 'sp';
+  if (state.lpMode === 'full' || !modes.includes('lp')) return 'full';
+  return 'lp';
+}
+const modeLabel = (cap, m) => (m === 'lp' ? 'LP本体' : m === 'sp' ? 'SP' : cap.lp ? 'PC全体' : 'PC');
+
 function lpView(cap, mode) {
+  const isSp = mode === 'sp' && cap.sp;
   const isLp = mode === 'lp' && cap.lp;
-  const segs = isLp ? cap.lp.segments : cap.segments;
-  const refW = isLp ? cap.lp.w : cap.width;
+  const src = isSp ? cap.sp : cap;
+  const segs = isLp ? cap.lp.segments : src.segments;
+  const refW = isLp ? cap.lp.w : src.width;
   const offX = isLp ? cap.lp.x : 0;
-  const stack = h('div', { class: `lp-stack ${isLp ? 'is-column' : ''}` },
+  const stack = h('div', { class: `lp-stack ${isLp ? 'is-column' : ''} ${isSp ? 'is-phone' : ''}` },
     segs.map((s) => h('img', {
-      src: asset(s.file, cap.capturedAt),
+      src: asset(s.file, src.capturedAt),
       alt: '',
       loading: 'lazy',
       decoding: 'async',
@@ -553,15 +582,19 @@ function showDetail(id, { focus } = {}) {
   const pickPage = (pid) => {
     pageId = pid;
     cap = pages.find((p) => p.id === pid)?.capture ?? null;
-    mode = cap?.lp ? state.lpMode : 'full';
+    mode = defaultMode(cap);
   };
   pickPage(focusPart?.page ?? null);
-  if (focusPart && cap?.lp && !inColumn(focusPart.rect, cap.lp)) mode = 'full';
+  if (focusPart) mode = pcModeFor(focusPart.rect);
 
+  // パーツの位置は PC 版の座標なので、パーツを表示するときは PC 版に切り替える
+  function pcModeFor(rect) {
+    return cap?.lp && inColumn(rect, cap.lp) && mode !== 'full' ? 'lp' : 'full';
+  }
   const markCurrent = () => els.detail.querySelectorAll('.dpart').forEach((b) =>
     b.classList.toggle('is-current', b.dataset.id === currentFocus?.id));
   const refocus = () => {
-    if (view && currentFocus && (currentFocus.page ?? null) === pageId) {
+    if (view && mode !== 'sp' && currentFocus && (currentFocus.page ?? null) === pageId) {
       requestAnimationFrame(() => focusPartInLp(scroller, view, currentFocus.rect));
     }
   };
@@ -577,14 +610,14 @@ function showDetail(id, { focus } = {}) {
           onchange: () => { pickPage(p.id); drawMedia(); scroller.scrollTop = 0; refocus(); },
         }),
         h('span', {}, p.label)))) : null,
-      cap?.lp ? h('div', { class: 'lp-switch segmented' }, ['lp', 'full'].map((m) => h('label', {},
+      viewModes(cap).length > 1 ? h('div', { class: 'lp-switch segmented' }, viewModes(cap).map((m) => h('label', {},
         h('input', {
           type: 'radio',
           name: 'lp-mode',
           checked: mode === m,
           onchange: () => { mode = m; state.lpMode = m; drawMedia(); refocus(); },
         }),
-        h('span', {}, m === 'lp' ? 'LP本体' : 'PC表示全体')))) : null);
+        h('span', {}, modeLabel(cap, m))))) : null);
     const toolbar = bar.children.length ? bar : null;
     if (!cap) {
       view = null;
@@ -601,8 +634,10 @@ function showDetail(id, { focus } = {}) {
   const focusOn = (part) => {
     currentFocus = part;
     const pid = part.page ?? null;
-    if (pid !== pageId) { pickPage(pid); drawMedia(); }
-    if (cap?.lp && mode === 'lp' && !inColumn(part.rect, cap.lp)) { mode = 'full'; drawMedia(); }
+    const changed = pid !== pageId;
+    if (changed) pickPage(pid);
+    const next = pcModeFor(part.rect);
+    if (changed || next !== mode || !view) { mode = next; drawMedia(); }
     markCurrent();
     refocus();
   };
@@ -624,9 +659,6 @@ function showDetail(id, { focus } = {}) {
             h('button', { class: 'chip', type: 'button', onclick: () => { els.detailDialog.close(); state.view = 'sites'; state.tag = t; render(); } }, `#${t}`)))
         : null,
       site.memo ? h('p', { class: 'detail-memo' }, site.memo) : null,
-      h('p', { class: 'detail-date' }, `${date} に追加`,
-        top ? `・${new Date(top.capturedAt).toLocaleDateString('ja-JP')} に撮影` : '',
-        hasPages ? `・${pages.length} 画面` : ''),
       h('div', { class: 'detail-actions' },
         h('a', { class: 'btn btn-primary', href: site.url, target: '_blank', rel: 'noopener noreferrer' }, 'サイトを開く', icon('external')),
         READ_ONLY ? null : [
@@ -658,7 +690,10 @@ function showDetail(id, { focus } = {}) {
                   h('button', { class: 'dpart-zoom icon-btn', type: 'button', title: '大きく見る', 'aria-label': '大きく見る', onclick: () => showPart(p.id) }, icon('expand')))))))
           : h('p', { class: 'dparts-empty' }, READ_ONLY ? 'このサイトはまだパーツに分けていません。' : top
             ? 'まだパーツに分けていません。Claude に「パーツ分けして」と頼むと、この画面を切り分けて登録します。'
-            : '撮影が終わると、ここにパーツが並びます。'))),
+            : '撮影が終わると、ここにパーツが並びます。')),
+      h('p', { class: 'detail-foot' }, `${date} に追加`,
+        top ? `・${new Date(top.capturedAt).toLocaleDateString('ja-JP')} に撮影` : '',
+        hasPages ? `・${pages.length} 画面` : '')),
   );
 
   if (!els.detailDialog.open) els.detailDialog.showModal();
@@ -1044,6 +1079,7 @@ function bindEvents() {
   document.querySelectorAll('[data-open-help]').forEach((b) => b.addEventListener('click', () => els.helpDialog.showModal()));
   document.querySelectorAll('[data-close]').forEach((b) => b.addEventListener('click', () => b.closest('dialog').close()));
   document.querySelectorAll('.view-switch [data-view]').forEach((b) => b.addEventListener('click', () => setView(b.dataset.view)));
+  els.deviceSwitch.querySelectorAll('[data-device]').forEach((b) => b.addEventListener('click', () => setDevice(b.dataset.device)));
 
   els.search.addEventListener('input', () => { state.query = els.search.value; render(); });
   els.sort.addEventListener('change', () => {
@@ -1159,6 +1195,7 @@ async function init() {
     if (sort && [...els.sort.options].some((o) => o.value === sort)) state.sort = sort;
     const view = localStorage.getItem('wg-view');
     if (view === 'sites' || view === 'parts') state.view = view;
+    if (localStorage.getItem('wg-device') === 'sp') { state.device = 'sp'; state.lpMode = 'sp'; }
   } catch {}
   els.sort.value = state.sort;
 
