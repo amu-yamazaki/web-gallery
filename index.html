@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="wg-mode" content="viewer">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Gallery</title>
+  <meta name="description" content="いいなと思ったWebサイトとパーツのコレクション">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23191917'/><rect x='7' y='7' width='8' height='8' rx='2' fill='%23fff'/><rect x='17' y='7' width='8' height='8' rx='2' fill='%23fff' opacity='.55'/><rect x='7' y='17' width='8' height='8' rx='2' fill='%23fff' opacity='.55'/><rect x='17' y='17' width='8' height='8' rx='2' fill='%23fff'/></svg>">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <rect width="32" height="32" rx="9" class="bg"/>
+        <rect x="7" y="7" width="8" height="8" rx="2" class="fg"/>
+        <rect x="17" y="7" width="8" height="8" rx="2" class="fg" opacity=".55"/>
+        <rect x="7" y="17" width="8" height="8" rx="2" class="fg" opacity=".55"/>
+        <rect x="17" y="17" width="8" height="8" rx="2" class="fg"/>
+      </svg>
+      <div>
+        <h1 class="brand-name">Web Gallery</h1>
+        <p class="brand-sub">いいなと思ったWebとパーツのコレクション</p>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <label class="search">
+        <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="search" type="search" placeholder="タイトル・タグ・パーツ名・メモで検索" autocomplete="off" aria-label="検索">
+        <kbd>/</kbd>
+      </label>
+      <button id="add-btn" class="btn btn-primary" type="button" data-owner>
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+        追加
+      </button>
+      <button class="icon-btn" type="button" data-open-help aria-label="使い方" title="使い方">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14"/><path d="M12 17.5h.01"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div id="toolbar" class="toolbar" hidden>
+    <div class="toolbar-row">
+      <div class="view-switch" role="tablist" aria-label="表示">
+        <button type="button" role="tab" data-view="sites" aria-selected="true">サイト <span id="count-sites" class="chip-count"></span></button>
+        <button type="button" role="tab" data-view="parts" aria-selected="false">パーツ <span id="count-parts" class="chip-count"></span></button>
+      </div>
+      <span class="spacer"></span>
+      <span id="count" class="count"></span>
+      <select id="sort" class="select" aria-label="並び順">
+        <option value="new">新しい順</option>
+        <option value="old">古い順</option>
+        <option value="title">タイトル順</option>
+      </select>
+    </div>
+    <nav id="chips" class="chips chips-scroll" aria-label="絞り込み"></nav>
+  </div>
+
+  <main>
+    <div id="grid" class="grid"></div>
+    <div id="parts-grid" class="parts-grid" hidden></div>
+    <p id="no-result" class="no-result" hidden>条件に合うものはありません</p>
+
+    <section id="empty" class="empty" hidden>
+      <div class="empty-art" aria-hidden="true"><span></span><span></span><span></span></div>
+      <h2>まだ何もありません</h2>
+      <p data-owner>いいなと思ったWebサイトのURLを追加すると、自動でページ全体を撮影します。</p>
+      <div class="empty-actions" data-owner>
+        <button id="empty-add" class="btn btn-primary" type="button">最初のサイトを追加</button>
+      </div>
+      <button class="link" type="button" data-open-help data-owner>使い方を見る</button>
+    </section>
+  </main>
+
+  <!-- 追加・編集 -->
+  <dialog id="edit-dialog" class="dialog" aria-labelledby="edit-heading">
+    <form id="edit-form" novalidate>
+      <header class="dialog-head">
+        <h2 id="edit-heading">サイトを追加</h2>
+        <button type="button" class="icon-btn" data-close aria-label="閉じる">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </header>
+
+      <div class="dialog-body">
+        <label class="field">
+          <span>URL <em>*</em></span>
+          <input id="f-url" class="input" type="text" inputmode="url" placeholder="https://example.com" autocomplete="off" spellcheck="false">
+          <small id="url-hint" class="hint"></small>
+        </label>
+
+        <label class="field">
+          <span>タイトル</span>
+          <input id="f-title" class="input" type="text" placeholder="空欄ならページのタイトルを使います" autocomplete="off">
+        </label>
+
+        <div class="field">
+          <label for="f-tags">タグ</label>
+          <input id="f-tags" class="input" type="text" placeholder="カンマ区切り（例：LP, ポップ, イラスト）" autocomplete="off">
+          <div id="tag-suggest" class="chips chips-sm"></div>
+        </div>
+
+        <label class="field">
+          <span>メモ</span>
+          <textarea id="f-memo" class="input" rows="3" placeholder="どこが良かった？（配色、動き、レイアウト…）"></textarea>
+        </label>
+
+        <fieldset class="field">
+          <legend>一覧のサムネイル</legend>
+          <div class="segmented">
+            <label><input type="radio" name="thumb" value="capture" checked><span>撮影した画面</span></label>
+            <label><input type="radio" name="thumb" value="upload"><span>画像をアップロード</span></label>
+            <label><input type="radio" name="thumb" value="none"><span>なし</span></label>
+          </div>
+          <div id="thumb-preview" class="thumb-preview"></div>
+          <small id="thumb-hint" class="hint"></small>
+          <input id="file-input" type="file" accept="image/*" hidden>
+        </fieldset>
+      </div>
+
+      <footer class="dialog-foot">
+        <button id="delete-btn" type="button" class="btn btn-danger" hidden>削除</button>
+        <span class="spacer"></span>
+        <button type="button" class="btn btn-ghost" data-close>キャンセル</button>
+        <button type="submit" class="btn btn-primary">保存</button>
+      </footer>
+    </form>
+  </dialog>
+
+  <!-- サイト詳細（LP全体＋パーツ） -->
+  <dialog id="detail-dialog" class="dialog dialog-wide" aria-label="サイトの詳細">
+    <div id="detail" class="detail detail--site"></div>
+  </dialog>
+
+  <!-- パーツ詳細 -->
+  <dialog id="part-dialog" class="dialog dialog-wide" aria-label="パーツの詳細">
+    <div id="part-detail" class="detail detail--part"></div>
+  </dialog>
+
+  <!-- 使い方 -->
+  <dialog id="help-dialog" class="dialog" aria-labelledby="help-heading">
+    <header class="dialog-head">
+      <h2 id="help-heading">使い方</h2>
+      <button type="button" class="icon-btn" data-close aria-label="閉じる">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </header>
+    <div class="dialog-body help">
+      <section data-viewer>
+        <h3>見かた</h3>
+        <ul>
+          <li>「サイト」：集めたサイトの一覧です。開くと、左にページ全体、右に切り分けたパーツが並びます。パーツを押すと、ページ内のその位置を表示します。</li>
+          <li>「パーツ」：ヘッダー・メインビジュアル・アコーディオンなど、カテゴリ別に見比べられます。</li>
+        </ul>
+      </section>
+      <section data-owner>
+        <h3>集めかた</h3>
+        <ol>
+          <li>「追加」でURLを登録すると、ページ全体を自動で撮影します（30秒〜1分ほど）。</li>
+          <li>Claude に「パーツ分けして」と頼むと、撮影した画面をナビ・アコーディオンなどのパーツに切り分けて登録します。</li>
+          <li>上の「パーツ」タブで、カテゴリ別に見比べられます。</li>
+        </ol>
+      </section>
+      <section data-owner>
+        <h3>ブックマークレット</h3>
+        <p>下のボタンをブックマークバーにドラッグしてください。気になるサイトを見ているときにクリックすると、URLとタイトルが入った状態で追加画面が開きます。</p>
+        <a id="bookmarklet" class="btn bookmarklet" href="#">＋ Web Gallery に追加</a>
+      </section>
+      <section data-owner>
+        <h3>ほかの追加方法</h3>
+        <ul>
+          <li>アドレスバーやリンクを、このページにドラッグ</li>
+          <li>URLをコピーして、このページで <kbd>⌘</kbd><kbd>V</kbd></li>
+        </ul>
+      </section>
+      <section>
+        <h3>ショートカット</h3>
+        <ul>
+          <li><kbd>/</kbd> 検索　<kbd>1</kbd><kbd>2</kbd> サイト／パーツ切り替え</li>
+          <li>詳細画面で <kbd>←</kbd><kbd>→</kbd> 前後へ</li>
+          <li data-owner><kbd>N</kbd> 新規追加、詳細画面で <kbd>E</kbd> 編集</li>
+        </ul>
+      </section>
+      <section data-owner>
+        <h3>データの保存先</h3>
+        <p>このフォルダの <code>data/library.json</code>（一覧）と <code>captures/</code>（スクリーンショット）に保存されます。フォルダごとコピーすればバックアップになります。</p>
+      </section>
+    </div>
+  </dialog>
+
+  <div id="toast" class="toast" popover="manual" role="status" aria-live="polite"></div>
+</body>
+</html>

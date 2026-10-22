@@ -1,0 +1,760 @@
+{
+ "version": 2,
+ "categories": [
+  {
+   "id": "header",
+   "group": "section",
+   "name": "ヘッダー",
+   "desc": "ロゴ・グローバルナビを含むページ上部"
+  },
+  {
+   "id": "hero",
+   "group": "section",
+   "name": "メインビジュアル",
+   "desc": "ファーストビュー。キャッチコピーとメイン画像"
+  },
+  {
+   "id": "intro",
+   "group": "section",
+   "name": "導入・コンセプト",
+   "desc": "リード文、ブランドやプロジェクトの想い"
+  },
+  {
+   "id": "problem",
+   "group": "section",
+   "name": "悩み・課題提起",
+   "desc": "「こんなお悩みありませんか？」系"
+  },
+  {
+   "id": "features",
+   "group": "section",
+   "name": "特徴・魅力",
+   "desc": "サービスや商品の特徴、ポイント"
+  },
+  {
+   "id": "products",
+   "group": "section",
+   "name": "商品・ラインナップ",
+   "desc": "商品紹介、バリエーション、仕様"
+  },
+  {
+   "id": "voice",
+   "group": "section",
+   "name": "事例・お客様の声",
+   "desc": "導入事例、レビュー、インタビュー"
+  },
+  {
+   "id": "flow",
+   "group": "section",
+   "name": "フロー・スケジュール",
+   "desc": "利用の流れ、ステップ、スケジュール"
+  },
+  {
+   "id": "pricing",
+   "group": "section",
+   "name": "料金・プラン",
+   "desc": "価格表、プラン比較、リターン一覧"
+  },
+  {
+   "id": "numbers",
+   "group": "section",
+   "name": "数字で見る",
+   "desc": "実績数値、インフォグラフィック"
+  },
+  {
+   "id": "faq",
+   "group": "section",
+   "name": "よくある質問",
+   "desc": "FAQ・Q&A"
+  },
+  {
+   "id": "cta",
+   "group": "section",
+   "name": "CTA",
+   "desc": "申し込み・購入・資料請求への誘導"
+  },
+  {
+   "id": "news",
+   "group": "section",
+   "name": "お知らせ・記事一覧",
+   "desc": "ニュース、ブログ、活動報告"
+  },
+  {
+   "id": "company",
+   "group": "section",
+   "name": "会社・運営情報",
+   "desc": "会社概要、運営者、注意事項"
+  },
+  {
+   "id": "contact",
+   "group": "section",
+   "name": "お問い合わせ",
+   "desc": "問い合わせ・応募フォーム"
+  },
+  {
+   "id": "footer",
+   "group": "section",
+   "name": "フッター",
+   "desc": "ページ下部のリンク・コピーライト"
+  },
+  {
+   "id": "nav",
+   "group": "ui",
+   "name": "ナビゲーション",
+   "desc": "グローバルナビ、メガメニュー、ページ内リンク"
+  },
+  {
+   "id": "accordion",
+   "group": "ui",
+   "name": "アコーディオン",
+   "desc": "開閉できるリスト"
+  },
+  {
+   "id": "tabs",
+   "group": "ui",
+   "name": "タブ",
+   "desc": "切り替えタブ"
+  },
+  {
+   "id": "slider",
+   "group": "ui",
+   "name": "スライダー",
+   "desc": "カルーセル、スライドショー"
+  },
+  {
+   "id": "search",
+   "group": "ui",
+   "name": "検索・絞り込み",
+   "desc": "検索バー、フィルター、並び替え"
+  },
+  {
+   "id": "card",
+   "group": "ui",
+   "name": "カード",
+   "desc": "カード型の一覧・グリッド"
+  },
+  {
+   "id": "button",
+   "group": "ui",
+   "name": "ボタン",
+   "desc": "CTAボタン、リンクボタン"
+  },
+  {
+   "id": "heading",
+   "group": "ui",
+   "name": "見出し",
+   "desc": "セクション見出しのデザイン"
+  },
+  {
+   "id": "table",
+   "group": "ui",
+   "name": "表",
+   "desc": "比較表、スペック表"
+  },
+  {
+   "id": "modal",
+   "group": "ui",
+   "name": "モーダル",
+   "desc": "ポップアップ、ダイアログ"
+  },
+  {
+   "id": "visual",
+   "group": "ui",
+   "name": "ビジュアル表現",
+   "desc": "イラスト・写真・動きなど印象的な表現"
+  }
+ ],
+ "sites": [
+  {
+   "id": "nationaldex",
+   "url": "https://www.nationaldex.app/",
+   "title": "NationalDex — Every Generation, Indexed",
+   "tags": [
+    "Webアプリ",
+    "ドット絵",
+    "等幅フォント",
+    "ミニマル"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 900,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/nationaldex/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/nationaldex/full-01.jpg",
+      "y": 0,
+      "h": 900
+     }
+    ],
+    "pageTitle": "NationalDex — Every Generation, Indexed",
+    "capturedAt": 1792633057539
+   },
+   "parts": [
+    {
+     "id": "nationaldex-01",
+     "category": "header",
+     "also": [],
+     "label": "ヘッダー",
+     "note": "ロゴと、アイコン付きのテキストナビを等幅フォントで並べる。",
+     "file": "captures/nationaldex/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 56
+     }
+    },
+    {
+     "id": "nationaldex-02",
+     "category": "nav",
+     "also": [],
+     "label": "アイコン付きナビゲーション",
+     "note": "細い線のアイコンに小文字のラベル。",
+     "file": "captures/nationaldex/parts/02-nav.jpg",
+     "rect": {
+      "x": 432,
+      "y": 13,
+      "w": 984,
+      "h": 29
+     }
+    },
+    {
+     "id": "nationaldex-03",
+     "category": "search",
+     "also": [
+      "tabs"
+     ],
+     "label": "検索バー＋絞り込み",
+     "note": "セグメント切り替え（Pokemon / Moves / Abilities / Items）と、タイプ別のカラーチップ。",
+     "file": "captures/nationaldex/parts/03-search.jpg",
+     "rect": {
+      "x": 0,
+      "y": 56,
+      "w": 1440,
+      "h": 133
+     }
+    },
+    {
+     "id": "nationaldex-04",
+     "category": "card",
+     "also": [],
+     "label": "カード一覧",
+     "note": "細い罫線のカードにドット絵、タイプのカラーチップ。",
+     "file": "captures/nationaldex/parts/04-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 189,
+      "w": 1440,
+      "h": 490
+     }
+    },
+    {
+     "id": "nationaldex-05",
+     "category": "card",
+     "also": [],
+     "label": "カード単体",
+     "note": "番号・ドット絵・名前・タグの4段構成。",
+     "file": "captures/nationaldex/parts/05-card.jpg",
+     "rect": {
+      "x": 14,
+      "y": 203,
+      "w": 242,
+      "h": 235
+     }
+    },
+    {
+     "id": "nationaldex-06",
+     "category": "faq",
+     "also": [],
+     "label": "よくある質問",
+     "note": "見出しと回答を並べるだけのシンプルなFAQ（開閉なし）。",
+     "file": "captures/nationaldex/parts/06-faq.jpg",
+     "rect": {
+      "x": 0,
+      "y": 485,
+      "w": 1440,
+      "h": 373
+     }
+    },
+    {
+     "id": "nationaldex-07",
+     "category": "footer",
+     "also": [
+      "nav"
+     ],
+     "label": "ページ一覧リンク（BROWSE EVERY PAGE）",
+     "note": "フッター代わりのリンク集。",
+     "file": "captures/nationaldex/parts/07-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 653,
+      "w": 1440,
+      "h": 247
+     }
+    }
+   ],
+   "createdAt": 1792633050178,
+   "updatedAt": 1792633745416,
+   "status": "captured"
+  },
+  {
+   "id": "felissimo-crowdfunding-fc",
+   "url": "https://www.felissimo.co.jp/contents/crowdfunding/crowdfunding_fc.html",
+   "title": "フェリシモクラファン｜フェリシモ",
+   "tags": [
+    "LP",
+    "クラウドファンディング",
+    "ポップ",
+    "イラスト",
+    "スマホ幅レイアウト"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 14968,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/felissimo-crowdfunding-fc/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/felissimo-crowdfunding-fc/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/felissimo-crowdfunding-fc/full-02.jpg",
+      "y": 4000,
+      "h": 4000
+     },
+     {
+      "file": "captures/felissimo-crowdfunding-fc/full-03.jpg",
+      "y": 8000,
+      "h": 4000
+     },
+     {
+      "file": "captures/felissimo-crowdfunding-fc/full-04.jpg",
+      "y": 12000,
+      "h": 2968
+     }
+    ],
+    "lp": {
+     "x": 519,
+     "w": 402,
+     "scale": 2,
+     "segments": [
+      {
+       "file": "captures/felissimo-crowdfunding-fc/lp-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/felissimo-crowdfunding-fc/lp-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/felissimo-crowdfunding-fc/lp-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/felissimo-crowdfunding-fc/lp-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/felissimo-crowdfunding-fc/lp-05.jpg",
+       "y": 8000,
+       "h": 2000
+      },
+      {
+       "file": "captures/felissimo-crowdfunding-fc/lp-06.jpg",
+       "y": 10000,
+       "h": 2000
+      },
+      {
+       "file": "captures/felissimo-crowdfunding-fc/lp-07.jpg",
+       "y": 12000,
+       "h": 2000
+      },
+      {
+       "file": "captures/felissimo-crowdfunding-fc/lp-08.jpg",
+       "y": 14000,
+       "h": 968
+      }
+     ]
+    },
+    "pageTitle": "フェリシモクラファン｜フェリシモ",
+    "capturedAt": 1792633289650
+   },
+   "parts": [
+    {
+     "id": "felissimo-crowdfunding-fc-01",
+     "category": "hero",
+     "also": [
+      "visual"
+     ],
+     "label": "PCファーストビュー（中央カラム＋左右パネル）",
+     "note": "PCでもスマホ幅のLPを中央に置き、左に募集中プロジェクトのスライダー、右に追従ナビ。背景は手描きイラストとガーランド。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/01-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-02",
+     "category": "header",
+     "also": [],
+     "label": "グローバルヘッダー（フェリシモ共通）",
+     "note": "ロゴとアイコンだけのミニマルなヘッダー。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/02-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 53
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-03",
+     "category": "nav",
+     "also": [],
+     "label": "追従サイドナビ",
+     "note": "アーチ型フレームの中に目次。プロジェクト名にサブコピーを添えて並べる。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/03-nav.jpg",
+     "rect": {
+      "x": 1038,
+      "y": 261,
+      "w": 260,
+      "h": 568
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-04",
+     "category": "slider",
+     "also": [],
+     "label": "サイドのプロジェクトスライダー",
+     "note": "アーチ型の写真枠と大きな番号。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/04-slider.jpg",
+     "rect": {
+      "x": 112,
+      "y": 380,
+      "w": 320,
+      "h": 433
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-05",
+     "category": "hero",
+     "also": [
+      "visual"
+     ],
+     "label": "メインビジュアル（スマホ幅カラム）",
+     "note": "手描きのロゴタイプとイラストが散らばるファーストビュー。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/05-hero.jpg",
+     "rect": {
+      "x": 520,
+      "y": 115,
+      "w": 400,
+      "h": 672
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-06",
+     "category": "heading",
+     "also": [],
+     "label": "見出し「この指とまれ 募集中プロジェクト」",
+     "note": "太いポップ書体に英字のアーチ文字を重ねる。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/06-heading.jpg",
+     "rect": {
+      "x": 550,
+      "y": 1003,
+      "w": 340,
+      "h": 174
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-07",
+     "category": "products",
+     "also": [
+      "slider"
+     ],
+     "label": "募集中プロジェクトのラインナップ",
+     "note": "スライダー＋エントリー締切＋「参加するには？」ボタン。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/07-products.jpg",
+     "rect": {
+      "x": 520,
+      "y": 967,
+      "w": 400,
+      "h": 1136
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-08",
+     "category": "button",
+     "also": [],
+     "label": "「参加するには？」ボタン",
+     "note": "黒のピル型、右端に丸い矢印アイコン。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/08-button.jpg",
+     "rect": {
+      "x": 604,
+      "y": 1762,
+      "w": 232,
+      "h": 61
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-09",
+     "category": "heading",
+     "also": [],
+     "label": "プロジェクト番号＋タイトル",
+     "note": "アーチ背景に大きな番号、白フチの帯で見出し。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/09-heading.jpg",
+     "rect": {
+      "x": 520,
+      "y": 1940,
+      "w": 400,
+      "h": 270
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-10",
+     "category": "products",
+     "also": [],
+     "label": "プロジェクト紹介（メインクーン抱きぐるみ）",
+     "note": "写真・コピー・価格・達成率・想い・こだわりポイントを縦に積む構成。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/10-products.jpg",
+     "rect": {
+      "x": 520,
+      "y": 1902,
+      "w": 400,
+      "h": 2904
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-11",
+     "category": "numbers",
+     "also": [],
+     "label": "目標達成率メーター",
+     "note": "大きな％表示とストライプのプログレスバー。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/11-numbers.jpg",
+     "rect": {
+      "x": 530,
+      "y": 3008,
+      "w": 380,
+      "h": 246
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-12",
+     "category": "accordion",
+     "also": [],
+     "label": "プランナーの想い（続きを読む）",
+     "note": "カードの下部を折りたたみ、「続きを読む」で展開。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/12-accordion.jpg",
+     "rect": {
+      "x": 530,
+      "y": 3263,
+      "w": 380,
+      "h": 331
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-13",
+     "category": "heading",
+     "also": [],
+     "label": "見出し「こだわりポイント」",
+     "note": "和文と英字を組み合わせたロゴ風の見出し。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/13-heading.jpg",
+     "rect": {
+      "x": 561,
+      "y": 3617,
+      "w": 318,
+      "h": 98
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-14",
+     "category": "features",
+     "also": [
+      "slider"
+     ],
+     "label": "こだわりポイント",
+     "note": "円形に切り抜いた写真のスライダーに説明文を添える。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/14-features.jpg",
+     "rect": {
+      "x": 520,
+      "y": 3633,
+      "w": 400,
+      "h": 490
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-15",
+     "category": "cta",
+     "also": [
+      "button"
+     ],
+     "label": "カウントダウン＋「もっと詳しくみる」",
+     "note": "吹き出しで残り日数を強調してボタンへ誘導。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/15-cta.jpg",
+     "rect": {
+      "x": 486,
+      "y": 4150,
+      "w": 468,
+      "h": 166
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-16",
+     "category": "products",
+     "also": [],
+     "label": "プロジェクト紹介（本革バッグ）",
+     "note": "同じ型を色違いで展開。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/16-products.jpg",
+     "rect": {
+      "x": 520,
+      "y": 4605,
+      "w": 400,
+      "h": 2852
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-17",
+     "category": "products",
+     "also": [],
+     "label": "プロジェクト紹介（クマちゃんニット）",
+     "note": "同じ型を色違いで展開。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/17-products.jpg",
+     "rect": {
+      "x": 520,
+      "y": 7256,
+      "w": 400,
+      "h": 2583
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-18",
+     "category": "button",
+     "also": [],
+     "label": "「数量限定 追加受付中」ボタン",
+     "note": "吹き出しで受付終了を伝えつつ、追加受付に誘導。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/18-button.jpg",
+     "rect": {
+      "x": 535,
+      "y": 9462,
+      "w": 370,
+      "h": 73
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-19",
+     "category": "cta",
+     "also": [
+      "visual"
+     ],
+     "label": "「次はあなたの夢を」投稿募集",
+     "note": "イラストと吹き出しで投稿を促す。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/19-cta.jpg",
+     "rect": {
+      "x": 520,
+      "y": 9828,
+      "w": 400,
+      "h": 981
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-20",
+     "category": "voice",
+     "also": [
+      "card"
+     ],
+     "label": "達成したプロジェクト",
+     "note": "2列のカード。写真を額縁風のフレームで囲む。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/20-voice.jpg",
+     "rect": {
+      "x": 520,
+      "y": 10608,
+      "w": 400,
+      "h": 858
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-21",
+     "category": "intro",
+     "also": [],
+     "label": "フェリシモクラファンとは？",
+     "note": "コンセプト文と4ステップの流れ。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/21-intro.jpg",
+     "rect": {
+      "x": 520,
+      "y": 11455,
+      "w": 400,
+      "h": 2071
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-22",
+     "category": "flow",
+     "also": [],
+     "label": "4ステップの流れ",
+     "note": "番号バッジ付きのカードを縦に並べ、イラストを添える。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/22-flow.jpg",
+     "rect": {
+      "x": 520,
+      "y": 12420,
+      "w": 400,
+      "h": 880
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-23",
+     "category": "button",
+     "also": [],
+     "label": "SNSシェアボタン",
+     "note": "丸いスタンプ風のX・LINE・リンクコピー。",
+     "file": "captures/felissimo-crowdfunding-fc/parts/23-button.jpg",
+     "rect": {
+      "x": 520,
+      "y": 13526,
+      "w": 400,
+      "h": 311
+     }
+    },
+    {
+     "id": "felissimo-crowdfunding-fc-24",
+     "category": "footer",
+     "also": [],
+     "label": "フッター（フェリシモ共通）",
+     "note": "",
+     "file": "captures/felissimo-crowdfunding-fc/parts/24-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 14482,
+      "w": 1440,
+      "h": 486
+     }
+    }
+   ],
+   "createdAt": 1792633002315,
+   "updatedAt": 1792636443056,
+   "status": "captured"
+  }
+ ]
+}
