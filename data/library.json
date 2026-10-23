@@ -196,6 +196,1445 @@
  ],
  "sites": [
   {
+   "id": "dive-hiroshima",
+   "url": "https://dive-hiroshima.com/",
+   "title": "【公式】広島の観光・旅行情報サイト Dive! Hiroshima",
+   "tags": [],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 8818,
+    "fullHeight": 8818,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/dive-hiroshima/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/dive-hiroshima/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/dive-hiroshima/full-02.jpg",
+      "y": 4000,
+      "h": 4000
+     },
+     {
+      "file": "captures/dive-hiroshima/full-03.jpg",
+      "y": 8000,
+      "h": 818
+     }
+    ],
+    "lp": null,
+    "pageTitle": "【公式】広島の観光・旅行情報サイト Dive! Hiroshima",
+    "capturedAt": 1792745376231,
+    "sp": {
+     "width": 390,
+     "height": 8432,
+     "fullHeight": 8432,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/dive-hiroshima/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/dive-hiroshima/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/dive-hiroshima/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/dive-hiroshima/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/dive-hiroshima/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/dive-hiroshima/sp/full-05.jpg",
+       "y": 8000,
+       "h": 432
+      }
+     ],
+     "capturedAt": 1792745388796
+    }
+   },
+   "parts": [
+    {
+     "id": "dive-hiroshima-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "ヘッダー（ロゴ＋タブ状の枠に入れたアイコンナビ）",
+     "note": "左上にロゴ、右に角丸のタブ状の枠を広げて、線画アイコン付きのメニューを並べる。",
+     "file": "captures/dive-hiroshima/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 169
+     }
+    },
+    {
+     "id": "dive-hiroshima-02",
+     "category": "hero",
+     "also": [
+      "slider"
+     ],
+     "label": "ファーストビュー（今日の情報パネル＋記事スライダー）",
+     "note": "左に今日の天気や旬の予報をまとめたパネル、右に大きな角丸の写真スライダーを置く。",
+     "file": "captures/dive-hiroshima/parts/02-hero.jpg",
+     "rect": {
+      "x": 40,
+      "y": 170,
+      "w": 1360,
+      "h": 790
+     }
+    },
+    {
+     "id": "dive-hiroshima-03",
+     "category": "news",
+     "also": [
+      "visual"
+     ],
+     "label": "TODAY'S HIROSHIMA（日付・天気・旬の予報）",
+     "note": "日付と天気、イベントや花の見頃を点線の表にまとめ、キャラクターの一言を添える。",
+     "file": "captures/dive-hiroshima/parts/03-news.jpg",
+     "rect": {
+      "x": 45,
+      "y": 190,
+      "w": 410,
+      "h": 700
+     }
+    },
+    {
+     "id": "dive-hiroshima-04",
+     "category": "slider",
+     "also": [
+      "card"
+     ],
+     "label": "2段で流れる記事カードの帯",
+     "note": "細い枠の横長カードを2段に並べ、画面の端まで流す。",
+     "file": "captures/dive-hiroshima/parts/04-slider.jpg",
+     "rect": {
+      "x": 40,
+      "y": 1010,
+      "w": 1400,
+      "h": 290
+     }
+    },
+    {
+     "id": "dive-hiroshima-05",
+     "category": "pickup",
+     "also": [
+      "card"
+     ],
+     "label": "特集（角の丸い四角に切り抜いた写真＋縦書きの見出しタブ）",
+     "note": "写真を丸みのある四角形に切り抜き、右端のタブに縦書きの見出しを置く。",
+     "file": "captures/dive-hiroshima/parts/05-pickup.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1358,
+      "w": 1440,
+      "h": 1396
+     }
+    },
+    {
+     "id": "dive-hiroshima-06",
+     "category": "card",
+     "also": [
+      "slider"
+     ],
+     "label": "モデルコース（切符のような形のカード）",
+     "note": "両端に切り欠きのある切符のような形のカードに、丸い写真と地名のタグを並べる。",
+     "file": "captures/dive-hiroshima/parts/06-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2753,
+      "w": 1440,
+      "h": 1087
+     }
+    },
+    {
+     "id": "dive-hiroshima-07",
+     "category": "card",
+     "also": [
+      "slider"
+     ],
+     "label": "スポット紹介（丸い写真＋地名ラベル）",
+     "note": "上端からはみ出す丸い写真に、ピル型の地名ラベルを重ねる。",
+     "file": "captures/dive-hiroshima/parts/07-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 3839,
+      "w": 1440,
+      "h": 771
+     }
+    },
+    {
+     "id": "dive-hiroshima-08",
+     "category": "news",
+     "also": [
+      "card"
+     ],
+     "label": "旬情報（大1＋小4のイベントカード）",
+     "note": "金色の面に、日付付きの大きなカード1枚と小さなカード4枚を並べる。",
+     "file": "captures/dive-hiroshima/parts/08-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 4609,
+      "w": 1440,
+      "h": 1084
+     }
+    },
+    {
+     "id": "dive-hiroshima-09",
+     "category": "cta",
+     "also": [
+      "banner"
+     ],
+     "label": "公式SNSの丸い誘導＋観光大使募集のバナー",
+     "note": "黒い円にSNSへの誘導を入れ、隣に募集バナーを角丸の枠で並べる。",
+     "file": "captures/dive-hiroshima/parts/09-cta.jpg",
+     "rect": {
+      "x": 44,
+      "y": 5692,
+      "w": 1352,
+      "h": 545
+     }
+    },
+    {
+     "id": "dive-hiroshima-10",
+     "category": "news",
+     "also": [],
+     "label": "News（丸いサムネイルの2列リスト）",
+     "note": "丸く切り抜いたサムネイルと見出し・日付を、2列のリストで並べる。",
+     "file": "captures/dive-hiroshima/parts/10-news.jpg",
+     "rect": {
+      "x": 44,
+      "y": 6236,
+      "w": 1352,
+      "h": 939
+     }
+    },
+    {
+     "id": "dive-hiroshima-11",
+     "category": "card",
+     "also": [],
+     "label": "#広島観光（Instagramの投稿を並べた帯）",
+     "note": "Instagramの投稿写真を横一列に並べ、ハッシュタグの見出しを添える。",
+     "file": "captures/dive-hiroshima/parts/11-card.jpg",
+     "rect": {
+      "x": 47,
+      "y": 7172,
+      "w": 1346,
+      "h": 522
+     }
+    },
+    {
+     "id": "dive-hiroshima-12",
+     "category": "banner",
+     "also": [
+      "slider"
+     ],
+     "label": "関連サイトのバナー（左右送り）",
+     "note": "関連サイトのバナーを3列×2段で並べ、左右の丸いボタンで送る。",
+     "file": "captures/dive-hiroshima/parts/12-banner.jpg",
+     "rect": {
+      "x": 0,
+      "y": 7693,
+      "w": 1440,
+      "h": 457
+     }
+    },
+    {
+     "id": "dive-hiroshima-13",
+     "category": "footer",
+     "also": [
+      "cta"
+     ],
+     "label": "フッター（公式SNSと観光大使への誘導）",
+     "note": "SNSの一覧と観光大使の募集を並べ、サイトを締める。",
+     "file": "captures/dive-hiroshima/parts/13-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 8149,
+      "w": 1440,
+      "h": 669
+     }
+    }
+   ],
+   "createdAt": 1792745358372,
+   "updatedAt": 1792745443644,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "niwacan",
+   "url": "https://niwacan.jp/",
+   "title": "niwacan ― ソト遊びをもっと日常に",
+   "tags": [],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 4587,
+    "fullHeight": 4587,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/niwacan/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/niwacan/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/niwacan/full-02.jpg",
+      "y": 4000,
+      "h": 587
+     }
+    ],
+    "lp": null,
+    "pageTitle": "niwacan ― ソト遊びをもっと日常に",
+    "capturedAt": 1792745300864,
+    "sp": {
+     "width": 390,
+     "height": 5280,
+     "fullHeight": 5280,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/niwacan/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/niwacan/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/niwacan/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/niwacan/sp/full-03.jpg",
+       "y": 4000,
+       "h": 1280
+      }
+     ],
+     "capturedAt": 1792745313732
+    }
+   },
+   "parts": [
+    {
+     "id": "niwacan-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "ヘッダー（太いロゴ＋角丸のMENUボタン）",
+     "note": "左上に太い英字ロゴを大きく置き、右にテキストナビと線画アイコン、枠線のMENUボタンを並べる。",
+     "file": "captures/niwacan/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 80
+     }
+    },
+    {
+     "id": "niwacan-02",
+     "category": "hero",
+     "also": [
+      "visual",
+      "slider"
+     ],
+     "label": "ファーストビュー（アイソメトリックの庭イラスト＋PICK UPスライダー）",
+     "note": "庭で過ごす人々を斜め上から描いたイラストの横に、蛍光イエローのピックアップ記事と特集バナーを重ねる。",
+     "file": "captures/niwacan/parts/02-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 790
+     }
+    },
+    {
+     "id": "niwacan-03",
+     "category": "ranking",
+     "also": [
+      "card"
+     ],
+     "label": "よく読まれている記事（文字の形に切り抜いた写真＋流れるHOT!）",
+     "note": "写真を「N・I・W・A」の文字の形に切り抜き、見出しの横に「HOT!」の文字を流す。",
+     "file": "captures/niwacan/parts/03-ranking.jpg",
+     "rect": {
+      "x": 0,
+      "y": 820,
+      "w": 1440,
+      "h": 560
+     }
+    },
+    {
+     "id": "niwacan-04",
+     "category": "nav",
+     "also": [
+      "search"
+     ],
+     "label": "庭でできること（ハッシュタグのボタン＋人物イラスト）",
+     "note": "「#」の丸アイコン付きのタグボタンを中央に並べ、周りに自転車やスケボーの人物イラストを置く。",
+     "file": "captures/niwacan/parts/04-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1470,
+      "w": 1440,
+      "h": 420
+     }
+    },
+    {
+     "id": "niwacan-05",
+     "category": "slider",
+     "also": [
+      "visual"
+     ],
+     "label": "GALLERY（黒い面に流れる写真）",
+     "note": "濃いグレーの面に角丸の写真を画面の端まで並べて流す。",
+     "file": "captures/niwacan/parts/05-slider.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1880,
+      "w": 1440,
+      "h": 600
+     }
+    },
+    {
+     "id": "niwacan-06",
+     "category": "visual",
+     "also": [],
+     "label": "セクションの区切りに置いた車のイラスト",
+     "note": "ロゴ入りの車の線画を、セクションの境目にまたがるように置く。",
+     "file": "captures/niwacan/parts/06-visual.jpg",
+     "rect": {
+      "x": 180,
+      "y": 2440,
+      "w": 620,
+      "h": 350
+     }
+    },
+    {
+     "id": "niwacan-07",
+     "category": "heading",
+     "also": [],
+     "label": "和英を組み合わせた見出し（英字の間にピル型の和文ラベル）",
+     "note": "大きな英字の間に、蛍光色のピル型ラベルで和文を挟み込む。",
+     "file": "captures/niwacan/parts/07-heading.jpg",
+     "rect": {
+      "x": 30,
+      "y": 2880,
+      "w": 1380,
+      "h": 100
+     }
+    },
+    {
+     "id": "niwacan-08",
+     "category": "products",
+     "also": [
+      "card"
+     ],
+     "label": "新着商品（ラベル付きの商品カード）",
+     "note": "細い枠の角丸カードに商品写真と「NEW」ラベルを入れ、商品名と価格を小さく添える。",
+     "file": "captures/niwacan/parts/08-products.jpg",
+     "rect": {
+      "x": 30,
+      "y": 3625,
+      "w": 1380,
+      "h": 374
+     }
+    },
+    {
+     "id": "niwacan-09",
+     "category": "footer",
+     "also": [],
+     "label": "フッター",
+     "note": "ヘルプなどのリンクを並べたフッター。",
+     "file": "captures/niwacan/parts/09-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 4200,
+      "w": 1440,
+      "h": 388
+     }
+    }
+   ],
+   "createdAt": 1792745288557,
+   "updatedAt": 1792745414099,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "taiyokikaku-newcreators2025",
+   "url": "https://www.taiyokikaku.com/newcreators2025/",
+   "title": "TAIYO KIKAKU 「うちで噂のNEW CREATORS」",
+   "tags": [
+    "採用サイト",
+    "クリエイティブ"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 5296,
+    "fullHeight": 5296,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/taiyokikaku-newcreators2025/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/taiyokikaku-newcreators2025/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/taiyokikaku-newcreators2025/full-02.jpg",
+      "y": 4000,
+      "h": 1296
+     }
+    ],
+    "lp": null,
+    "pageTitle": "TAIYO KIKAKU 「うちで噂のNEW CREATORS」",
+    "capturedAt": 1792745257210,
+    "sp": {
+     "width": 390,
+     "height": 5077,
+     "fullHeight": 5077,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/taiyokikaku-newcreators2025/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/taiyokikaku-newcreators2025/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/taiyokikaku-newcreators2025/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/taiyokikaku-newcreators2025/sp/full-03.jpg",
+       "y": 4000,
+       "h": 1077
+      }
+     ],
+     "capturedAt": 1792745267549
+    }
+   },
+   "parts": [
+    {
+     "id": "taiyokikaku-newcreators2025-01",
+     "category": "hero",
+     "also": [
+      "visual"
+     ],
+     "label": "ファーストビュー（週刊誌の表紙風カードのコラージュ＋斜めの帯タイトル）",
+     "note": "人物写真に見出しを詰め込んだ雑誌の表紙風カードを傾けて重ね、斜めの白い帯にタイトルを流す。",
+     "file": "captures/taiyokikaku-newcreators2025/parts/01-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 1050
+     }
+    },
+    {
+     "id": "taiyokikaku-newcreators2025-02",
+     "category": "intro",
+     "also": [
+      "visual"
+     ],
+     "label": "SCOOP!（切り抜いた人物を散らした導入）",
+     "note": "下線付きの大きな英字の周りに、切り抜いた人物写真を散らして賑やかさを出す。",
+     "file": "captures/taiyokikaku-newcreators2025/parts/02-intro.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1020,
+      "w": 1440,
+      "h": 540
+     }
+    },
+    {
+     "id": "taiyokikaku-newcreators2025-03",
+     "category": "card",
+     "also": [
+      "voice"
+     ],
+     "label": "メンバー一覧（変形写真のグリッド＋MEMBERの帯）",
+     "note": "罫線のグリッドに職種と名前、ひとりずつ違う形に切り抜いた写真を入れ、上下を「MEMBER」の帯で挟む。",
+     "file": "captures/taiyokikaku-newcreators2025/parts/03-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1554,
+      "w": 1440,
+      "h": 1773
+     }
+    },
+    {
+     "id": "taiyokikaku-newcreators2025-04",
+     "category": "card",
+     "also": [],
+     "label": "メンバーカード（職種アイコン＋名前＋変形写真）",
+     "note": "小さな職種アイコンと名前の下に、楕円や波形に切り抜いた写真を置く。",
+     "file": "captures/taiyokikaku-newcreators2025/parts/04-card.jpg",
+     "rect": {
+      "x": 120,
+      "y": 1596,
+      "w": 300,
+      "h": 420
+     }
+    },
+    {
+     "id": "taiyokikaku-newcreators2025-05",
+     "category": "search",
+     "also": [
+      "visual",
+      "nav"
+     ],
+     "label": "SEARCH!（いろいろな形のタグを散らした噂ワード検索）",
+     "note": "職種や噂ワードを楕円・三角・平行四辺形などのカラフルなタグにして、重ねながら散らす。",
+     "file": "captures/taiyokikaku-newcreators2025/parts/05-search.jpg",
+     "rect": {
+      "x": 0,
+      "y": 3502,
+      "w": 1440,
+      "h": 832
+     }
+    },
+    {
+     "id": "taiyokikaku-newcreators2025-06",
+     "category": "button",
+     "also": [],
+     "label": "SHARE!（形の違うSNSボタン）",
+     "note": "楕円のXボタンと四角いfacebookボタンを、下線付きの見出しの下に並べる。",
+     "file": "captures/taiyokikaku-newcreators2025/parts/06-button.jpg",
+     "rect": {
+      "x": 0,
+      "y": 4334,
+      "w": 1440,
+      "h": 214
+     }
+    },
+    {
+     "id": "taiyokikaku-newcreators2025-07",
+     "category": "visual",
+     "also": [],
+     "label": "ページ下部の表紙風カードのコラージュ",
+     "note": "ファーストビューと同じ表紙風カードを下端にも積み、ページを締める。",
+     "file": "captures/taiyokikaku-newcreators2025/parts/07-visual.jpg",
+     "rect": {
+      "x": 0,
+      "y": 4640,
+      "w": 1440,
+      "h": 655
+     }
+    },
+    {
+     "id": "taiyokikaku-newcreators2025-08",
+     "category": "footer",
+     "also": [],
+     "label": "フッター（ロゴ＋コピーライト）",
+     "note": "中央に小さなロゴとコピーライトだけを置く。",
+     "file": "captures/taiyokikaku-newcreators2025/parts/08-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 4548,
+      "w": 1440,
+      "h": 749
+     }
+    }
+   ],
+   "createdAt": 1792745244704,
+   "updatedAt": 1792745348917,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "nissui-index",
+   "url": "https://www.nissui.co.jp/goodfoods_world/index.html",
+   "title": "GOOD FOODS World | ニッスイ",
+   "tags": [
+    "コーポレートサイト",
+    "スペシャルサイト"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 10626,
+    "fullHeight": 10626,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/nissui-index/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/nissui-index/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/nissui-index/full-02.jpg",
+      "y": 4000,
+      "h": 4000
+     },
+     {
+      "file": "captures/nissui-index/full-03.jpg",
+      "y": 8000,
+      "h": 2626
+     }
+    ],
+    "lp": null,
+    "pageTitle": "GOOD FOODS World | ニッスイ",
+    "capturedAt": 1792745197897,
+    "sp": {
+     "width": 390,
+     "height": 11540,
+     "fullHeight": 11540,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/nissui-index/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/nissui-index/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/nissui-index/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/nissui-index/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/nissui-index/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/nissui-index/sp/full-05.jpg",
+       "y": 8000,
+       "h": 2000
+      },
+      {
+       "file": "captures/nissui-index/sp/full-06.jpg",
+       "y": 10000,
+       "h": 1540
+      }
+     ],
+     "capturedAt": 1792745212978
+    }
+   },
+   "parts": [
+    {
+     "id": "nissui-index-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "ヘッダー（コーポレートサイト共通の2段ナビ）",
+     "note": "赤いロゴの横にキャッチを添え、上段に小さなリンク、下段に主要メニューを並べる。",
+     "file": "captures/nissui-index/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 106
+     }
+    },
+    {
+     "id": "nissui-index-02",
+     "category": "hero",
+     "also": [
+      "slider",
+      "visual"
+     ],
+     "label": "ファーストビュー（地図の上の記事スライダー＋前後の国へのナビ）",
+     "note": "薄い地図を背景に記事写真を置き、丸い「POINT」写真と飛行機に乗ったキャラクターを重ね、左右に前後の国へのリンクを置く。",
+     "file": "captures/nissui-index/parts/02-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 108,
+      "w": 1440,
+      "h": 794
+     }
+    },
+    {
+     "id": "nissui-index-03",
+     "category": "button",
+     "also": [],
+     "label": "「OPEN THE World」ボタン（淡い赤のピル型）",
+     "note": "淡い赤のピルに赤い英字とメニューアイコンを入れる。",
+     "file": "captures/nissui-index/parts/03-button.jpg",
+     "rect": {
+      "x": 1219,
+      "y": 135,
+      "w": 182,
+      "h": 51
+     }
+    },
+    {
+     "id": "nissui-index-04",
+     "category": "intro",
+     "also": [
+      "visual"
+     ],
+     "label": "コンセプト（円形に切り抜いた写真と赤い航路の線）",
+     "note": "画面端から大きくはみ出す円形の写真に赤い縁を付け、点線の航路でページをつなぐ。",
+     "file": "captures/nissui-index/parts/04-intro.jpg",
+     "rect": {
+      "x": 0,
+      "y": 902,
+      "w": 1440,
+      "h": 980
+     }
+    },
+    {
+     "id": "nissui-index-05",
+     "category": "slider",
+     "also": [
+      "card"
+     ],
+     "label": "記事の横スクロール（縦書きの国名ラベル付き）",
+     "note": "ピンクの帯に白いカードを横に並べ、カードの左端に国名と番号を縦書きで添える。",
+     "file": "captures/nissui-index/parts/05-slider.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1881,
+      "w": 1440,
+      "h": 241
+     }
+    },
+    {
+     "id": "nissui-index-06",
+     "category": "visual",
+     "also": [
+      "heading"
+     ],
+     "label": "国ごとの扉（写真3分割＋地図と大きな国名）",
+     "note": "街の写真を3つに分け、中央に地図の線画と赤い大きな国名・ピンを重ねる。",
+     "file": "captures/nissui-index/parts/06-visual.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2120,
+      "w": 1440,
+      "h": 800
+     }
+    },
+    {
+     "id": "nissui-index-07",
+     "category": "card",
+     "also": [
+      "news"
+     ],
+     "label": "国ごとの記事カード（背景に大きな白抜きの英字）",
+     "note": "背景に白抜きの大きな国名と番号を流し、白いカードを段違いに2枚置く。",
+     "file": "captures/nissui-index/parts/07-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2940,
+      "w": 1440,
+      "h": 900
+     }
+    },
+    {
+     "id": "nissui-index-08",
+     "category": "news",
+     "also": [
+      "card"
+     ],
+     "label": "記事一覧（街の写真の上に2列のカード＋流れる国名）",
+     "note": "暗くした街の写真の上に白いカードを2列で並べ、NEWバッジと、下端に飛行機マークでつないだ国名を流す。",
+     "file": "captures/nissui-index/parts/08-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 9309,
+      "w": 1440,
+      "h": 1091
+     }
+    },
+    {
+     "id": "nissui-index-09",
+     "category": "footer",
+     "also": [],
+     "label": "フッター",
+     "note": "規約などのリンクとコピーライトだけの短いフッター。",
+     "file": "captures/nissui-index/parts/09-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 10453,
+      "w": 1440,
+      "h": 174
+     }
+    }
+   ],
+   "createdAt": 1792745182105,
+   "updatedAt": 1792745255451,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "shibuyastreetlive",
+   "url": "https://shibuyastreetlive.jp/",
+   "title": "SHIBUYA STREET LIVE｜公式サイト",
+   "tags": [
+    "イベント"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 8536,
+    "fullHeight": 8536,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/shibuyastreetlive/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/shibuyastreetlive/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/shibuyastreetlive/full-02.jpg",
+      "y": 4000,
+      "h": 4000
+     },
+     {
+      "file": "captures/shibuyastreetlive/full-03.jpg",
+      "y": 8000,
+      "h": 536
+     }
+    ],
+    "lp": null,
+    "pageTitle": "SHIBUYA STREET LIVE｜公式サイト",
+    "capturedAt": 1792745143511,
+    "sp": {
+     "width": 390,
+     "height": 8762,
+     "fullHeight": 8762,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/shibuyastreetlive/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/shibuyastreetlive/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/shibuyastreetlive/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/shibuyastreetlive/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/shibuyastreetlive/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/shibuyastreetlive/sp/full-05.jpg",
+       "y": 8000,
+       "h": 762
+      }
+     ],
+     "capturedAt": 1792745154804
+    }
+   },
+   "parts": [
+    {
+     "id": "shibuyastreetlive-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "ヘッダー（角丸の枠に入れたナビ）",
+     "note": "白い角丸の枠にロゴと英字の小さなナビを収め、画面の上に浮かせる。",
+     "file": "captures/shibuyastreetlive/parts/01-header.jpg",
+     "rect": {
+      "x": 30,
+      "y": 18,
+      "w": 1380,
+      "h": 76
+     }
+    },
+    {
+     "id": "shibuyastreetlive-02",
+     "category": "hero",
+     "also": [
+      "visual"
+     ],
+     "label": "ファーストビュー（極太の英字＋目のあるカラフルな形）",
+     "note": "画面幅いっぱいの極太コピーの下に、目の付いたビビッドな不定形の形を重ねる。",
+     "file": "captures/shibuyastreetlive/parts/02-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900
+     }
+    },
+    {
+     "id": "shibuyastreetlive-03",
+     "category": "news",
+     "also": [],
+     "label": "ライブ情報のティッカー（黒い帯）",
+     "note": "黒い帯に白い小さな文字で、開催情報を横に流し続ける。",
+     "file": "captures/shibuyastreetlive/parts/03-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 896,
+      "w": 1440,
+      "h": 50
+     }
+    },
+    {
+     "id": "shibuyastreetlive-04",
+     "category": "intro",
+     "also": [
+      "visual"
+     ],
+     "label": "コンセプト（詩的な文章＋カラフルな形）",
+     "note": "左に短い文を積み、右にカラフルな形を散らして、ロゴとボタンで締める。",
+     "file": "captures/shibuyastreetlive/parts/04-intro.jpg",
+     "rect": {
+      "x": 0,
+      "y": 946,
+      "w": 1440,
+      "h": 813
+     }
+    },
+    {
+     "id": "shibuyastreetlive-05",
+     "category": "heading",
+     "also": [],
+     "label": "セクション見出し（2行の英字＋色付きの点）",
+     "note": "2行にした太い英字の下に、色の点を添えた小さな和文を置く。",
+     "file": "captures/shibuyastreetlive/parts/05-heading.jpg",
+     "rect": {
+      "x": 55,
+      "y": 1855,
+      "w": 620,
+      "h": 195
+     }
+    },
+    {
+     "id": "shibuyastreetlive-06",
+     "category": "news",
+     "also": [
+      "card"
+     ],
+     "label": "ライブ情報（大きな日付＋フライヤー＋会場情報）",
+     "note": "細い枠のカードに大きな日付・フライヤー・出演者と会場を並べ、右端に黒い矢印ボタン。",
+     "file": "captures/shibuyastreetlive/parts/06-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1758,
+      "w": 1440,
+      "h": 1168
+     }
+    },
+    {
+     "id": "shibuyastreetlive-07",
+     "category": "button",
+     "also": [],
+     "label": "白い枠のボタン（右に黒い矢印アイコン）",
+     "note": "細い枠の角丸ボタンに、小さな英字と黒い四角の矢印を入れる。",
+     "file": "captures/shibuyastreetlive/parts/07-button.jpg",
+     "rect": {
+      "x": 1144,
+      "y": 1980,
+      "w": 232,
+      "h": 69
+     }
+    },
+    {
+     "id": "shibuyastreetlive-08",
+     "category": "card",
+     "also": [
+      "news"
+     ],
+     "label": "イベント情報（大1＋小2のカード）",
+     "note": "左の大きなフライヤーと右の小さな2枚を並べ、開催終了ラベルと日付を添える。",
+     "file": "captures/shibuyastreetlive/parts/08-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2925,
+      "w": 1440,
+      "h": 1053
+     }
+    },
+    {
+     "id": "shibuyastreetlive-09",
+     "category": "visual",
+     "also": [],
+     "label": "流れる大きな英字（THE CULTURE MONSTER）",
+     "note": "画面幅を超える大きな英字を、色付きの記号を挟んで横に流す。",
+     "file": "captures/shibuyastreetlive/parts/09-visual.jpg",
+     "rect": {
+      "x": 0,
+      "y": 4000,
+      "w": 1440,
+      "h": 95
+     }
+    },
+    {
+     "id": "shibuyastreetlive-10",
+     "category": "card",
+     "also": [
+      "voice"
+     ],
+     "label": "出演アーティスト（黒い角丸パネルの3列グリッド）",
+     "note": "黒いパネルに角丸の写真を3列で並べ、右下に小さな矢印、下に名前を添える。",
+     "file": "captures/shibuyastreetlive/parts/10-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 4087,
+      "w": 1440,
+      "h": 2011
+     }
+    },
+    {
+     "id": "shibuyastreetlive-11",
+     "category": "news",
+     "also": [],
+     "label": "過去ライブ情報（黒背景のリスト）",
+     "note": "黒地に大きな日付と白い罫線のリストを並べ、ライブ情報と色を反転させる。",
+     "file": "captures/shibuyastreetlive/parts/11-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 6098,
+      "w": 1440,
+      "h": 921
+     }
+    },
+    {
+     "id": "shibuyastreetlive-12",
+     "category": "footer",
+     "also": [
+      "nav"
+     ],
+     "label": "フッター（黒い角丸パネルに大きなロゴ）",
+     "note": "黒い角丸パネルに大きなロゴを置き、リンクを英日2段で並べる。",
+     "file": "captures/shibuyastreetlive/parts/12-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 7642,
+      "w": 1440,
+      "h": 743
+     }
+    }
+   ],
+   "createdAt": 1792745131047,
+   "updatedAt": 1792745201049,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "store",
+   "url": "https://store.ruboa.com/",
+   "title": "Ruboa Online Store",
+   "tags": [
+    "EC"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 10707,
+    "fullHeight": 10707,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/store/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/store/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/store/full-02.jpg",
+      "y": 4000,
+      "h": 4000
+     },
+     {
+      "file": "captures/store/full-03.jpg",
+      "y": 8000,
+      "h": 2707
+     }
+    ],
+    "lp": null,
+    "pageTitle": "Ruboa Online Store",
+    "capturedAt": 1792745112756,
+    "sp": {
+     "width": 390,
+     "height": 11748,
+     "fullHeight": 11748,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/store/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/store/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/store/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/store/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/store/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/store/sp/full-05.jpg",
+       "y": 8000,
+       "h": 2000
+      },
+      {
+       "file": "captures/store/sp/full-06.jpg",
+       "y": 10000,
+       "h": 1748
+      }
+     ],
+     "capturedAt": 1792745125518
+    }
+   },
+   "parts": [
+    {
+     "id": "store-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "ヘッダー（ロゴ＋ブランド／カテゴリのドロップダウン）",
+     "note": "白地にロゴと小さなドロップダウン2つ、右端に検索・アカウント・カートのアイコンだけを置く。",
+     "file": "captures/store/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 100
+     }
+    },
+    {
+     "id": "store-02",
+     "category": "hero",
+     "also": [
+      "slider"
+     ],
+     "label": "メインビジュアル（商品を散りばめた空間写真のスライダー）",
+     "note": "部屋いっぱいに色とりどりの革小物を散らした写真を、横幅いっぱいに見せる。",
+     "file": "captures/store/parts/02-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 100,
+      "w": 1440,
+      "h": 843
+     }
+    },
+    {
+     "id": "store-03",
+     "category": "nav",
+     "also": [],
+     "label": "ブランドの入口（2つのロゴ）",
+     "note": "小さな見出しの下に、ブランドロゴだけを並べて入口にする。",
+     "file": "captures/store/parts/03-nav.jpg",
+     "rect": {
+      "x": 400,
+      "y": 990,
+      "w": 640,
+      "h": 160
+     }
+    },
+    {
+     "id": "store-04",
+     "category": "products",
+     "also": [
+      "card"
+     ],
+     "label": "おすすめ商品（4列の商品グリッド）",
+     "note": "白背景の切り抜き写真に、商品名と税込価格を小さく添えて余白を大きく取る。",
+     "file": "captures/store/parts/04-products.jpg",
+     "rect": {
+      "x": 110,
+      "y": 1660,
+      "w": 1220,
+      "h": 380
+     }
+    },
+    {
+     "id": "store-05",
+     "category": "company",
+     "also": [
+      "slider"
+     ],
+     "label": "店舗紹介（写真スライダー＋案内文）",
+     "note": "左に店内写真のスライダー、右に中央揃えの案内文を置く。",
+     "file": "captures/store/parts/05-company.jpg",
+     "rect": {
+      "x": 0,
+      "y": 6844,
+      "w": 1440,
+      "h": 548
+     }
+    },
+    {
+     "id": "store-06",
+     "category": "features",
+     "also": [],
+     "label": "「ナチュラルマーク」について（革の質感写真＋説明文）",
+     "note": "黒と白の革を並べた大きな写真で、素材の表情を説明する。",
+     "file": "captures/store/parts/06-features.jpg",
+     "rect": {
+      "x": 0,
+      "y": 7416,
+      "w": 1440,
+      "h": 506
+     }
+    },
+    {
+     "id": "store-07",
+     "category": "slider",
+     "also": [
+      "products"
+     ],
+     "label": "人気商品（画面端まで流れる商品スライダー）",
+     "note": "細い枠の商品カードを画面の端まで並べ、続きがあることを見せる。",
+     "file": "captures/store/parts/07-slider.jpg",
+     "rect": {
+      "x": 120,
+      "y": 8187,
+      "w": 1200,
+      "h": 417
+     }
+    },
+    {
+     "id": "store-08",
+     "category": "table",
+     "also": [],
+     "label": "営業カレンダー（休業日を塗った2か月分）",
+     "note": "休業日だけをグレーで塗ったシンプルな2か月のカレンダー。",
+     "file": "captures/store/parts/08-table.jpg",
+     "rect": {
+      "x": 120,
+      "y": 8868,
+      "w": 1200,
+      "h": 308
+     }
+    },
+    {
+     "id": "store-09",
+     "category": "faq",
+     "also": [
+      "table"
+     ],
+     "label": "ショッピングガイド（配送・返品・支払いの3カラム）",
+     "note": "縦線で区切った3カラムに、見出しと短い説明を中央揃えで並べる。",
+     "file": "captures/store/parts/09-faq.jpg",
+     "rect": {
+      "x": 100,
+      "y": 9380,
+      "w": 1240,
+      "h": 820
+     }
+    },
+    {
+     "id": "store-10",
+     "category": "footer",
+     "also": [],
+     "label": "フッター（ロゴ＋QRコード＋リンク）",
+     "note": "薄いグレーの面に、ロゴ・QRコードと小さなリンクを並べる。",
+     "file": "captures/store/parts/10-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 10260,
+      "w": 1440,
+      "h": 448
+     }
+    }
+   ],
+   "createdAt": 1792745100260,
+   "updatedAt": 1792745161444,
+   "status": "captured",
+   "pages": []
+  },
+  {
    "id": "recruit-diversity",
    "url": "https://recruit-diversity.jreast.co.jp/",
    "title": "いろいろな“わたし”で、どこまでもゆく。 | 障がい者採用 | JR東日本",
