@@ -196,6 +196,1448 @@
  ],
  "sites": [
   {
+   "id": "komoriseiki",
+   "url": "https://www.komoriseiki.com/",
+   "title": "ミクロン単位の高精度・超精密な部品加工なら｜株式会社小森精機",
+   "tags": [
+    "コーポレートサイト"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 9733,
+    "fullHeight": 9733,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/komoriseiki/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/komoriseiki/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/komoriseiki/full-02.jpg",
+      "y": 4000,
+      "h": 4000
+     },
+     {
+      "file": "captures/komoriseiki/full-03.jpg",
+      "y": 8000,
+      "h": 1733
+     }
+    ],
+    "lp": null,
+    "pageTitle": "ミクロン単位の高精度・超精密な部品加工なら｜株式会社小森精機",
+    "capturedAt": 1792744558284,
+    "sp": {
+     "width": 390,
+     "height": 10684,
+     "fullHeight": 10684,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/komoriseiki/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/komoriseiki/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/komoriseiki/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/komoriseiki/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/komoriseiki/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/komoriseiki/sp/full-05.jpg",
+       "y": 8000,
+       "h": 2000
+      },
+      {
+       "file": "captures/komoriseiki/sp/full-06.jpg",
+       "y": 10000,
+       "h": 684
+      }
+     ],
+     "capturedAt": 1792744584156
+    }
+   },
+   "parts": [
+    {
+     "id": "komoriseiki-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "ヘッダー（白地のロゴ＋青いCONTACTボタン）",
+     "note": "左上に白い四角のロゴを置き、テキストナビの右端に鮮やかな青の問い合わせボタンを並べる。",
+     "file": "captures/komoriseiki/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 23,
+      "w": 1440,
+      "h": 90
+     }
+    },
+    {
+     "id": "komoriseiki-02",
+     "category": "hero",
+     "also": [
+      "visual"
+     ],
+     "label": "ファーストビュー（赤×黒の斜め分割＋方眼の背景）",
+     "note": "赤と黒の面を斜めに切り替え、方眼紙の上に黒帯で強調したキャッチと加工写真を重ねる。",
+     "file": "captures/komoriseiki/parts/02-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 1063
+     }
+    },
+    {
+     "id": "komoriseiki-03",
+     "category": "heading",
+     "also": [
+      "visual"
+     ],
+     "label": "英字の大きなタイポグラフィ（Achieving the required ACCURACY）",
+     "note": "赤い英字を細い罫線の枠に収め、ページの区切りとして横いっぱいに置く。",
+     "file": "captures/komoriseiki/parts/03-heading.jpg",
+     "rect": {
+      "x": 70,
+      "y": 915,
+      "w": 1370,
+      "h": 150
+     }
+    },
+    {
+     "id": "komoriseiki-04",
+     "category": "intro",
+     "also": [],
+     "label": "About us（方眼と赤い面の重なり＋手書き風の英字）",
+     "note": "方眼の白い面と赤い面を重ねて部品写真を置き、手書き風の英字を添える。",
+     "file": "captures/komoriseiki/parts/04-intro.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1062,
+      "w": 1440,
+      "h": 754
+     }
+    },
+    {
+     "id": "komoriseiki-05",
+     "category": "numbers",
+     "also": [],
+     "label": "数字で見る小森精機（4分類のインフォグラフィック）",
+     "note": "大きな赤い数字を罫線で区切って並べ、背景にアイコンを薄く敷く。",
+     "file": "captures/komoriseiki/parts/05-numbers.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1815,
+      "w": 1440,
+      "h": 1310
+     }
+    },
+    {
+     "id": "komoriseiki-06",
+     "category": "products",
+     "also": [
+      "visual"
+     ],
+     "label": "対応できる製品（写真に重なる大きな英字＋番号付きリスト）",
+     "note": "写真を切り抜いた大きな英字「PRODUCT」を重ね、番号と筆記体の「Point」で製品を並べる。",
+     "file": "captures/komoriseiki/parts/06-products.jpg",
+     "rect": {
+      "x": 0,
+      "y": 3124,
+      "w": 1440,
+      "h": 1477
+     }
+    },
+    {
+     "id": "komoriseiki-07",
+     "category": "features",
+     "also": [
+      "card"
+     ],
+     "label": "当社オリジナル技術紹介（細い赤枠のカード）",
+     "note": "大きな英字見出しの下に、細い赤枠と矢印だけのシンプルなカードを3枚並べる。",
+     "file": "captures/komoriseiki/parts/07-features.jpg",
+     "rect": {
+      "x": 0,
+      "y": 4600,
+      "w": 1440,
+      "h": 1195
+     }
+    },
+    {
+     "id": "komoriseiki-08",
+     "category": "card",
+     "also": [],
+     "label": "生産設備・検査設備（写真グリッド＋薄い英字の見出し）",
+     "note": "薄いピンクの英字に黒い見出しと赤い三角を重ね、設備写真を3列のグリッドで見せる。",
+     "file": "captures/komoriseiki/parts/08-card.jpg",
+     "rect": {
+      "x": 60,
+      "y": 5730,
+      "w": 1320,
+      "h": 1560
+     }
+    },
+    {
+     "id": "komoriseiki-09",
+     "category": "voice",
+     "also": [
+      "card"
+     ],
+     "label": "主要お取引先（黒い社名プレート）",
+     "note": "社名を黒いプレートに白文字で入れ、2列に並べて実績を見せる。",
+     "file": "captures/komoriseiki/parts/09-voice.jpg",
+     "rect": {
+      "x": 0,
+      "y": 7923,
+      "w": 1440,
+      "h": 656
+     }
+    },
+    {
+     "id": "komoriseiki-10",
+     "category": "banner",
+     "also": [
+      "nav"
+     ],
+     "label": "会社案内・CSR・採用への写真リンク（3分割）",
+     "note": "暗くした加工現場の写真を3等分し、白い大きな文字でリンク先を示す。",
+     "file": "captures/komoriseiki/parts/10-banner.jpg",
+     "rect": {
+      "x": 0,
+      "y": 8578,
+      "w": 1440,
+      "h": 376
+     }
+    },
+    {
+     "id": "komoriseiki-11",
+     "category": "cta",
+     "also": [
+      "contact"
+     ],
+     "label": "CONTACT（青と黒の2分割＋電話番号）",
+     "note": "左の青い面に矢印と大きな英字、右の黒い面に電話番号と受付時間を置く。",
+     "file": "captures/komoriseiki/parts/11-cta.jpg",
+     "rect": {
+      "x": 0,
+      "y": 8953,
+      "w": 1440,
+      "h": 331
+     }
+    },
+    {
+     "id": "komoriseiki-12",
+     "category": "footer",
+     "also": [],
+     "label": "フッター（白と赤の2分割）",
+     "note": "左の白い面にロゴ、右の赤い面にリンクとSNSを置き、ブランドカラーで締める。",
+     "file": "captures/komoriseiki/parts/12-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 9283,
+      "w": 1440,
+      "h": 451
+     }
+    }
+   ],
+   "createdAt": 1792744527372,
+   "updatedAt": 1792744627223,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "cure-vas",
+   "url": "https://cure-vas.jp/",
+   "title": "難治性血管腫・血管奇形薬物療法研究班情報サイト｜AMED小関班運営",
+   "tags": [
+    "サービスサイト"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 10783,
+    "fullHeight": 10783,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/cure-vas/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/cure-vas/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/cure-vas/full-02.jpg",
+      "y": 4000,
+      "h": 4000
+     },
+     {
+      "file": "captures/cure-vas/full-03.jpg",
+      "y": 8000,
+      "h": 2783
+     }
+    ],
+    "lp": null,
+    "pageTitle": "難治性血管腫・血管奇形薬物療法研究班情報サイト｜AMED小関班運営",
+    "capturedAt": 1792744481495,
+    "sp": {
+     "width": 390,
+     "height": 14625,
+     "fullHeight": 14625,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/cure-vas/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/cure-vas/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/cure-vas/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/cure-vas/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/cure-vas/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/cure-vas/sp/full-05.jpg",
+       "y": 8000,
+       "h": 2000
+      },
+      {
+       "file": "captures/cure-vas/sp/full-06.jpg",
+       "y": 10000,
+       "h": 2000
+      },
+      {
+       "file": "captures/cure-vas/sp/full-07.jpg",
+       "y": 12000,
+       "h": 2000
+      },
+      {
+       "file": "captures/cure-vas/sp/full-08.jpg",
+       "y": 14000,
+       "h": 625
+      }
+     ],
+     "capturedAt": 1792744506279
+    }
+   },
+   "parts": [
+    {
+     "id": "cure-vas-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "ヘッダー（パステルの丸アイコンナビ）",
+     "note": "淡い色の丸に線画アイコンを入れたメニューを並べ、右端にハンバーガーを置く。",
+     "file": "captures/cure-vas/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 140
+     }
+    },
+    {
+     "id": "cure-vas-02",
+     "category": "hero",
+     "also": [
+      "visual"
+     ],
+     "label": "ファーストビュー（本を開いた形の枠＋キャラクター）",
+     "note": "開いた本の形の枠にキャッチと丸いボタンを収め、左右に案内役のキャラクターを立たせる。",
+     "file": "captures/cure-vas/parts/02-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 170,
+      "w": 1440,
+      "h": 685
+     }
+    },
+    {
+     "id": "cure-vas-03",
+     "category": "button",
+     "also": [],
+     "label": "右端に固定したSNSボタン",
+     "note": "画面右端からのぞく丸角のタブにSNSアイコンを縦に並べる。",
+     "file": "captures/cure-vas/parts/03-button.jpg",
+     "rect": {
+      "x": 1360,
+      "y": 500,
+      "w": 80,
+      "h": 220
+     }
+    },
+    {
+     "id": "cure-vas-04",
+     "category": "news",
+     "also": [],
+     "label": "最新情報（対象別に色分けしたラベル付きの一覧）",
+     "note": "白いカードに日付・対象ラベル・見出しを並べ、患者向けと医療関係者向けを色で分ける。",
+     "file": "captures/cure-vas/parts/04-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1335,
+      "w": 1440,
+      "h": 330
+     }
+    },
+    {
+     "id": "cure-vas-05",
+     "category": "intro",
+     "also": [
+      "cta"
+     ],
+     "label": "初めて診断された方へ（キャラクター＋丸いボタン）",
+     "note": "やわらかな曲線の背景に説明文を置き、左右のキャラクターで視線をボタンへ集める。",
+     "file": "captures/cure-vas/parts/05-intro.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1664,
+      "w": 1440,
+      "h": 686
+     }
+    },
+    {
+     "id": "cure-vas-06",
+     "category": "heading",
+     "also": [],
+     "label": "アイコン付きのセクション見出し（2色の文字）",
+     "note": "点線の上に線画アイコンを置き、見出しの一部だけを差し色にする。",
+     "file": "captures/cure-vas/parts/06-heading.jpg",
+     "rect": {
+      "x": 520,
+      "y": 2370,
+      "w": 400,
+      "h": 220
+     }
+    },
+    {
+     "id": "cure-vas-07",
+     "category": "card",
+     "also": [],
+     "label": "疾患カード（番号バッジ＋イラスト＋詳細ボタン）",
+     "note": "上端に丸い番号バッジを飛び出させ、症状のイラストと短い説明、枠線ボタンを縦に積む。",
+     "file": "captures/cure-vas/parts/07-card.jpg",
+     "rect": {
+      "x": 60,
+      "y": 3380,
+      "w": 1320,
+      "h": 580
+     }
+    },
+    {
+     "id": "cure-vas-08",
+     "category": "voice",
+     "also": [],
+     "label": "医師の吹き出しコメント",
+     "note": "丸く切り抜いた医師のイラストに吹き出しを添えて、専門家の一言を見せる。",
+     "file": "captures/cure-vas/parts/08-voice.jpg",
+     "rect": {
+      "x": 40,
+      "y": 4000,
+      "w": 380,
+      "h": 540
+     }
+    },
+    {
+     "id": "cure-vas-09",
+     "category": "features",
+     "also": [
+      "nav"
+     ],
+     "label": "治療法のアイコン一覧（丸い色面のアイコン）",
+     "note": "大きな円で薬物療法を目立たせ、ほかの治療法を小さな円のアイコンで並べる。",
+     "file": "captures/cure-vas/parts/09-features.jpg",
+     "rect": {
+      "x": 170,
+      "y": 5140,
+      "w": 1100,
+      "h": 600
+     }
+    },
+    {
+     "id": "cure-vas-10",
+     "category": "features",
+     "also": [],
+     "label": "シロリムスについて（画像＋説明の2カラム）",
+     "note": "淡いピンクの面に画像を置き、英字の小見出しと丸いボタンを右に添える。",
+     "file": "captures/cure-vas/parts/10-features.jpg",
+     "rect": {
+      "x": 80,
+      "y": 5820,
+      "w": 1280,
+      "h": 521
+     }
+    },
+    {
+     "id": "cure-vas-11",
+     "category": "card",
+     "also": [
+      "visual"
+     ],
+     "label": "お役立ち情報集（2枚のカード＋キャラクター集合）",
+     "note": "白いカードにリンク一覧を入れ、下端にキャラクターを横並びで集合させる。",
+     "file": "captures/cure-vas/parts/11-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 7000,
+      "w": 1440,
+      "h": 1083
+     }
+    },
+    {
+     "id": "cure-vas-12",
+     "category": "tabs",
+     "also": [
+      "news"
+     ],
+     "label": "医療関係の皆様へ（色違いのタブ＋お知らせ一覧）",
+     "note": "パステルの色違いのタブで種類を切り替え、グレーの面に一覧を収める。",
+     "file": "captures/cure-vas/parts/12-tabs.jpg",
+     "rect": {
+      "x": 0,
+      "y": 8082,
+      "w": 1440,
+      "h": 1045
+     }
+    },
+    {
+     "id": "cure-vas-13",
+     "category": "contact",
+     "also": [
+      "cta"
+     ],
+     "label": "お問い合わせ（薬アイコンの柄を敷いたブロック）",
+     "note": "ピンクの面に薬や医療器具の線画アイコンを柄として敷き、中央に見出しとボタンを置く。",
+     "file": "captures/cure-vas/parts/13-contact.jpg",
+     "rect": {
+      "x": 0,
+      "y": 9456,
+      "w": 1440,
+      "h": 711
+     }
+    },
+    {
+     "id": "cure-vas-14",
+     "category": "footer",
+     "also": [
+      "nav"
+     ],
+     "label": "フッター（波形の上端＋丸アイコンのメニュー）",
+     "note": "波形で区切った茶色の帯に、ヘッダーと同じ丸アイコンのメニューを置き、薬のチューブ形のTOPボタンを添える。",
+     "file": "captures/cure-vas/parts/14-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 10286,
+      "w": 1440,
+      "h": 497
+     }
+    }
+   ],
+   "createdAt": 1792744457805,
+   "updatedAt": 1792744562374,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "medicos-cp",
+   "url": "https://medicos-cp.jp/",
+   "title": "岐阜市の文化を伝える、つなぐ。｜シビックプライドプレイス（ぎふメディアコスモス）",
+   "tags": [
+    "サービスサイト"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 10754,
+    "fullHeight": 10754,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/medicos-cp/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/medicos-cp/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/medicos-cp/full-02.jpg",
+      "y": 4000,
+      "h": 4000
+     },
+     {
+      "file": "captures/medicos-cp/full-03.jpg",
+      "y": 8000,
+      "h": 2754
+     }
+    ],
+    "lp": null,
+    "pageTitle": "岐阜市の文化を伝える、つなぐ。｜シビックプライドプレイス（ぎふメディアコスモス）",
+    "capturedAt": 1792744438873,
+    "sp": {
+     "width": 390,
+     "height": 12493,
+     "fullHeight": 12493,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/medicos-cp/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/medicos-cp/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/medicos-cp/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/medicos-cp/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/medicos-cp/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/medicos-cp/sp/full-05.jpg",
+       "y": 8000,
+       "h": 2000
+      },
+      {
+       "file": "captures/medicos-cp/sp/full-06.jpg",
+       "y": 10000,
+       "h": 2000
+      },
+      {
+       "file": "captures/medicos-cp/sp/full-07.jpg",
+       "y": 12000,
+       "h": 493
+      }
+     ],
+     "capturedAt": 1792744455070
+    }
+   },
+   "parts": [
+    {
+     "id": "medicos-cp-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "ヘッダー（ロゴ＋縦線区切りの2段ナビ）",
+     "note": "ロゴ横にキャッチを縦線で添え、右側にバーで区切ったテキストナビを2段で並べる。",
+     "file": "captures/medicos-cp/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 238
+     }
+    },
+    {
+     "id": "medicos-cp-02",
+     "category": "hero",
+     "also": [
+      "slider"
+     ],
+     "label": "PICK UPスライダー（番号付き・角丸の説明カード）",
+     "note": "大きな番号と角丸の説明カードを写真に重ね、隣のスライドを端からのぞかせる。",
+     "file": "captures/medicos-cp/parts/02-hero.jpg",
+     "rect": {
+      "x": 72,
+      "y": 237,
+      "w": 1296,
+      "h": 692
+     }
+    },
+    {
+     "id": "medicos-cp-03",
+     "category": "news",
+     "also": [],
+     "label": "NEWS（1行の角丸バー）",
+     "note": "濃紺の角丸バーに日付と見出しを1行で収め、右端に丸い矢印ボタン。",
+     "file": "captures/medicos-cp/parts/03-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 928,
+      "w": 1440,
+      "h": 122
+     }
+    },
+    {
+     "id": "medicos-cp-04",
+     "category": "intro",
+     "also": [
+      "visual"
+     ],
+     "label": "コンセプト（岐阜の街並みの鳥瞰イラスト）",
+     "note": "金華山と街並みを描いた鳥瞰イラストに、泳ぐ鮎のシルエットを散らしてコンセプト文を添える。",
+     "file": "captures/medicos-cp/parts/04-intro.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1049,
+      "w": 1440,
+      "h": 833
+     }
+    },
+    {
+     "id": "medicos-cp-05",
+     "category": "heading",
+     "also": [],
+     "label": "ブラケットで囲んだセクション見出し（和英2段）",
+     "note": "左右に伸びる線とカギ括弧状のブラケットで、和文と小さな英字の見出しを挟む。",
+     "file": "captures/medicos-cp/parts/05-heading.jpg",
+     "rect": {
+      "x": 60,
+      "y": 1955,
+      "w": 1320,
+      "h": 130
+     }
+    },
+    {
+     "id": "medicos-cp-06",
+     "category": "card",
+     "also": [
+      "news"
+     ],
+     "label": "イベントカード（3列・カテゴリタグ付き）",
+     "note": "角丸の白いカードに告知画像・タイトル・日時を入れ、右下に丸いタグを並べる。",
+     "file": "captures/medicos-cp/parts/06-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1881,
+      "w": 1440,
+      "h": 1599
+     }
+    },
+    {
+     "id": "medicos-cp-07",
+     "category": "button",
+     "also": [],
+     "label": "MOREボタン（英日2段・矢印付き）",
+     "note": "濃紺のピル型に金色の英字と小さな和文を並べ、右端に矢印。",
+     "file": "captures/medicos-cp/parts/07-button.jpg",
+     "rect": {
+      "x": 500,
+      "y": 3267,
+      "w": 440,
+      "h": 69
+     }
+    },
+    {
+     "id": "medicos-cp-08",
+     "category": "tabs",
+     "also": [
+      "nav"
+     ],
+     "label": "レポートのカテゴリ絞り込み（10カテゴリのボタン）",
+     "note": "英字と和文を2段にした灰色のボタンを格子状に並べ、選択中だけ濃紺にする。",
+     "file": "captures/medicos-cp/parts/08-tabs.jpg",
+     "rect": {
+      "x": 70,
+      "y": 3725,
+      "w": 1300,
+      "h": 160
+     }
+    },
+    {
+     "id": "medicos-cp-09",
+     "category": "news",
+     "also": [
+      "visual"
+     ],
+     "label": "レポート記事（大きな英字カテゴリ名＋写真の左右交互配置）",
+     "note": "記事ごとに写真と本文を左右入れ替え、上に金色の大きな英字カテゴリ名を置く。",
+     "file": "captures/medicos-cp/parts/09-news.jpg",
+     "rect": {
+      "x": 60,
+      "y": 4890,
+      "w": 1320,
+      "h": 750
+     }
+    },
+    {
+     "id": "medicos-cp-10",
+     "category": "visual",
+     "also": [],
+     "label": "波形のセクション区切り",
+     "note": "セクションの境目を波の連なりで区切り、背景色を切り替える。",
+     "file": "captures/medicos-cp/parts/10-visual.jpg",
+     "rect": {
+      "x": 0,
+      "y": 6560,
+      "w": 1440,
+      "h": 140
+     }
+    },
+    {
+     "id": "medicos-cp-11",
+     "category": "card",
+     "also": [
+      "slider"
+     ],
+     "label": "まち歩きステーション（写真カードの横スクロール＋進捗バー）",
+     "note": "細い線で縁取った写真カードを横に並べ、下に進捗を示すスクロールバーを付ける。",
+     "file": "captures/medicos-cp/parts/11-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 6661,
+      "w": 1440,
+      "h": 943
+     }
+    },
+    {
+     "id": "medicos-cp-12",
+     "category": "voice",
+     "also": [
+      "card"
+     ],
+     "label": "インタビュー「珍ちんな人」（No.付きの人物カード）",
+     "note": "人物写真の下端に金色の大きな番号を重ね、肩書きと名前をカードに収める。",
+     "file": "captures/medicos-cp/parts/12-voice.jpg",
+     "rect": {
+      "x": 0,
+      "y": 7603,
+      "w": 1440,
+      "h": 1108
+     }
+    },
+    {
+     "id": "medicos-cp-13",
+     "category": "card",
+     "also": [],
+     "label": "動画コンテンツ（再生アイコン付きサムネイル）",
+     "note": "角丸のサムネイルに白い再生アイコンを重ね、タイトルと説明を下に添える。",
+     "file": "captures/medicos-cp/parts/13-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 8710,
+      "w": 1440,
+      "h": 900
+     }
+    },
+    {
+     "id": "medicos-cp-14",
+     "category": "news",
+     "also": [],
+     "label": "ブログ（丸い写真＋日付・抜粋）",
+     "note": "丸く切り抜いた写真の横に、日付・タイトル・抜粋を3段で並べる。",
+     "file": "captures/medicos-cp/parts/14-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 9609,
+      "w": 1440,
+      "h": 637
+     }
+    },
+    {
+     "id": "medicos-cp-15",
+     "category": "footer",
+     "also": [],
+     "label": "フッター（濃紺・波形の上端）",
+     "note": "上端を波形にした濃紺の帯に、ロゴ・キャッチ・縦線区切りのリンクを中央揃えで置く。",
+     "file": "captures/medicos-cp/parts/15-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 10245,
+      "w": 1440,
+      "h": 510
+     }
+    }
+   ],
+   "createdAt": 1792744422387,
+   "updatedAt": 1792744507958,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "town",
+   "url": "https://town.wanouchi.gifu.jp/",
+   "title": "輪之内町（わのうちちょう）",
+   "tags": [
+    "自治体",
+    "公式サイト"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 3957,
+    "fullHeight": 3957,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/town/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/town/full-01.jpg",
+      "y": 0,
+      "h": 3957
+     }
+    ],
+    "lp": null,
+    "pageTitle": "輪之内町（わのうちちょう）",
+    "capturedAt": 1792744405841,
+    "sp": {
+     "width": 390,
+     "height": 4349,
+     "fullHeight": 4349,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/town/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/town/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/town/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/town/sp/full-03.jpg",
+       "y": 4000,
+       "h": 349
+      }
+     ],
+     "capturedAt": 1792744415780
+    }
+   },
+   "parts": [
+    {
+     "id": "town-01",
+     "category": "header",
+     "also": [
+      "search"
+     ],
+     "label": "ヘッダー（翻訳・文字サイズ・背景色の切り替え＋サイト内検索）",
+     "note": "左のロゴを青い帯で区切り、右に閲覧補助の切り替えと検索窓をまとめる。",
+     "file": "captures/town/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 100
+     }
+    },
+    {
+     "id": "town-02",
+     "category": "hero",
+     "also": [
+      "visual",
+      "slider"
+     ],
+     "label": "ファーストビュー（縦書きコピー＋写真スライダー）",
+     "note": "左の青い帯に縦書きのキャッチコピー、右に季節の写真スライダー、下に分野別メニューを重ねる。",
+     "file": "captures/town/parts/02-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 100,
+      "w": 1440,
+      "h": 800
+     }
+    },
+    {
+     "id": "town-03",
+     "category": "nav",
+     "also": [],
+     "label": "分野別のアイコンメニュー（くらし・健康・子育てなど）",
+     "note": "色分けした丸アイコンに見出しと小さな補足を添え、マスコットを端からのぞかせる。",
+     "file": "captures/town/parts/03-nav.jpg",
+     "rect": {
+      "x": 168,
+      "y": 760,
+      "w": 1272,
+      "h": 135
+     }
+    },
+    {
+     "id": "town-04",
+     "category": "news",
+     "also": [
+      "tabs"
+     ],
+     "label": "お知らせ（新着・イベント・募集などのタブ切り替え）",
+     "note": "タブで種類を切り替え、日付と色付きラベルの一覧を白いカードに収める。",
+     "file": "captures/town/parts/04-news.jpg",
+     "rect": {
+      "x": 80,
+      "y": 960,
+      "w": 800,
+      "h": 459
+     }
+    },
+    {
+     "id": "town-05",
+     "category": "banner",
+     "also": [
+      "button"
+     ],
+     "label": "イベントカレンダーと関連リンクのボタン",
+     "note": "青いカレンダーカードの上にマスコットを乗せ、下にアイコン付きのリンクを2列で並べる。",
+     "file": "captures/town/parts/05-banner.jpg",
+     "rect": {
+      "x": 900,
+      "y": 915,
+      "w": 470,
+      "h": 515
+     }
+    },
+    {
+     "id": "town-06",
+     "category": "nav",
+     "also": [
+      "card"
+     ],
+     "label": "くらしのガイド（ライフイベント別メニュー＋よく利用される情報）",
+     "note": "夕景の写真を背景に、アイコン付きの9マスのメニューと、よく使われる情報の一覧を並べる。",
+     "file": "captures/town/parts/06-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1490,
+      "w": 1440,
+      "h": 541
+     }
+    },
+    {
+     "id": "town-07",
+     "category": "nav",
+     "also": [
+      "visual"
+     ],
+     "label": "町政情報（武将イラスト＋丸い写真付きリンク）",
+     "note": "左に地元ゆかりの武将のイラスト、右に丸く切り抜いた写真付きのリンクを2段で並べる。",
+     "file": "captures/town/parts/07-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2030,
+      "w": 1440,
+      "h": 314
+     }
+    },
+    {
+     "id": "town-08",
+     "category": "banner",
+     "also": [
+      "slider"
+     ],
+     "label": "関連サイトのバナー（左右送り＋停止・開始ボタン）",
+     "note": "ふるさと納税などのバナーを横に送り、自動送りを止められるボタンを付ける。",
+     "file": "captures/town/parts/08-banner.jpg",
+     "rect": {
+      "x": 80,
+      "y": 2383,
+      "w": 1280,
+      "h": 225
+     }
+    },
+    {
+     "id": "town-09",
+     "category": "footer",
+     "also": [
+      "nav"
+     ],
+     "label": "フッター（分野別サイトマップ＋役場の連絡先）",
+     "note": "上段に分野ごとのリンク一覧、下段の青い帯に町章・住所・電話と窓口へのリンクを置く。",
+     "file": "captures/town/parts/09-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2826,
+      "w": 1440,
+      "h": 1131
+     }
+    }
+   ],
+   "createdAt": 1792744394191,
+   "updatedAt": 1792744444674,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "schoo",
+   "url": "https://schoo.jp/",
+   "title": "Schoo(スクー) - 社会人向けオンライン学習サービス",
+   "tags": [
+    "サービスサイト",
+    "教育"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 10134,
+    "fullHeight": 10134,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/schoo/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/schoo/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/schoo/full-02.jpg",
+      "y": 4000,
+      "h": 4000
+     },
+     {
+      "file": "captures/schoo/full-03.jpg",
+      "y": 8000,
+      "h": 2134
+     }
+    ],
+    "lp": null,
+    "pageTitle": "Schoo(スクー) - 社会人向けオンライン学習サービス",
+    "capturedAt": 1792744319052,
+    "sp": {
+     "width": 390,
+     "height": 9356,
+     "fullHeight": 9356,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/schoo/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/schoo/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/schoo/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/schoo/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/schoo/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/schoo/sp/full-05.jpg",
+       "y": 8000,
+       "h": 1356
+      }
+     ],
+     "capturedAt": 1792744334042
+    }
+   },
+   "parts": [
+    {
+     "id": "schoo-01",
+     "category": "header",
+     "also": [
+      "nav",
+      "search"
+     ],
+     "label": "ヘッダー（お知らせ帯＋AI検索＋カテゴリナビ）",
+     "note": "ロゴ横に告知テキスト、中央にAI検索ボタンと検索窓、下段にカテゴリナビを置く2段構成。",
+     "file": "captures/schoo/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 115
+     }
+    },
+    {
+     "id": "schoo-02",
+     "category": "hero",
+     "also": [
+      "slider"
+     ],
+     "label": "特集カルーセルと会員登録への誘導",
+     "note": "特集バナーを横に並べたカルーセルの下に、法人版と無料登録の2ボタンを置き、背景は大きくぼかす。",
+     "file": "captures/schoo/parts/02-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 115,
+      "w": 1440,
+      "h": 536
+     }
+    },
+    {
+     "id": "schoo-03",
+     "category": "button",
+     "also": [
+      "cta"
+     ],
+     "label": "法人版／無料会員登録の2ボタン（吹き出しラベル付き）",
+     "note": "白枠と塗りのピル型ボタンを並べ、上に小さな吹き出しで補足を添える。",
+     "file": "captures/schoo/parts/03-button.jpg",
+     "rect": {
+      "x": 420,
+      "y": 498,
+      "w": 580,
+      "h": 99
+     }
+    },
+    {
+     "id": "schoo-04",
+     "category": "news",
+     "also": [],
+     "label": "INFORMATION（お知らせを1行で表示）",
+     "note": "見出し・日付・NEWラベル・本文を1行に収めた細い帯。",
+     "file": "captures/schoo/parts/04-news.jpg",
+     "rect": {
+      "x": 0,
+      "y": 648,
+      "w": 1440,
+      "h": 54
+     }
+    },
+    {
+     "id": "schoo-05",
+     "category": "cta",
+     "also": [
+      "features"
+     ],
+     "label": "無料で見られる範囲の訴求（3つの条件）",
+     "note": "「1,000本以上無料！」を大きく下線付きで見せ、条件を3つのカードに分けて並べる。",
+     "file": "captures/schoo/parts/05-cta.jpg",
+     "rect": {
+      "x": 290,
+      "y": 735,
+      "w": 860,
+      "h": 350
+     }
+    },
+    {
+     "id": "schoo-06",
+     "category": "ranking",
+     "also": [
+      "card",
+      "slider"
+     ],
+     "label": "いまよく受講されている授業（カードの横スクロール）",
+     "note": "サムネイル・タイトル・日付・お気に入りボタンのカードを横に流す。",
+     "file": "captures/schoo/parts/06-ranking.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1108,
+      "w": 1440,
+      "h": 301
+     }
+    },
+    {
+     "id": "schoo-07",
+     "category": "card",
+     "also": [
+      "slider"
+     ],
+     "label": "クイズ形式で学ぶ（大きな番号付きカード）",
+     "note": "カードの背後に大きな番号を薄く敷き、斜めの色帯でテーマを色分けする。",
+     "file": "captures/schoo/parts/07-card.jpg",
+     "rect": {
+      "x": 0,
+      "y": 1455,
+      "w": 1440,
+      "h": 275
+     }
+    },
+    {
+     "id": "schoo-08",
+     "category": "features",
+     "also": [],
+     "label": "Schooの特徴（3つのポイント＋紹介動画）",
+     "note": "線画イラストと短い説明の3カラムに、動画への導線カードを続ける。",
+     "file": "captures/schoo/parts/08-features.jpg",
+     "rect": {
+      "x": 230,
+      "y": 1769,
+      "w": 980,
+      "h": 599
+     }
+    },
+    {
+     "id": "schoo-09",
+     "category": "flow",
+     "also": [
+      "tabs"
+     ],
+     "label": "生放送予定（タブ切替と日付ごとの時間割）",
+     "note": "「生放送予定／新着の生放送」をタブで切り替え、日付ごとに時間と授業カードを並べる。",
+     "file": "captures/schoo/parts/09-flow.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2427,
+      "w": 1440,
+      "h": 404
+     }
+    },
+    {
+     "id": "schoo-10",
+     "category": "pickup",
+     "also": [
+      "card"
+     ],
+     "label": "トップランナーから学ぶ注目スキル",
+     "note": "左に見出し、右にテーマ名と講師の顔写真を並べたカードを3枚。",
+     "file": "captures/schoo/parts/10-pickup.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2830,
+      "w": 1440,
+      "h": 242
+     }
+    },
+    {
+     "id": "schoo-11",
+     "category": "heading",
+     "also": [],
+     "label": "セクション見出し（録画授業＋PREMIUMバッジ）",
+     "note": "見出しの横に枠線だけの小さなバッジを添える。",
+     "file": "captures/schoo/parts/11-heading.jpg",
+     "rect": {
+      "x": 560,
+      "y": 3125,
+      "w": 320,
+      "h": 75
+     }
+    },
+    {
+     "id": "schoo-12",
+     "category": "banner",
+     "also": [
+      "cta"
+     ],
+     "label": "プレミアムお試しバナー（7日間¥0）",
+     "note": "人物のイラストと大きな「¥0」を並べ、右下にオレンジのボタンを重ねる。",
+     "file": "captures/schoo/parts/12-banner.jpg",
+     "rect": {
+      "x": 170,
+      "y": 3243,
+      "w": 1100,
+      "h": 161
+     }
+    },
+    {
+     "id": "schoo-13",
+     "category": "card",
+     "also": [],
+     "label": "カテゴリ別の授業カード列（再生数・お気に入り付き）",
+     "note": "コースラベル・再生数・お気に入りを小さく添えた授業カードの横並び。",
+     "file": "captures/schoo/parts/13-card.jpg",
+     "rect": {
+      "x": 170,
+      "y": 3443,
+      "w": 1100,
+      "h": 261
+     }
+    },
+    {
+     "id": "schoo-14",
+     "category": "nav",
+     "also": [],
+     "label": "全てのカテゴリーから探す",
+     "note": "カテゴリ名のボタンを格子状に並べた一覧。",
+     "file": "captures/schoo/parts/14-nav.jpg",
+     "rect": {
+      "x": 170,
+      "y": 9143,
+      "w": 1100,
+      "h": 341
+     }
+    },
+    {
+     "id": "schoo-15",
+     "category": "footer",
+     "also": [],
+     "label": "フッター",
+     "note": "サービス・会社情報・SNSなどのリンクを多段に並べる。",
+     "file": "captures/schoo/parts/15-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 9573,
+      "w": 1440,
+      "h": 561
+     }
+    }
+   ],
+   "createdAt": 1792744209194,
+   "updatedAt": 1792744394020,
+   "status": "captured",
+   "pages": []
+  },
+  {
    "id": "nedannonai-supermarket",
    "url": "https://nedannonai-supermarket.maff.go.jp/",
    "title": "値段のないスーパーマーケット Web体験版：農林水産省",
