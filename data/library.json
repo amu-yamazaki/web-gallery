@@ -196,6 +196,285 @@
  ],
  "sites": [
   {
+   "id": "japan",
+   "url": "https://japan.zdnet.com/",
+   "title": "ZDNET Japan--CIOとITマネージャーの課題を解決するオンラインメディア",
+   "tags": [
+    "Webマガジン",
+    "IT"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 6661,
+    "fullHeight": 6661,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/japan/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/japan/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/japan/full-02.jpg",
+      "y": 4000,
+      "h": 2661
+     }
+    ],
+    "lp": null,
+    "pageTitle": "ZDNET Japan--CIOとITマネージャーの課題を解決するオンラインメディア",
+    "capturedAt": 1792744679451,
+    "sp": {
+     "width": 390,
+     "height": 9375,
+     "fullHeight": 9375,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/japan/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/japan/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/japan/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/japan/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/japan/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/japan/sp/full-05.jpg",
+       "y": 8000,
+       "h": 1375
+      }
+     ],
+     "capturedAt": 1792744694676
+    }
+   },
+   "parts": [
+    {
+     "id": "japan-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "ヘッダー（ライム地に極太ロゴ＋注目トピック2行）",
+     "note": "鮮やかなライムグリーンの帯に極太のロゴを大きく置き、注目トピックとカテゴリナビを並べる。",
+     "file": "captures/japan/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 177
+     }
+    },
+    {
+     "id": "japan-02",
+     "category": "hero",
+     "also": [
+      "pickup"
+     ],
+     "label": "トップ記事（大1＋小2の写真タイル）",
+     "note": "写真の上に白文字のカテゴリと見出しを重ねたタイルを、大小の比率で横に並べる。",
+     "file": "captures/japan/parts/02-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 177,
+      "w": 1440,
+      "h": 420
+     }
+    },
+    {
+     "id": "japan-03",
+     "category": "heading",
+     "also": [],
+     "label": "赤い罫線入りのセクション見出し",
+     "note": "中央の赤い見出しの左右に細い罫線を伸ばす。",
+     "file": "captures/japan/parts/03-heading.jpg",
+     "rect": {
+      "x": 124,
+      "y": 732,
+      "w": 782,
+      "h": 46
+     }
+    },
+    {
+     "id": "japan-04",
+     "category": "news",
+     "also": [],
+     "label": "新着（サムネイル付き2列リスト・赤い日時）",
+     "note": "小さなサムネイルと見出しを2列に詰めて並べ、日時を赤で示す。",
+     "file": "captures/japan/parts/04-news.jpg",
+     "rect": {
+      "x": 124,
+      "y": 736,
+      "w": 782,
+      "h": 568
+     }
+    },
+    {
+     "id": "japan-05",
+     "category": "ranking",
+     "also": [],
+     "label": "読まれている記事（赤い番号のランキング）",
+     "note": "赤い数字と見出しだけで構成した、サイドバーのシンプルなランキング。",
+     "file": "captures/japan/parts/05-ranking.jpg",
+     "rect": {
+      "x": 946,
+      "y": 1158,
+      "w": 370,
+      "h": 329
+     }
+    },
+    {
+     "id": "japan-06",
+     "category": "banner",
+     "also": [
+      "button"
+     ],
+     "label": "海外発ニュースへの誘導（赤いボタン）",
+     "note": "見出しと短い説明の横に、赤い四角のボタンを置く。",
+     "file": "captures/japan/parts/06-banner.jpg",
+     "rect": {
+      "x": 110,
+      "y": 1335,
+      "w": 800,
+      "h": 100
+     }
+    },
+    {
+     "id": "japan-07",
+     "category": "news",
+     "also": [],
+     "label": "記事一覧（写真＋大見出し＋抜粋）",
+     "note": "左に正方形の写真、右に太い見出し・抜粋・赤い日時とカテゴリを並べる。",
+     "file": "captures/japan/parts/07-news.jpg",
+     "rect": {
+      "x": 120,
+      "y": 1630,
+      "w": 790,
+      "h": 520
+     }
+    },
+    {
+     "id": "japan-08",
+     "category": "button",
+     "also": [],
+     "label": "「もっと見る」ボタン（横いっぱいの赤い帯）",
+     "note": "記事一覧の幅いっぱいに赤い帯のボタンを置く。",
+     "file": "captures/japan/parts/08-button.jpg",
+     "rect": {
+      "x": 120,
+      "y": 3415,
+      "w": 790,
+      "h": 60
+     }
+    },
+    {
+     "id": "japan-09",
+     "category": "news",
+     "also": [
+      "ranking"
+     ],
+     "label": "ホワイトペーパー（新着／ランキングの番号付きリスト）",
+     "note": "カテゴリを小さく添えた見出しに番号を振り、新着とランキングを上下に並べる。",
+     "file": "captures/japan/parts/09-news.jpg",
+     "rect": {
+      "x": 946,
+      "y": 1526,
+      "w": 370,
+      "h": 969
+     }
+    },
+    {
+     "id": "japan-10",
+     "category": "voice",
+     "also": [],
+     "label": "トップインタビュー（サムネイル＋見出しのリスト）",
+     "note": "経営者の写真を小さく添えたインタビュー記事の一覧。",
+     "file": "captures/japan/parts/10-voice.jpg",
+     "rect": {
+      "x": 946,
+      "y": 2534,
+      "w": 370,
+      "h": 422
+     }
+    },
+    {
+     "id": "japan-11",
+     "category": "pickup",
+     "also": [
+      "news"
+     ],
+     "label": "連載「Ziddyちゃんの私を社食に連れてって」",
+     "note": "同じ連載タイトルで始まる記事を、サムネイル付きの縦リストで続ける。",
+     "file": "captures/japan/parts/11-pickup.jpg",
+     "rect": {
+      "x": 946,
+      "y": 2995,
+      "w": 370,
+      "h": 926
+     }
+    },
+    {
+     "id": "japan-12",
+     "category": "cta",
+     "also": [
+      "form"
+     ],
+     "label": "NEWSLETTERS（メルマガ登録フォーム）",
+     "note": "赤い英字見出しの下に、メールアドレスの入力欄と赤い登録ボタンだけを置く。",
+     "file": "captures/japan/parts/12-cta.jpg",
+     "rect": {
+      "x": 946,
+      "y": 5289,
+      "w": 370,
+      "h": 256
+     }
+    },
+    {
+     "id": "japan-13",
+     "category": "footer",
+     "also": [
+      "nav"
+     ],
+     "label": "フッター（カテゴリ一覧＋関連メディア）",
+     "note": "カテゴリ名を多段に並べたフッター。",
+     "file": "captures/japan/parts/13-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 5772,
+      "w": 1440,
+      "h": 890
+     }
+    }
+   ],
+   "createdAt": 1792744661297,
+   "updatedAt": 1792744738788,
+   "status": "captured",
+   "pages": []
+  },
+  {
    "id": "komoriseiki",
    "url": "https://www.komoriseiki.com/",
    "title": "ミクロン単位の高精度・超精密な部品加工なら｜株式会社小森精機",
