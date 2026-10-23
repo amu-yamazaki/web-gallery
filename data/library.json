@@ -196,6 +196,612 @@
  ],
  "sites": [
   {
+   "id": "recruit-diversity",
+   "url": "https://recruit-diversity.jreast.co.jp/",
+   "title": "いろいろな“わたし”で、どこまでもゆく。 | 障がい者採用 | JR東日本",
+   "tags": [
+    "採用サイト"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 26202,
+    "fullHeight": 26202,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/recruit-diversity/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/recruit-diversity/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/recruit-diversity/full-02.jpg",
+      "y": 4000,
+      "h": 4000
+     },
+     {
+      "file": "captures/recruit-diversity/full-03.jpg",
+      "y": 8000,
+      "h": 4000
+     },
+     {
+      "file": "captures/recruit-diversity/full-04.jpg",
+      "y": 12000,
+      "h": 4000
+     },
+     {
+      "file": "captures/recruit-diversity/full-05.jpg",
+      "y": 16000,
+      "h": 4000
+     },
+     {
+      "file": "captures/recruit-diversity/full-06.jpg",
+      "y": 20000,
+      "h": 4000
+     },
+     {
+      "file": "captures/recruit-diversity/full-07.jpg",
+      "y": 24000,
+      "h": 2202
+     }
+    ],
+    "lp": null,
+    "pageTitle": "いろいろな“わたし”で、どこまでもゆく。 | 障がい者採用 | JR東日本",
+    "capturedAt": 1792744968319,
+    "sp": {
+     "width": 390,
+     "height": 31550,
+     "fullHeight": 31550,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/recruit-diversity/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/recruit-diversity/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/recruit-diversity/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/recruit-diversity/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/recruit-diversity/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/recruit-diversity/sp/full-05.jpg",
+       "y": 8000,
+       "h": 2000
+      },
+      {
+       "file": "captures/recruit-diversity/sp/full-06.jpg",
+       "y": 10000,
+       "h": 2000
+      },
+      {
+       "file": "captures/recruit-diversity/sp/full-07.jpg",
+       "y": 12000,
+       "h": 2000
+      },
+      {
+       "file": "captures/recruit-diversity/sp/full-08.jpg",
+       "y": 14000,
+       "h": 2000
+      },
+      {
+       "file": "captures/recruit-diversity/sp/full-09.jpg",
+       "y": 16000,
+       "h": 2000
+      },
+      {
+       "file": "captures/recruit-diversity/sp/full-10.jpg",
+       "y": 18000,
+       "h": 2000
+      },
+      {
+       "file": "captures/recruit-diversity/sp/full-11.jpg",
+       "y": 20000,
+       "h": 2000
+      },
+      {
+       "file": "captures/recruit-diversity/sp/full-12.jpg",
+       "y": 22000,
+       "h": 2000
+      },
+      {
+       "file": "captures/recruit-diversity/sp/full-13.jpg",
+       "y": 24000,
+       "h": 2000
+      },
+      {
+       "file": "captures/recruit-diversity/sp/full-14.jpg",
+       "y": 26000,
+       "h": 2000
+      },
+      {
+       "file": "captures/recruit-diversity/sp/full-15.jpg",
+       "y": 28000,
+       "h": 2000
+      },
+      {
+       "file": "captures/recruit-diversity/sp/full-16.jpg",
+       "y": 30000,
+       "h": 1550
+      }
+     ],
+     "capturedAt": 1792744998090
+    }
+   },
+   "parts": [
+    {
+     "id": "recruit-diversity-01",
+     "category": "hero",
+     "also": [
+      "visual"
+     ],
+     "label": "ファーストビュー（人物イラストのアニメーション＋停止ボタン）",
+     "note": "角丸の面にさまざまな人が歩くイラストを置き、右端に進捗と停止ボタンを縦に並べる。",
+     "file": "captures/recruit-diversity/parts/01-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900
+     }
+    },
+    {
+     "id": "recruit-diversity-02",
+     "category": "intro",
+     "also": [],
+     "label": "リード文（周りに散らばる図形のモチーフ）",
+     "note": "左寄せの短い文章の周りに、質感のある小さな図形を散らす。",
+     "file": "captures/recruit-diversity/parts/02-intro.jpg",
+     "rect": {
+      "x": 0,
+      "y": 900,
+      "w": 1440,
+      "h": 1140
+     }
+    },
+    {
+     "id": "recruit-diversity-03",
+     "category": "features",
+     "also": [
+      "visual"
+     ],
+     "label": "“わたし”の数だけ、道がある（イラスト＋3つの項目）",
+     "note": "緑の背景に角丸の枠のイラストを置き、右に3つの項目を縦に並べ、進捗の点で位置を示す。",
+     "file": "captures/recruit-diversity/parts/03-features.jpg",
+     "rect": {
+      "x": 0,
+      "y": 2041,
+      "w": 1440,
+      "h": 2118
+     }
+    },
+    {
+     "id": "recruit-diversity-04",
+     "category": "heading",
+     "also": [],
+     "label": "セクション見出し（緑の太い英字＋黄色い点の和文）",
+     "note": "太い緑の英字の下に、黄色い点を添えた和文の小見出しを置く。",
+     "file": "captures/recruit-diversity/parts/04-heading.jpg",
+     "rect": {
+      "x": 170,
+      "y": 4370,
+      "w": 600,
+      "h": 140
+     }
+    },
+    {
+     "id": "recruit-diversity-05",
+     "category": "features",
+     "also": [
+      "visual"
+     ],
+     "label": "働く環境（丸く切り抜いたイラスト＋メッセージ）",
+     "note": "丸いイラストを段違いに置き、それぞれに語りかけるようなコピーと説明を添える。",
+     "file": "captures/recruit-diversity/parts/05-features.jpg",
+     "rect": {
+      "x": 0,
+      "y": 4340,
+      "w": 1440,
+      "h": 1080
+     }
+    },
+    {
+     "id": "recruit-diversity-06",
+     "category": "card",
+     "also": [
+      "features"
+     ],
+     "label": "配慮の例（番号付きカード＋タグ＋社員の声）",
+     "note": "白いカードに番号と見出し、緑のタグ、罫線の下に「社員の声」を箇条書きで添える。",
+     "file": "captures/recruit-diversity/parts/06-card.jpg",
+     "rect": {
+      "x": 170,
+      "y": 5510,
+      "w": 1100,
+      "h": 1520
+     }
+    },
+    {
+     "id": "recruit-diversity-07",
+     "category": "voice",
+     "also": [
+      "card"
+     ],
+     "label": "社員紹介（段違いに並ぶ人物カード）",
+     "note": "写真付きのカードを上下にずらして並べ、業務内容と障がいの種類を小さな見出しで添える。",
+     "file": "captures/recruit-diversity/parts/07-voice.jpg",
+     "rect": {
+      "x": 0,
+      "y": 7172,
+      "w": 1440,
+      "h": 1372
+     }
+    },
+    {
+     "id": "recruit-diversity-08",
+     "category": "visual",
+     "also": [],
+     "label": "人物イラストが並ぶセクションの区切り",
+     "note": "緩やかな曲線の上に、さまざまな人のイラストを横一列に歩かせる。",
+     "file": "captures/recruit-diversity/parts/08-visual.jpg",
+     "rect": {
+      "x": 0,
+      "y": 8570,
+      "w": 1440,
+      "h": 300
+     }
+    },
+    {
+     "id": "recruit-diversity-09",
+     "category": "news",
+     "also": [
+      "cta"
+     ],
+     "label": "イベント情報（説明＋イラスト＋エントリーボタン）",
+     "note": "白い角丸のカードに見出し・説明・緑のエントリーボタンを置き、右に街並みのイラストを添える。",
+     "file": "captures/recruit-diversity/parts/09-news.jpg",
+     "rect": {
+      "x": 170,
+      "y": 8980,
+      "w": 1100,
+      "h": 830
+     }
+    },
+    {
+     "id": "recruit-diversity-10",
+     "category": "accordion",
+     "also": [
+      "card"
+     ],
+     "label": "会場ごとのセッション情報（3項目の表＋詳細の開閉）",
+     "note": "黄色いラベルと会場名の下に会場・日時・締切を3列で示し、緑の帯で詳細を開閉する。",
+     "file": "captures/recruit-diversity/parts/10-accordion.jpg",
+     "rect": {
+      "x": 248,
+      "y": 9873,
+      "w": 944,
+      "h": 429
+     }
+    },
+    {
+     "id": "recruit-diversity-11",
+     "category": "cta",
+     "also": [],
+     "label": "エントリー方法の2択（点線で区切った2カラム）",
+     "note": "「仕事が決まっている方」と「相談しながら決めたい方」を点線で分け、採用区分を白いタグで示す。",
+     "file": "captures/recruit-diversity/parts/11-cta.jpg",
+     "rect": {
+      "x": 240,
+      "y": 18730,
+      "w": 960,
+      "h": 350
+     }
+    },
+    {
+     "id": "recruit-diversity-12",
+     "category": "flow",
+     "also": [],
+     "label": "選考プロセス（番号付きの縦のステップ）",
+     "note": "緑の丸い番号を黄色い線でつなぎ、手順ごとに補足と注意書きを添える。",
+     "file": "captures/recruit-diversity/parts/12-flow.jpg",
+     "rect": {
+      "x": 180,
+      "y": 20904,
+      "w": 1080,
+      "h": 1517
+     }
+    },
+    {
+     "id": "recruit-diversity-13",
+     "category": "button",
+     "also": [],
+     "label": "募集要項へのボタン（緑の小さなボタン3つ）",
+     "note": "緑のボタンに白い文字と右端の丸い矢印を入れ、採用区分ごとに横に並べる。",
+     "file": "captures/recruit-diversity/parts/13-button.jpg",
+     "rect": {
+      "x": 250,
+      "y": 22310,
+      "w": 720,
+      "h": 70
+     }
+    },
+    {
+     "id": "recruit-diversity-14",
+     "category": "nav",
+     "also": [],
+     "label": "その他採用情報（グループ会社へのリンク）",
+     "note": "細い枠線の箱に見出しと説明、緑の下線付きリンクを並べる。",
+     "file": "captures/recruit-diversity/parts/14-nav.jpg",
+     "rect": {
+      "x": 180,
+      "y": 22480,
+      "w": 1080,
+      "h": 590
+     }
+    },
+    {
+     "id": "recruit-diversity-15",
+     "category": "faq",
+     "also": [],
+     "label": "よくある質問（Q／Aの丸いアイコン）",
+     "note": "緑の塗りのQと枠線のAの丸アイコンで、質問と回答を区別して並べる。",
+     "file": "captures/recruit-diversity/parts/15-faq.jpg",
+     "rect": {
+      "x": 0,
+      "y": 23269,
+      "w": 1440,
+      "h": 2242
+     }
+    },
+    {
+     "id": "recruit-diversity-16",
+     "category": "footer",
+     "also": [],
+     "label": "フッター",
+     "note": "キャッチコピーとイラストで締め、採用情報トップへのボタンを置く。",
+     "file": "captures/recruit-diversity/parts/16-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 25161,
+      "w": 1440,
+      "h": 1041
+     }
+    }
+   ],
+   "createdAt": 1792744814411,
+   "updatedAt": 1792745064186,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "aaa11y-about",
+   "url": "https://www.aaa11y.com/about",
+   "title": "このサイトについて - AAA11Y (Accessible Website Gallery)",
+   "tags": [
+    "アクセシビリティ"
+   ],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 4292,
+    "fullHeight": 4292,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/aaa11y-about/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/aaa11y-about/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/aaa11y-about/full-02.jpg",
+      "y": 4000,
+      "h": 292
+     }
+    ],
+    "lp": null,
+    "pageTitle": "このサイトについて - AAA11Y (Accessible Website Gallery)",
+    "capturedAt": 1792744768828,
+    "sp": {
+     "width": 390,
+     "height": 4840,
+     "fullHeight": 4840,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/aaa11y-about/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/aaa11y-about/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/aaa11y-about/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/aaa11y-about/sp/full-03.jpg",
+       "y": 4000,
+       "h": 840
+      }
+     ],
+     "capturedAt": 1792744779466
+    }
+   },
+   "parts": [
+    {
+     "id": "aaa11y-about-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "ヘッダー（テーマ切り替え＋言語切り替え）",
+     "note": "ロゴと短いナビだけの白いヘッダーに、テーマのトグルと JA／EN の切り替えを並べる。",
+     "file": "captures/aaa11y-about/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 92
+     }
+    },
+    {
+     "id": "aaa11y-about-02",
+     "category": "form",
+     "also": [
+      "button"
+     ],
+     "label": "ライト／ダークのテーマ切り替えトグル",
+     "note": "太陽と月のアイコンを角丸の枠に入れ、選択中の側だけを黒く塗る。",
+     "file": "captures/aaa11y-about/parts/02-form.jpg",
+     "rect": {
+      "x": 780,
+      "y": 15,
+      "w": 210,
+      "h": 60
+     }
+    },
+    {
+     "id": "aaa11y-about-03",
+     "category": "hero",
+     "also": [
+      "visual"
+     ],
+     "label": "ファーストビュー（コントラスト比を示す巨大な文字）",
+     "note": "「AAA」「11Y」を濃淡違いの巨大な文字で並べ、各文字にコントラスト比のラベルを添える。",
+     "file": "captures/aaa11y-about/parts/03-hero.jpg",
+     "rect": {
+      "x": 40,
+      "y": 146,
+      "w": 1360,
+      "h": 559
+     }
+    },
+    {
+     "id": "aaa11y-about-04",
+     "category": "company",
+     "also": [],
+     "label": "サイト掲載について（左見出し＋右本文の2カラム）",
+     "note": "白い角丸のカードに、左に大見出し、右に小見出しと本文・ボタンを並べる。",
+     "file": "captures/aaa11y-about/parts/04-company.jpg",
+     "rect": {
+      "x": 100,
+      "y": 991,
+      "w": 1240,
+      "h": 1027
+     }
+    },
+    {
+     "id": "aaa11y-about-05",
+     "category": "heading",
+     "also": [],
+     "label": "赤い短い線を添えた小見出し",
+     "note": "見出しの上に赤い短い線を置くだけの控えめな装飾。",
+     "file": "captures/aaa11y-about/parts/05-heading.jpg",
+     "rect": {
+      "x": 455,
+      "y": 1135,
+      "w": 300,
+      "h": 70
+     }
+    },
+    {
+     "id": "aaa11y-about-06",
+     "category": "button",
+     "also": [],
+     "label": "濃紺のピル型ボタン",
+     "note": "濃紺の角丸ボタンに白い小さな文字を入れたシンプルなボタン。",
+     "file": "captures/aaa11y-about/parts/06-button.jpg",
+     "rect": {
+      "x": 460,
+      "y": 1693,
+      "w": 221,
+      "h": 58
+     }
+    },
+    {
+     "id": "aaa11y-about-07",
+     "category": "company",
+     "also": [],
+     "label": "運営会社（赤いリンク＋外部リンクのアイコン）",
+     "note": "本文中のリンクを赤文字にし、横に黒い丸の外部リンクアイコンを添える。",
+     "file": "captures/aaa11y-about/parts/07-company.jpg",
+     "rect": {
+      "x": 460,
+      "y": 2137,
+      "w": 880,
+      "h": 194
+     }
+    },
+    {
+     "id": "aaa11y-about-08",
+     "category": "visual",
+     "also": [],
+     "label": "Meet Ace（マスコットキャラクターの紹介）",
+     "note": "大きな英字の見出しの横に、デコボコの赤い丸に目だけのキャラクターを置く。",
+     "file": "captures/aaa11y-about/parts/08-visual.jpg",
+     "rect": {
+      "x": 40,
+      "y": 2866,
+      "w": 1360,
+      "h": 747
+     }
+    },
+    {
+     "id": "aaa11y-about-09",
+     "category": "footer",
+     "also": [
+      "nav"
+     ],
+     "label": "フッター（角丸の枠に入れたナビ）",
+     "note": "角丸の枠にナビを収め、現在のページだけを濃紺のピルで示す。",
+     "file": "captures/aaa11y-about/parts/09-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 3712,
+      "w": 1440,
+      "h": 580
+     }
+    }
+   ],
+   "createdAt": 1792744758465,
+   "updatedAt": 1792744806460,
+   "status": "captured",
+   "pages": []
+  },
+  {
    "id": "japan",
    "url": "https://japan.zdnet.com/",
    "title": "ZDNET Japan--CIOとITマネージャーの課題を解決するオンラインメディア",
