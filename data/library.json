@@ -196,6 +196,492 @@
  ],
  "sites": [
   {
+   "id": "new-tsukuba",
+   "url": "https://new-tsukuba.jp/",
+   "title": "トップページ | 新つくば 茨城県つくばエクスプレス沿線移住情報公式ホームページ",
+   "tags": [],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 7698,
+    "fullHeight": 7698,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/new-tsukuba/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/new-tsukuba/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/new-tsukuba/full-02.jpg",
+      "y": 4000,
+      "h": 3698
+     }
+    ],
+    "lp": null,
+    "pageTitle": "トップページ | 新つくば 茨城県つくばエクスプレス沿線移住情報公式ホームページ",
+    "capturedAt": 1793255943993,
+    "sp": {
+     "width": 390,
+     "height": 11759,
+     "fullHeight": 11759,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/new-tsukuba/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/new-tsukuba/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/new-tsukuba/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/new-tsukuba/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/new-tsukuba/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/new-tsukuba/sp/full-05.jpg",
+       "y": 8000,
+       "h": 2000
+      },
+      {
+       "file": "captures/new-tsukuba/sp/full-06.jpg",
+       "y": 10000,
+       "h": 1759
+      }
+     ],
+     "capturedAt": 1793255958375
+    }
+   },
+   "parts": [
+    {
+     "id": "new-tsukuba-01",
+     "category": "header",
+     "also": [
+      "nav"
+     ],
+     "label": "ヘッダー（テキストナビ＋四角いお問い合わせボタン）",
+     "note": "白地に短いテキストナビだけを並べ、右端に灰緑の四角いお問い合わせボタンを置く。",
+     "file": "captures/new-tsukuba/parts/01-header.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 60
+     }
+    },
+    {
+     "id": "new-tsukuba-02",
+     "category": "hero",
+     "also": [
+      "slider"
+     ],
+     "label": "ファーストビュー（左のサイドメニュー＋写真スライダー＋今月のイベント）",
+     "note": "左に緑のサイドメニュー、中央に角丸の写真スライダー、右に記事の見出しと今月のイベントを並べる。",
+     "file": "captures/new-tsukuba/parts/02-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 60,
+      "w": 1440,
+      "h": 820
+     }
+    },
+    {
+     "id": "new-tsukuba-03",
+     "category": "nav",
+     "also": [],
+     "label": "緑のサイドメニュー（ロゴ＋記事検索＋カテゴリ一覧）",
+     "note": "画面左端に張り付く緑の角丸パネルに、ロゴ・検索ボタン・カテゴリ一覧を縦に並べる。",
+     "file": "captures/new-tsukuba/parts/03-nav.jpg",
+     "rect": {
+      "x": 0,
+      "y": 100,
+      "w": 230,
+      "h": 730
+     }
+    },
+    {
+     "id": "new-tsukuba-04",
+     "category": "news",
+     "also": [],
+     "label": "今月のイベント（淡い緑の角丸パネル）",
+     "note": "淡い緑のパネルに、サムネイル付きのイベントを日付と一緒に縦に並べる。",
+     "file": "captures/new-tsukuba/parts/04-news.jpg",
+     "rect": {
+      "x": 1095,
+      "y": 95,
+      "w": 310,
+      "h": 350
+     }
+    },
+    {
+     "id": "new-tsukuba-05",
+     "category": "news",
+     "also": [
+      "card"
+     ],
+     "label": "新！つくばスタイル（カテゴリタグ付きの記事カード）",
+     "note": "角丸の写真の下に緑のカテゴリタグ、見出し、灰色のハッシュタグを並べた3列のカード。",
+     "file": "captures/new-tsukuba/parts/05-news.jpg",
+     "rect": {
+      "x": 228,
+      "y": 900,
+      "w": 1212,
+      "h": 1651
+     }
+    },
+    {
+     "id": "new-tsukuba-06",
+     "category": "nav",
+     "also": [
+      "flow"
+     ],
+     "label": "つくばに住む（大きな写真＋アイコン付きのリンクリスト）",
+     "note": "左に縦長の写真、右に移住ステップ・支援制度・よくある質問へのリンクを罫線で区切って並べる。",
+     "file": "captures/new-tsukuba/parts/06-nav.jpg",
+     "rect": {
+      "x": 289,
+      "y": 2620,
+      "w": 1090,
+      "h": 801
+     }
+    },
+    {
+     "id": "new-tsukuba-07",
+     "category": "card",
+     "also": [],
+     "label": "動画と解説記事の2枚のカード",
+     "note": "角丸の大きな画像に、小さな緑のカテゴリ名と見出しを添えて2枚並べる。",
+     "file": "captures/new-tsukuba/parts/07-card.jpg",
+     "rect": {
+      "x": 280,
+      "y": 3455,
+      "w": 1110,
+      "h": 360
+     }
+    },
+    {
+     "id": "new-tsukuba-08",
+     "category": "voice",
+     "also": [
+      "card"
+     ],
+     "label": "つくばのお宅訪問（家族写真のカード）",
+     "note": "家族の写真を大きく見せ、号数と見出しを2行で添える。",
+     "file": "captures/new-tsukuba/parts/08-voice.jpg",
+     "rect": {
+      "x": 280,
+      "y": 4880,
+      "w": 1120,
+      "h": 480
+     }
+    },
+    {
+     "id": "new-tsukuba-09",
+     "category": "button",
+     "also": [],
+     "label": "公式SNSの枠線ボタン（4つ並び）",
+     "note": "ロゴとサービス名を入れた四角い枠線ボタンを4つ横に並べる。",
+     "file": "captures/new-tsukuba/parts/09-button.jpg",
+     "rect": {
+      "x": 280,
+      "y": 6020,
+      "w": 1080,
+      "h": 100
+     }
+    },
+    {
+     "id": "new-tsukuba-10",
+     "category": "cta",
+     "also": [
+      "banner"
+     ],
+     "label": "住まい探し／移住の相談（写真を2分割したCTA）",
+     "note": "暗くした写真を左右に分け、アイコン・見出し・説明・白い枠線ボタンを中央に置く。",
+     "file": "captures/new-tsukuba/parts/10-cta.jpg",
+     "rect": {
+      "x": 0,
+      "y": 6231,
+      "w": 1440,
+      "h": 701
+     }
+    },
+    {
+     "id": "new-tsukuba-11",
+     "category": "footer",
+     "also": [
+      "nav"
+     ],
+     "label": "フッター（サイトマップ＋関連サイトのバナー＋緑の帯）",
+     "note": "ロゴとサイトマップの下に関連サイトのバナーを並べ、緑の帯に問い合わせ先を置く。",
+     "file": "captures/new-tsukuba/parts/11-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 6931,
+      "w": 1440,
+      "h": 767
+     }
+    }
+   ],
+   "createdAt": 1793255923425,
+   "updatedAt": 1793256006940,
+   "status": "captured",
+   "pages": []
+  },
+  {
+   "id": "negilabo",
+   "url": "https://negilabo.ufoods.co.jp/",
+   "title": "ねぎラボ | ねぎ好きのためのレシピサイト！ | ユーフーズ株式会社",
+   "tags": [],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 5871,
+    "fullHeight": 5871,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/negilabo/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/negilabo/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/negilabo/full-02.jpg",
+      "y": 4000,
+      "h": 1871
+     }
+    ],
+    "lp": null,
+    "pageTitle": "ねぎラボ | ねぎ好きのためのレシピサイト！ | ユーフーズ株式会社",
+    "capturedAt": 1793255804391,
+    "sp": {
+     "width": 390,
+     "height": 9646,
+     "fullHeight": 9646,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/negilabo/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/negilabo/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/negilabo/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/negilabo/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/negilabo/sp/full-04.jpg",
+       "y": 6000,
+       "h": 2000
+      },
+      {
+       "file": "captures/negilabo/sp/full-05.jpg",
+       "y": 8000,
+       "h": 1646
+      }
+     ],
+     "capturedAt": 1793255817577
+    }
+   },
+   "parts": [
+    {
+     "id": "negilabo-01",
+     "category": "hero",
+     "also": [
+      "slider",
+      "visual"
+     ],
+     "label": "ファーストビュー（傾けて重ねた写真のスライダー＋縦書きのキャッチ）",
+     "note": "白い太枠の写真を少し傾けて重ね、丸いNEXTボタンと、吹き出し風の縦書きコピー・子どもの顔写真を添える。",
+     "file": "captures/negilabo/parts/01-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900
+     }
+    },
+    {
+     "id": "negilabo-02",
+     "category": "button",
+     "also": [
+      "nav"
+     ],
+     "label": "右上の固定ボタン（このサイトについて／ねぎレシピを探す）",
+     "note": "テキストリンクと、虫めがねアイコン付きの緑のピル型ボタンを並べて右上に固定する。",
+     "file": "captures/negilabo/parts/02-button.jpg",
+     "rect": {
+      "x": 1030,
+      "y": 15,
+      "w": 400,
+      "h": 75
+     }
+    },
+    {
+     "id": "negilabo-03",
+     "category": "intro",
+     "also": [
+      "visual"
+     ],
+     "label": "意外と知らない「ねぎ」のこと（緑の線の角丸カード＋本のイラスト）",
+     "note": "緑の細い線の角丸カードに説明文と、開いた本から畑が広がるイラストを置き、両端に英字を縦に流す。",
+     "file": "captures/negilabo/parts/03-intro.jpg",
+     "rect": {
+      "x": 31,
+      "y": 862,
+      "w": 1378,
+      "h": 634
+     }
+    },
+    {
+     "id": "negilabo-04",
+     "category": "heading",
+     "also": [],
+     "label": "ピル型を2段に重ねた見出し（みんなのねぎレシピ）",
+     "note": "緑の線のピル型を2段にずらして重ね、下に小さな英字を添える。",
+     "file": "captures/negilabo/parts/04-heading.jpg",
+     "rect": {
+      "x": 540,
+      "y": 1640,
+      "w": 360,
+      "h": 175
+     }
+    },
+    {
+     "id": "negilabo-05",
+     "category": "heading",
+     "also": [
+      "visual"
+     ],
+     "label": "子どもの顔写真を添えたカテゴリ見出し",
+     "note": "丸く切り抜いた子どもの顔写真の横に、緑の見出しと小さな英字を並べる。",
+     "file": "captures/negilabo/parts/05-heading.jpg",
+     "rect": {
+      "x": 170,
+      "y": 1885,
+      "w": 500,
+      "h": 105
+     }
+    },
+    {
+     "id": "negilabo-06",
+     "category": "card",
+     "also": [],
+     "label": "レシピカード（白い太枠の角丸写真＋調理時間）",
+     "note": "白い太枠で囲んだ角丸の料理写真に、ひとこと・料理名・点線・時計アイコン付きの調理時間を添える。",
+     "file": "captures/negilabo/parts/06-card.jpg",
+     "rect": {
+      "x": 170,
+      "y": 2015,
+      "w": 1100,
+      "h": 500
+     }
+    },
+    {
+     "id": "negilabo-07",
+     "category": "company",
+     "also": [
+      "cta"
+     ],
+     "label": "掲載レシピについて（黄緑の角丸パネル）",
+     "note": "黄緑の大きな角丸パネルに見出しと説明、ねぎのイラストを添えた枠線ボタンを置く。",
+     "file": "captures/negilabo/parts/07-company.jpg",
+     "rect": {
+      "x": 0,
+      "y": 4866,
+      "w": 1440,
+      "h": 368
+     }
+    },
+    {
+     "id": "negilabo-08",
+     "category": "visual",
+     "also": [],
+     "label": "散らばる刻みねぎの装飾",
+     "note": "刻んだねぎの写真を切り抜き、セクションの間にランダムに散らす。",
+     "file": "captures/negilabo/parts/08-visual.jpg",
+     "rect": {
+      "x": 0,
+      "y": 5159,
+      "w": 1440,
+      "h": 232
+     }
+    },
+    {
+     "id": "negilabo-09",
+     "category": "button",
+     "also": [],
+     "label": "ねぎのイラストのPAGE TOPボタン",
+     "note": "淡い円の中に英字と縦に伸びたねぎのイラストを置き、ページトップへのボタンにする。",
+     "file": "captures/negilabo/parts/09-button.jpg",
+     "rect": {
+      "x": 1240,
+      "y": 5660,
+      "w": 200,
+      "h": 210
+     }
+    },
+    {
+     "id": "negilabo-10",
+     "category": "footer",
+     "also": [
+      "nav"
+     ],
+     "label": "フッター（レシピのカテゴリを緑のピルで並べる）",
+     "note": "白い面に、緑のピル型ボタンでレシピのカテゴリを並べ、下に点線とリンクを置く。",
+     "file": "captures/negilabo/parts/10-footer.jpg",
+     "rect": {
+      "x": 0,
+      "y": 5426,
+      "w": 1440,
+      "h": 446
+     }
+    }
+   ],
+   "createdAt": 1793255791299,
+   "updatedAt": 1793255950840,
+   "status": "captured",
+   "pages": []
+  },
+  {
    "id": "dive-hiroshima",
    "url": "https://dive-hiroshima.com/",
    "title": "【公式】広島の観光・旅行情報サイト Dive! Hiroshima",
