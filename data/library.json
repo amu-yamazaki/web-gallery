@@ -196,6 +196,204 @@
  ],
  "sites": [
   {
+   "id": "donbei",
+   "url": "https://www.donbei.jp/",
+   "title": "日清のどん兵衛",
+   "tags": [],
+   "memo": "",
+   "favorite": false,
+   "thumb": "capture",
+   "image": null,
+   "capture": {
+    "width": 1440,
+    "height": 5396,
+    "fullHeight": 5396,
+    "viewport": [
+     1440,
+     900
+    ],
+    "thumb": "captures/donbei/thumb.jpg",
+    "segments": [
+     {
+      "file": "captures/donbei/full-01.jpg",
+      "y": 0,
+      "h": 4000
+     },
+     {
+      "file": "captures/donbei/full-02.jpg",
+      "y": 4000,
+      "h": 1396
+     }
+    ],
+    "lp": null,
+    "pageTitle": "日清のどん兵衛",
+    "capturedAt": 1793256386957,
+    "sp": {
+     "width": 390,
+     "height": 6286,
+     "fullHeight": 6286,
+     "viewport": [
+      390,
+      844
+     ],
+     "scale": 2,
+     "thumb": "captures/donbei/sp/thumb.jpg",
+     "segments": [
+      {
+       "file": "captures/donbei/sp/full-01.jpg",
+       "y": 0,
+       "h": 2000
+      },
+      {
+       "file": "captures/donbei/sp/full-02.jpg",
+       "y": 2000,
+       "h": 2000
+      },
+      {
+       "file": "captures/donbei/sp/full-03.jpg",
+       "y": 4000,
+       "h": 2000
+      },
+      {
+       "file": "captures/donbei/sp/full-04.jpg",
+       "y": 6000,
+       "h": 286
+      }
+     ],
+     "capturedAt": 1793256398226
+    }
+   },
+   "parts": [
+    {
+     "id": "donbei-01",
+     "category": "hero",
+     "also": [
+      "slider",
+      "visual"
+     ],
+     "label": "ファーストビュー（大きな円の中のPICK UPスライダー）",
+     "note": "市松模様の深緑の背景に大きな円を置き、丸く切り抜いた商品写真のスライダーを並べ、左上に丸いメニューボタンを浮かせる。",
+     "file": "captures/donbei/parts/01-hero.jpg",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900
+     }
+    },
+    {
+     "id": "donbei-02",
+     "category": "heading",
+     "also": [
+      "visual"
+     ],
+     "label": "ひし形の漢字＋英日の枠を組み合わせた見出し",
+     "note": "中央のひし形に縦書きの漢字2文字を入れ、左右に英字と和文の細い枠を伸ばす。",
+     "file": "captures/donbei/parts/02-heading.jpg",
+     "rect": {
+      "x": 285,
+      "y": 205,
+      "w": 870,
+      "h": 250
+     }
+    },
+    {
+     "id": "donbei-03",
+     "category": "products",
+     "also": [
+      "banner"
+     ],
+     "label": "商品紹介（うどんもそばも売上No.1）",
+     "note": "波打つ生成り色の面に2つのカップを並べ、間に大きな「No.1」と縦書きのコピーを置く。",
+     "file": "captures/donbei/parts/03-products.jpg",
+     "rect": {
+      "x": 37,
+      "y": 1213,
+      "w": 1366,
+      "h": 789
+     }
+    },
+    {
+     "id": "donbei-04",
+     "category": "visual",
+     "also": [],
+     "label": "和柄の霞と波のセクション区切り",
+     "note": "霞の模様と大きな波の形で、深緑と生成り色の面を切り替える。",
+     "file": "captures/donbei/parts/04-visual.jpg",
+     "rect": {
+      "x": 37,
+      "y": 2075,
+      "w": 1366,
+      "h": 290
+     }
+    },
+    {
+     "id": "donbei-05",
+     "category": "card",
+     "also": [],
+     "label": "レシピ紹介（白い枠の写真カード＋緑のピル型ボタン）",
+     "note": "緑の縁取りの白いカードに写真と短い説明を入れ、下端に緑のピル型ボタンを重ねる。",
+     "file": "captures/donbei/parts/05-card.jpg",
+     "rect": {
+      "x": 37,
+      "y": 2157,
+      "w": 1366,
+      "h": 901
+     }
+    },
+    {
+     "id": "donbei-06",
+     "category": "features",
+     "also": [
+      "card"
+     ],
+     "label": "どん兵衛とは？（縦書きの見出し＋丸い写真のカード）",
+     "note": "カードの中に丸く切り抜いた写真と縦書きの見出しを組み合わせ、下に緑のボタンと説明を添える。",
+     "file": "captures/donbei/parts/06-features.jpg",
+     "rect": {
+      "x": 37,
+      "y": 3083,
+      "w": 1366,
+      "h": 1736
+     }
+    },
+    {
+     "id": "donbei-07",
+     "category": "button",
+     "also": [],
+     "label": "SNS SHARE（深緑の丸いアイコンボタン）",
+     "note": "見出しの下に、深緑の丸にSNSのロゴを白抜きしたボタンを3つ並べる。",
+     "file": "captures/donbei/parts/07-button.jpg",
+     "rect": {
+      "x": 37,
+      "y": 4818,
+      "w": 1366,
+      "h": 191
+     }
+    },
+    {
+     "id": "donbei-08",
+     "category": "footer",
+     "also": [
+      "nav"
+     ],
+     "label": "フッター（グループのブランドロゴを並べる）",
+     "note": "枠線の箱にブランドロゴを並べて赤い文字で名前を添え、下にグループのロゴと規約リンクを置く。",
+     "file": "captures/donbei/parts/08-footer.jpg",
+     "rect": {
+      "x": 37,
+      "y": 5008,
+      "w": 1366,
+      "h": 388
+     }
+    }
+   ],
+   "createdAt": 1793256374516,
+   "updatedAt": 1793256476102,
+   "status": "captured",
+   "pages": []
+  },
+  {
    "id": "new-tsukuba",
    "url": "https://new-tsukuba.jp/",
    "title": "トップページ | 新つくば 茨城県つくばエクスプレス沿線移住情報公式ホームページ",
